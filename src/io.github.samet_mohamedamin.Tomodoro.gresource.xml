@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/io/github/samet_mohamedamin/Tomodoro">
+    <file alias="style.css" compressed="true">ui/style.css</file>
+    <file alias="icons/tomato.svg" compressed="true">ui/icons/tomato.svg</file>
+  </gresource>
+</gresources>

@@ -1,0 +1,86 @@
+{
+  "app-id": "io.github.focustimerhq.FocusTimer.Devel",
+  "runtime": "org.gnome.Platform",
+  "runtime-version": "50",
+  "sdk": "org.gnome.Sdk",
+  "command": "focus-timer",
+  "tags": [
+    "devel"
+  ],
+  "separate-locales": false,
+  "finish-args": [
+    "--device=dri",
+    "--share=ipc",
+    "--socket=fallback-x11",
+    "--socket=wayland",
+    "--socket=pulseaudio",
+    "--system-talk-name=org.freedesktop.login1",
+    "--system-talk-name=org.freedesktop.timedate1",
+    "--talk-name=org.freedesktop.Flatpak",
+    "--talk-name=org.freedesktop.Notifications",
+    "--talk-name=org.gnome.Mutter.IdleMonitor",
+    "--talk-name=org.gnome.ScreenSaver",
+    "--talk-name=org.gnome.Shell",
+    "--talk-name=org.gtk.vfs.*",
+    "--talk-name=org.kde.StatusNotifierWatcher",
+    "--talk-name=org.xfce.ScreenSaver",
+    "--talk-name=io.github.focustimerhq.FocusTimer.ShellIntegration",
+    "--filesystem=~/.local/share/gnome-pomodoro/:ro",
+    "--filesystem=xdg-run/gvfsd",
+    "--env=G_MESSAGES_DEBUG=focus-timer",
+    "--env=G_ENABLE_DIAGNOSTIC=1"
+  ],
+  "cleanup": [
+    "/include",
+    "/lib/girepository-1.0",
+    "/lib/pkgconfig",
+    "/share/gir-1.0",
+    "/share/vala"
+  ],
+  "modules": [
+    {
+      "name": "libpeas",
+      "buildsystem": "meson",
+      "builddir": true,
+      "config-opts": [
+        "-Dgjs=false",
+        "-Dlua51=false",
+        "-Dpython3=false",
+        "-Dintrospection=true",
+        "-Dvapi=true"
+      ],
+      "sources": [
+        {
+          "type": "git",
+          "url": "https://gitlab.gnome.org/GNOME/libpeas.git",
+          "tag": "2.2.0"
+        }
+      ]
+    },
+    {
+      "name": "gom",
+      "buildsystem": "meson",
+      "builddir": true,
+      "sources": [
+        {
+          "type": "git",
+          "url": "https://gitlab.gnome.org/GNOME/gom.git",
+          "tag": "0.5.5"
+        }
+      ]
+    },
+    {
+      "name": "focus-timer",
+      "buildsystem": "meson",
+      "config-opts": [
+        "-Dprofile=development"
+      ],
+      "sources": [
+        {
+          "type": "dir",
+          "path": "."
+        }
+      ]
+    }
+  ]
+}

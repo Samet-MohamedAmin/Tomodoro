@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+SCRIPT_PATH="$(readlink -f "${BASH_SOURCE[0]}")"
+REPO_DIR="$(cd "$(dirname "$SCRIPT_PATH")/.." && pwd)"
+BUILD_DIR="$REPO_DIR/build-todo"
+APP_BIN="$BUILD_DIR/src/tomodoro"
+UPDATE_SCRIPT="$REPO_DIR/scripts/todo-pomodoro-update"
+TOOLBOX_CONTAINER="${TODO_POMODORO_TOOLBOX:-nix-toolbox-44}"
+
+in_toolbox() {
+  [[ -f /run/.containerenv || "${HOSTNAME:-}" == "toolbx" || -n "${NIX_TOOLBOX_SOURCED:-}" ]]
+}
+
+if [[ "${1:-}" == "--inside" ]]; then
+  shift
+elif ! in_toolbox; then
+  exec toolbox run --container "$TOOLBOX_CONTAINER" "$SCRIPT_PATH" --inside "$@"
+fi
+
+if [[ ! -x "$APP_BIN" ]]; then
+  "$UPDATE_SCRIPT" --inside
+fi
+
+export GSETTINGS_SCHEMA_DIR="$HOME/.local/share/glib-2.0/schemas"
+cd "$REPO_DIR"
+exec "$APP_BIN" "$@"

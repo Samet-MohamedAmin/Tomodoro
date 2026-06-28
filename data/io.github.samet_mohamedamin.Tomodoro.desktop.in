@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=@APPLICATION_NAME@
+Comment=Manage todo.txt tasks with context-aware pomodoro focus
+Exec=tomodoro
+Icon=@APPLICATION_ID@
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=Office;ProjectManagement;GNOME;GTK;
+Keywords=todo;task;pomodoro;timer;productivity;todo.txt;
+DBusActivatable=false
+X-GNOME-UsesNotifications=true

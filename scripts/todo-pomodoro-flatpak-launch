@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+APP_ID="io.github.samet_mohamedamin.Tomodoro"
+FLATPAK_CMD=()
+
+if command -v flatpak >/dev/null 2>&1; then
+  FLATPAK_CMD=(flatpak)
+elif command -v flatpak-spawn >/dev/null 2>&1; then
+  FLATPAK_CMD=(flatpak-spawn --host flatpak)
+else
+  printf 'Missing required command: flatpak\n' >&2
+  exit 1
+fi
+
+exec "${FLATPAK_CMD[@]}" run "$APP_ID" "$@"

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2025-2026 Kamil Prusko <kamilprusko@gmail.com> -->
+<component type="desktop-application">
+
+  <!-- General -->
+  <id>io.github.focustimerhq.FocusTimer</id>
+  <name>Focus Timer</name>
+  <summary>Work with regular breaks</summary>
+  <description>
+    <p>
+      A productivity timer that helps you work more effectively by breaking your time into focused work sessions followed by short breaks.
+      Work for 25 minutes, then take a 5-minute break to maintain concentration and prevent burnout.
+    </p>
+    <p>
+      Key features:
+    </p>
+    <ul>
+      <li>Customizable work session and break lengths</li>
+      <li>Screen overlay during breaks</li>
+      <li>System tray icon</li>
+      <li>Hotkeys (global shortcuts)</li>
+      <li>Daily, weekly, and monthly statistics</li>
+      <li>Extensible via custom shell commands, D-Bus, and CLI</li>
+      <li>GNOME Shell extension for deeper desktop integration</li>
+    </ul>
+  </description>
+  <translation type="gettext">focus-timer</translation>
+  ​<launchable type="desktop-id">io.github.focustimerhq.FocusTimer.desktop</launchable>
+  <provides>
+    <binary>focus-timer</binary>
+    <dbus type="user">io.github.focustimerhq.FocusTimer</dbus>
+  </provides>
+  <requires>
+    <display_length side="shortest" compare="ge">360</display_length>
+  </requires>
+  <supports>
+    <control>pointing</control>
+    <control>keyboard</control>
+    <control>touch</control>
+  </supports>
+  <content_rating type="oars-1.1"/>
+  <update_contact>kamilprusko@gmail.com</update_contact>
+
+  <!-- Branding -->
+  <developer_name translate="no">Kamil Prusko</developer_name>
+  <developer id="io.github.focustimerhq">
+    <name translate="no">Kamil Prusko</name>
+  </developer>
+  <branding>
+    <color type="primary" scheme_preference="light">#bedaf4</color>
+    <color type="primary" scheme_preference="dark">#a4c9ea</color>
+  </branding>
+
+  <!-- License -->
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+
+  <!-- URLs -->
+  <url type="homepage">https://github.com/focustimerhq/FocusTimer</url>
+  <url type="bugtracker">https://github.com/focustimerhq/FocusTimer/issues</url>
+  <url type="vcs-browser">https://github.com/focustimerhq/FocusTimer</url>
+  <url type="translate">https://github.com/focustimerhq/FocusTimer/blob/main/CONTRIBUTING.md#translating</url>
+  <url type="donation">https://liberapay.com/kamilprusko</url>
+
+  <!-- Screenshots -->
+  <screenshots>
+    <screenshot type="default">
+      <image scale="2">https://gnomepomodoro.org/release/1.1/timer@2.png</image>
+      <caption>Timer</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://gnomepomodoro.org/release/1.1/stats-daily.png</image>
+      <caption>Daily stats</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://gnomepomodoro.org/release/1.1/stats-monthly.png</image>
+      <caption>Monthly stats</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://gnomepomodoro.org/release/1.1/preferences.png</image>
+      <caption>Preferences</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://gnomepomodoro.org/release/1.1/screen-overlay.png</image>
+      <caption>Screen overlay</caption>
+    </screenshot>
+  </screenshots>
+
+  <!-- Releases -->
+  <releases>
+    <release version="1.1.2" date="2026-05-29">
+      <description translate="no">
+        <p>Overview of changes in focus-timer 1.1.2:</p>
+        <ul>
+          <li>Deeper integration with notification servers</li>
+          <li>Idle detection on Wayland</li>
+          <li>Improve screensaver detection</li>
+          <li>Fix autostart</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.1.1" date="2026-05-07">
+      <description translate="no">
+        <p>Overview of changes in focus-timer 1.1.1:</p>
+        <ul>
+          <li>System tray icon</li>
+          <li>Smoother sound transitions</li>
+          <li>Fix break overlay scaling on HiDPI displays</li>
+          <li>Fix missing sounds after switching soundcards</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.1.0" date="2026-04-16">
+      <description translate="no">
+        <p>Overview of changes in focus-timer 1.1.0:</p>
+        <ul>
+          <li>Support for GNOME Shell extension</li>
+          <li>Option to autostart on login</li>
+          <li>Reviewed sound files</li>
+          <li>Fix build with vala 0.56.19</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0" date="2026-03-01">
+      <description translate="no">
+        <p>Overview of changes in focus-timer 1.0:</p>
+        <ul>
+          <li>Fix break overlay scaling on HiDPI displays (thanks @scholzri)</li>
+          <li>Automatic daily backup</li>
+          <li>Removed libcanberra backend for playing notification sounds</li>
+          <li>Updated Lithuanian translation (thanks @psukys)</li>
+          <li>Updated Russian translation (thanks @ViktorOn)</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+</component>

@@ -1,0 +1,2018 @@
+# Lithuanian translation for focus-timer
+# Copyright (c) 2016 Free Software Foundation, Inc.
+# This file is distributed under the same license as the focus-timer package.
+#
+# Authors:
+# Paulius Šukys <paul.sukys@gmail.com>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: focus-timer 1.0-alpha\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-29 09:26+0200\n"
+"PO-Revision-Date: 2026-02-02 18:07+0200\n"
+"Last-Translator: Paulius Šukys <paul.sukys@gmail.com>\n"
+"Language-Team: Lithuanian\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"(n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 3.8\n"
+
+#. translators: Consider "Concentration Timer" as an alternative.
+#: data/io.github.focustimerhq.FocusTimer.desktop.in.in:2
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:7 src/main.vala:36
+msgid "Focus Timer"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.desktop.in.in:3
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:8
+msgid "Work with regular breaks"
+msgstr ""
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/io.github.focustimerhq.FocusTimer.desktop.in.in:12
+msgid "pomodoro;timer;productivity;time tracker;time management;"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:10
+msgid ""
+"A productivity timer that helps you work more effectively by breaking your "
+"time into focused work sessions followed by short breaks. Work for 25 "
+"minutes, then take a 5-minute break to maintain concentration and prevent "
+"burnout."
+msgstr ""
+"Produktyvumo laikmatis, padedantis dirbti efektyviau, suskirstant laiką į "
+"susikaupimo sesijas ir trumpas pertraukas. Dirbkite 25 minutes, tada "
+"darykite 5 minučių pertrauką, kad išlaikytumėte koncentraciją ir "
+"išvengtumėte perdegimo."
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:14
+msgid "Key features:"
+msgstr "Pagrindinės savybės:"
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:18
+msgid "Customizable work session and break lengths"
+msgstr "Pritaikoma darbo sesijų ir pertraukų trukmė"
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:19
+msgid "Screen overlay during breaks"
+msgstr "Ekrano užsklanda pertraukų metu"
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:20
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:95
+msgid "System tray icon"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:21
+msgid "Hotkeys (global shortcuts)"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:22
+msgid "Daily, weekly, and monthly statistics"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:23
+msgid "Extensible via custom shell commands, D-Bus, and CLI"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:24
+msgid "GNOME Shell extension for deeper desktop integration"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:45
+msgid "Kamil Prusko"
+msgstr "Kamil Prusko"
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:69
+#: src/plugins/sni/indicator-provider.vala:304 src/ui/main/window.ui:76
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:57
+#: src/ui/preferences/preferences-window.vala:30
+msgid "Timer"
+msgstr "Laikmatis"
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:73
+msgid "Daily stats"
+msgstr "Dienos statistika"
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:77
+msgid "Monthly stats"
+msgstr "Mėnesio statistika"
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:81
+#: src/plugins/sni/indicator-provider.vala:300
+#: src/plugins/sni/indicator-provider.vala:306
+#: src/ui/preferences/preferences-window.ui:6
+msgid "Preferences"
+msgstr "Nustatymai"
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:85
+msgid "Screen overlay"
+msgstr "Ekrano užsklanda"
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:93
+msgid "Overview of changes in focus-timer 1.1.1:"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:96
+msgid "Smoother sound transitions"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:97
+msgid "Fix break overlay scaling on HiDPI displays"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:98
+msgid "Fix missing sounds after switching soundcards"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:104
+msgid "Overview of changes in focus-timer 1.1.0:"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:106
+msgid "Support for GNOME Shell extension"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:107
+msgid "Option to autostart on login"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:108
+msgid "Reviewed sound files"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:109
+msgid "Fix build with vala 0.56.19"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:115
+msgid "Overview of changes in focus-timer 1.0:"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:117
+msgid "Fix break overlay scaling on HiDPI displays (thanks @scholzri)"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:118
+msgid "Automatic daily backup"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:119
+msgid "Removed libcanberra backend for playing notification sounds"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:120
+msgid "Updated Lithuanian translation (thanks @psukys)"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:121
+msgid "Updated Russian translation (thanks @ViktorOn)"
+msgstr ""
+
+#: src/application.vala:155 src/application.vala:609
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:60
+msgid "Start or Stop"
+msgstr "Pradėti arba sustabdyti"
+
+#: src/application.vala:158 src/application.vala:612
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:67
+msgid "Start, Pause or Resume"
+msgstr "Pradėti, pristabdyti arba tęsti"
+
+#: src/application.vala:161 src/core/notification-manager.vala:426
+#: src/core/notification-manager.vala:519
+#: src/plugins/sni/indicator-provider.vala:403
+#: src/ui/main/timer/widgets/timer-control-buttons.ui:69
+#: src/ui/main/timer/widgets/timer-control-buttons.vala:308
+#: src/ui/main/timer/widgets/timer-control-buttons.vala:324
+msgid "Start Pomodoro"
+msgstr "Pradėti Pomodoro"
+
+#: src/application.vala:164
+msgid "Start break"
+msgstr "Pradėti pertrauką"
+
+#: src/application.vala:167
+msgid "Start short break"
+msgstr "Pradėti trumpą pertrauką"
+
+#: src/application.vala:170
+msgid "Start long break"
+msgstr "Pradėti ilgą pertrauką"
+
+#. Actions
+#: src/application.vala:173 src/application.vala:614 src/core/event.vala:268
+#: src/plugins/sni/indicator-provider.vala:250
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:77
+msgid "Start"
+msgstr "Pradėti"
+
+#: src/application.vala:176 src/application.vala:616 src/core/event.vala:276
+#: src/plugins/sni/indicator-provider.vala:262
+#: src/ui/main/timer/widgets/timer-control-buttons.ui:139
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:84
+msgid "Stop"
+msgstr "Stabdyti"
+
+#: src/application.vala:179 src/application.vala:618 src/core/event.vala:284
+#: src/plugins/sni/indicator-provider.vala:253
+#: src/ui/main/timer/widgets/timer-control-buttons.ui:83
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:91
+msgid "Pause"
+msgstr "Pauzė"
+
+#: src/application.vala:182 src/application.vala:620 src/core/event.vala:292
+#: src/plugins/sni/indicator-provider.vala:256
+#: src/ui/main/timer/widgets/timer-control-buttons.ui:97
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:98
+msgid "Resume"
+msgstr "Tęsti"
+
+#: src/application.vala:185 src/application.vala:622 src/core/event.vala:300
+#: src/plugins/sni/indicator-provider.vala:265
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:105
+msgid "Skip"
+msgstr "Praleisti"
+
+#: src/application.vala:188 src/application.vala:624 src/core/event.vala:308
+msgid "Rewind"
+msgstr "Atsukti"
+
+#: src/application.vala:189 src/application.vala:192
+msgid "SECONDS"
+msgstr "SEKUNDĖS"
+
+#: src/application.vala:191
+msgid "Extend current pomodoro or break"
+msgstr "Pratęskite dabartinį pomodoro arba pertrauką"
+
+#: src/application.vala:194 src/core/event.vala:316
+#: src/plugins/sni/indicator-provider.vala:268
+#: src/ui/main/timer/widgets/timer-control-buttons.ui:39
+msgid "Reset"
+msgstr "Atstatyti"
+
+#: src/application.vala:197
+msgid "Print timer status"
+msgstr "Atspausdinti laikmačio būseną"
+
+#: src/application.vala:200
+msgid "Show preferences"
+msgstr "Rodyti nustatymus"
+
+#: src/application.vala:203
+msgid "Quit application"
+msgstr "Išeiti iš programos"
+
+#: src/application.vala:206
+msgid "Print version information and exit"
+msgstr "Spausdinti versijos informaciją ir išeiti"
+
+#: src/application.vala:240
+msgid "Timer Options:"
+msgstr "Laikmačio Pasirinkimai"
+
+#: src/application.vala:241
+msgid "Show options for controlling the timer"
+msgstr "Rodyti laikmačio kontrolės nustatymus"
+
+#: src/application.vala:248
+#, c-format
+msgid "Bugs may be reported at: %s"
+msgstr "Pranešti apie defektus: %s"
+
+#: src/application.vala:626
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:126
+msgid "Bring to Focus"
+msgstr "Iškelti į priekį"
+
+#. translators: time remaining eg. "3 minutes 50 seconds remaining"
+#: src/application.vala:817 src/core/notification-manager.vala:138
+#: src/plugins/sni/indicator-provider.vala:25
+#, c-format
+msgid "%s remaining"
+msgstr "Liko %s"
+
+#: src/application.vala:860
+msgid "Invalid use. Pass one flag for controlling the timer at a time."
+msgstr ""
+"Negalima konfigūracija. Pateikite po vieną žymą vienu metu laikmačio "
+"kontrolei."
+
+#: src/core/action-manager.vala:113
+#, c-format
+msgid "Custom action \"%s\" has failed"
+msgstr "Pasirinktinis veiksmas „%s“ nepavyko"
+
+#: src/core/command.vala:379
+msgid "Reached timeout"
+msgstr "Baigėsi laikas"
+
+#: src/core/command.vala:408
+msgid "Failed to execute command"
+msgstr "Nepavyko įvykdyti komandos"
+
+#: src/core/command.vala:491 src/core/command.vala:506
+msgid "Command is empty"
+msgstr "Komanda yra tuščia"
+
+#: src/core/command.vala:510
+msgid "Unclosed quotation mark"
+msgstr "Neuždaryta kabutė"
+
+#: src/core/command.vala:515
+msgid "Invalid command"
+msgstr "Neteisinga komanda"
+
+#: src/core/command.vala:540 src/core/expression.vala:859
+#, c-format
+msgid "Unknown variable \"%s\""
+msgstr "Nežinomas kintamasis „%s“"
+
+#: src/core/command.vala:546 src/core/expression.vala:236
+#, c-format
+msgid "Unknown format \"%s\""
+msgstr "Nežinomas formatas „%s“"
+
+#: src/core/command.vala:619
+#, c-format
+msgid "Program \"%s\" not found"
+msgstr "Programa „%s“ nerasta"
+
+#: src/core/event.vala:180
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:74
+msgid "Actions"
+msgstr "Veiksmai"
+
+#: src/core/event.vala:183
+msgid "Countdown"
+msgstr "Atgalinis skaičiavimas"
+
+#: src/core/event.vala:186
+#: src/ui/preferences/timer/preferences-panel-timer.ui:17
+msgid "Session"
+msgstr "Sesija"
+
+#: src/core/event.vala:189
+msgid "Other"
+msgstr "Kita"
+
+#: src/core/event.vala:269
+msgid "Started the timer."
+msgstr "Laikmatis paleistas."
+
+#: src/core/event.vala:277
+msgid "Stopped the timer manually."
+msgstr "Laikmatis sustabdytas rankiniu būdu."
+
+#: src/core/event.vala:285
+msgid ""
+"The countdown has been manually paused. Not triggered when locking the "
+"screen or when suspending the system."
+msgstr ""
+"Skaičiavimas buvo pristabdytas rankiniu būdu. Nepaleidžiama užrakinant "
+"ekraną ar užmigdant sistemą."
+
+#: src/core/event.vala:293
+msgid "The countdown has been manually resumed."
+msgstr "Skaičiavimas buvo pratęstas rankiniu būdu."
+
+#: src/core/event.vala:301
+msgid "Jumped to a next time-block before the countdown has finished."
+msgstr "Pereita prie kito laiko bloko nepasibaigus skaičiavimui."
+
+#: src/core/event.vala:309
+msgid "Rewind action has been used. It adds a pause in the past."
+msgstr "Panaudotas atsukimo veiksmas. Jis prideda pauzę praeityje."
+
+#: src/core/event.vala:317
+msgid "Manually cleared the session."
+msgstr "Sesija išvalyta rankiniu būdu."
+
+#. Countdown
+#: src/core/event.vala:325
+#: src/ui/preferences/automation/action/action-edit-window.ui:20
+#: src/ui/preferences/automation/action/condition-widget.vala:120
+msgid "Finished"
+msgstr "Baigta"
+
+#: src/core/event.vala:326
+msgid ""
+"The countdown has finished. If waiting for confirmation, the duration of the "
+"time-block still may be altered."
+msgstr ""
+"Skaičiavimas baigėsi. Jei laukiama patvirtinimo, laiko bloko trukmė vis dar "
+"gali būti pakeista."
+
+#: src/core/event.vala:333
+msgid "Changed"
+msgstr "Pasikeitė"
+
+#: src/core/event.vala:334
+msgid "Triggered on any change related to the countdown."
+msgstr ""
+"Aktyvuojama įvykus bet kokiam su atgaliniu skaičiavimu susijusiam pokyčiui."
+
+#. Session
+#: src/core/event.vala:342
+msgid "Confirm Advancement"
+msgstr "Patvirtinti eigą"
+
+#: src/core/event.vala:343
+msgid "A manual confirmation is required to start next time-block."
+msgstr "Norint pradėti kitą laiko bloką, reikalingas rankinis patvirtinimas."
+
+#: src/core/event.vala:350
+msgid "Advanced"
+msgstr "Pažengta"
+
+#: src/core/event.vala:351
+msgid "Transitioned or skipped to a next time-block."
+msgstr "Pereita arba praleista į kitą laiko bloką."
+
+#: src/core/event.vala:358
+msgid "State Changed"
+msgstr "Būsena pasikeitė"
+
+#: src/core/event.vala:359
+msgid "Transitioned to a next time-block or when a break gets relabelled."
+msgstr "Pereita į kitą laiko bloką arba kai pertrauka pervardijama."
+
+#: src/core/event.vala:366
+msgid "Rescheduled"
+msgstr "Perplanuota"
+
+#. translators: Change of plan
+#: src/core/event.vala:367
+msgid "Triggered when scheduled time-blocks have changed."
+msgstr "Aktyvuojama pasikeitus suplanuotiems laiko blokams."
+
+#: src/core/event.vala:374
+msgid "Expired"
+msgstr "Baigėsi laikas"
+
+#: src/core/event.vala:375
+msgid "Triggered when session is about to be reset due to inactivity."
+msgstr "Aktyvuojama, kai sesija turi būti atstatyta dėl neaktyvumo."
+
+#: src/core/notification-manager.vala:347 src/core/state.vala:78
+#: src/plugins/sni/indicator-provider.vala:271
+#: src/ui/main/stats/stats-day-page.ui:98
+#: src/ui/main/stats/stats-day-page.vala:87
+#: src/ui/main/stats/stats-month-page.ui:35
+#: src/ui/main/stats/stats-month-page.vala:43
+#: src/ui/main/stats/stats-week-page.ui:39
+#: src/ui/main/stats/stats-week-page.vala:41 src/ui/main/window.vala:186
+#: src/ui/preferences/automation/action/condition-widget.ui:53
+msgid "Pomodoro"
+msgstr "Pomodoro"
+
+#: src/core/notification-manager.vala:351
+#: src/ui/main/timer/widgets/timer-control-buttons.vala:308
+#: src/ui/main/timer/widgets/timer-control-buttons.vala:324
+msgid "Take a break"
+msgstr "Daryti pertrauką"
+
+#: src/core/notification-manager.vala:355
+msgid "Take a short break"
+msgstr "Padarykite trumpą pertraukėlę"
+
+#: src/core/notification-manager.vala:359
+msgid "Take a long break"
+msgstr "Padarykite ilgą pertrauką"
+
+#: src/core/notification-manager.vala:418
+msgid "Pomodoro is about to end"
+msgstr "Pomodoro tuoj baigsis"
+
+#: src/core/notification-manager.vala:419
+#: src/core/notification-manager.vala:524
+#: src/core/notification-manager.vala:529
+#: src/core/notification-manager.vala:534 src/ui/overlays/screen-overlay.ui:5
+msgid "Take a Break"
+msgstr "Metas pertraukai"
+
+#: src/core/notification-manager.vala:425
+msgid "Break is about to end"
+msgstr "Pertrauka tuoj baigsis"
+
+#: src/core/notification-manager.vala:436
+msgid "+1 minute"
+msgstr "+1 minutė"
+
+#: src/core/notification-manager.vala:458
+msgid "Get ready…"
+msgstr "Pasiruošk…"
+
+#: src/core/notification-manager.vala:463
+#: src/core/notification-manager.vala:502
+msgid "Pomodoro is over!"
+msgstr "Pomodoro sesija baigėsi!"
+
+#: src/core/notification-manager.vala:469
+#: src/core/notification-manager.vala:508
+msgid "Break is over!"
+msgstr "Pertrauka baigėsi!"
+
+#: src/core/notification-manager.vala:518
+msgid "Confirm the start of a Pomodoro…"
+msgstr "Patvirtinkite Pomodoro pradžią…"
+
+#: src/core/notification-manager.vala:523
+msgid "Confirm the start of a break…"
+msgstr "Patvirtinkite pertraukos pradžią…"
+
+#: src/core/notification-manager.vala:528
+msgid "Confirm the start of a short break…"
+msgstr "Patvirtinkite trumpos pertraukos pradžią…"
+
+#: src/core/notification-manager.vala:533
+msgid "Confirm the start of a long break…"
+msgstr "Patvirtinkite ilgos pertraukos pradžią…"
+
+#: src/core/notification-manager.vala:546
+msgid "Skip Break"
+msgstr "Praleisti pertrauką"
+
+#: src/core/sound-player.vala:101
+msgid "Failed to initialize playback"
+msgstr "Nepavyko pradėti atkūrimo"
+
+#: src/core/sounds.vala:112
+msgid "File not found"
+msgstr "Failas nerastas"
+
+#: src/core/sounds.vala:116
+msgid "File type not supported"
+msgstr "Failo tipas nepalaikomas"
+
+#: src/core/state.vala:75
+#: src/ui/preferences/automation/action/condition-widget.ui:55
+msgid "Stopped"
+msgstr "Sustabdyta"
+
+#: src/core/state.vala:81 src/plugins/sni/indicator-provider.vala:274
+#: src/ui/preferences/automation/action/condition-widget.ui:54
+msgid "Break"
+msgstr "Pertrauka"
+
+#: src/core/state.vala:84 src/plugins/sni/indicator-provider.vala:272
+msgid "Short Break"
+msgstr "Trumpa pertrauka"
+
+#: src/core/state.vala:87 src/plugins/sni/indicator-provider.vala:273
+msgid "Long Break"
+msgstr "Ilga pertrauka"
+
+#. translators: Short form for number of hours
+#: src/core/timestamp.vala:117
+#, c-format
+msgid "%uh"
+msgstr "%u val."
+
+#. translators: Short form for number of minutes
+#: src/core/timestamp.vala:126
+#, c-format
+msgid "%um"
+msgstr "%u min."
+
+#: src/core/utils.vala:72
+#, c-format
+msgid "%u hour"
+msgid_plural "%u hours"
+msgstr[0] "%u valanda"
+msgstr[1] "%u valandos"
+msgstr[2] "%u valandų"
+
+#: src/core/utils.vala:81
+#, c-format
+msgid "%u minute"
+msgid_plural "%u minutes"
+msgstr[0] "%u minutė"
+msgstr[1] "%u minutės"
+msgstr[2] "%u minučių"
+
+#: src/core/utils.vala:90
+#, c-format
+msgid "%u second"
+msgid_plural "%u seconds"
+msgstr[0] "%u sekundė"
+msgstr[1] "%u sekundės"
+msgstr[2] "%u sekundžių"
+
+#: src/core/variables.vala:116
+msgid "The exact time of the current event."
+msgstr "Tikslus dabartinio įvykio laikas."
+
+#: src/core/variables.vala:121
+msgid ""
+"The current phase of the Pomodoro cycle. Possible values: <tt>stopped</tt>, "
+"<tt>pomodoro</tt>, <tt>break</tt>, <tt>short-break</tt>, <tt>long-break</tt>."
+msgstr ""
+"Dabartinė Pomodoro ciklo fazė. Galimos reikšmės: <tt>sustabdyta</tt>, "
+"<tt>pomodoro</tt>, <tt>pertrauka</tt>, <tt>trumpa petrauka</tt>, <tt>ilga "
+"pertrauka</tt>."
+
+#: src/core/variables.vala:126
+msgid ""
+"Status of the current time-block. Possible values: <tt>scheduled</tt>, "
+"<tt>in-progress</tt>, <tt>completed</tt>, <tt>uncompleted</tt>."
+msgstr ""
+"Dabartinio laiko bloko būsena. Galimos reikšmės: <tt>suplanuota</tt>, "
+"<tt>vykdoma</tt>, <tt>baigta</tt>, <tt>nebaigta</tt>."
+
+#: src/core/variables.vala:131
+msgid "A flag indicating whether countdown has begun."
+msgstr "Žyma, nurodanti atgalinio skaičiavimo pradžią."
+
+#: src/core/variables.vala:136
+msgid "A flag indicating whether countdown is paused."
+msgstr "Žyma, nurodanti atgalinio skaičiavimo pristabdymą."
+
+#: src/core/variables.vala:141
+msgid "A flag indicating whether countdown has finished."
+msgstr "Žyma, nurodanti atgalinio skaičiavimo pabaigą."
+
+#: src/core/variables.vala:146
+msgid "A flag indicating whether the timer is actively counting down."
+msgstr "Žyma, nurodanti, ar laikmatis aktyviai skaičiuoja laiką atgal."
+
+#: src/core/variables.vala:151
+msgid "Duration of the current countdown."
+msgstr "Dabartinio atgalinio skaičiavimo trukmė."
+
+#. translators: Time difference between displayed value on the timer and real time. Think of it as a lost time.
+#: src/core/variables.vala:157
+msgid "Discrepancy between elapsed time and the time passed."
+msgstr "Skirtumas tarp rodomo laiko trukmės ir faktinio laiko."
+
+#. translators: Time since the start of countdown
+#: src/core/variables.vala:163
+msgid "The amount of time spent on the countdown."
+msgstr "Laikas, praleistas skaičiuojant atgal."
+
+#. translators: Displayed timer value.
+#: src/core/variables.vala:169
+msgid "The amount of time left before the countdown ends."
+msgstr "Likęs laikas iki skaičiavimo atgal pabaigos."
+
+#: src/core/variables.vala:174
+msgid "Time when the countdown has started."
+msgstr "Laikas, kada prasidėjo atgalinis skaičiavimas."
+
+#: src/plugins/gnome/install-extension-dialog.ui:6
+#: src/plugins/gnome/preferences-window-extension.vala:167
+msgid "GNOME Shell Extension"
+msgstr "GNOME Shell plėtinys"
+
+#: src/plugins/gnome/install-extension-dialog.ui:57
+msgid "Get the best experience!"
+msgstr "Gaukite geriausią patirtį!"
+
+#: src/plugins/gnome/install-extension-dialog.ui:68
+msgid "Enable <b>GNOME Shell extension</b> for seamless desktop integration"
+msgstr "Įjunkite <b>GNOME Shell plėtinį</b> sklandžiai integracijai su aplinka"
+
+#: src/plugins/gnome/install-extension-dialog.ui:95
+msgid "Always within reach"
+msgstr "Visada pasiekiama"
+
+#: src/plugins/gnome/install-extension-dialog.ui:106
+msgid "Control timer directly from the top bar without opening the app"
+msgstr ""
+"Valdykite laikmatį tiesiai iš viršutinės juostos neatidarydami programos"
+
+#: src/plugins/gnome/install-extension-dialog.ui:132
+msgid "Less distractions"
+msgstr "Mažiau trukdžių"
+
+#: src/plugins/gnome/install-extension-dialog.ui:143
+msgid ""
+"Let <b>Focus Timer</b> manage system notifications while the timer is running"
+msgstr ""
+
+#: src/plugins/gnome/install-extension-dialog.ui:170
+msgid "Refined break reminders"
+msgstr "Patobulinti priminimai apie pertraukas"
+
+#: src/plugins/gnome/install-extension-dialog.ui:181
+msgid ""
+"Elegant full-screen overlay that make taking breaks a more pleasant "
+"experience"
+msgstr "Elegantiška viso ekrano užsklanda, padaranti pertraukas malonesnes"
+
+#. translators: "It" refers to installing GNOME Shell extension
+#: src/plugins/gnome/install-extension-dialog.ui:195
+msgid "Ready to try it?"
+msgstr "Pasiruošę išbandyti?"
+
+#: src/plugins/gnome/install-extension-dialog.ui:219
+#: src/plugins/gnome/install-extension-dialog.ui:252
+msgid "_Install Extension"
+msgstr "Į_diegti plėtinį"
+
+#: src/plugins/gnome/install-extension-dialog.ui:229
+#: src/plugins/gnome/install-extension-dialog.ui:245
+msgid "_Not Now"
+msgstr "_Ne dabar"
+
+#: src/plugins/gnome/install-extension-dialog.ui:317
+#: src/plugins/gnome/preferences-window-extension.vala:400
+msgid "Something went wrong"
+msgstr "Kažkas nepavyko"
+
+#: src/plugins/gnome/install-extension-dialog.ui:364
+msgid "Copy to clipboard"
+msgstr "Kopijuoti į iškarpinę"
+
+#: src/plugins/gnome/install-extension-dialog.ui:383
+#: src/plugins/gnome/install-extension-dialog.ui:416
+msgid "_Try Again"
+msgstr "_Bandykite dar kartą"
+
+#: src/plugins/gnome/install-extension-dialog.ui:393
+#: src/plugins/gnome/install-extension-dialog.ui:409
+msgid "_Abort"
+msgstr "_Atšaukti"
+
+#: src/plugins/gnome/install-extension-dialog.vala:85
+#: src/plugins/gnome/preferences-window-extension.vala:388
+msgid "Time-out reached"
+msgstr "Baigėsi laikas"
+
+#: src/plugins/gnome/install-extension-dialog.vala:90
+#: src/plugins/gnome/preferences-window-extension.vala:392
+msgid "Installing extensions is not allowed"
+msgstr "Plėtinių diegimas neleidžiamas"
+
+#: src/plugins/gnome/install-extension-dialog.vala:95
+#: src/plugins/gnome/preferences-window-extension.vala:396
+msgid "Failed to download the extension"
+msgstr "Nepavyko atsisiųsti plėtinio"
+
+#: src/plugins/gnome/preferences-window-extension.vala:55
+msgid "Indicator"
+msgstr ""
+
+#: src/plugins/gnome/preferences-window-extension.vala:62
+msgid "Icon"
+msgstr ""
+
+#: src/plugins/gnome/preferences-window-extension.vala:63
+msgid "Text"
+msgstr ""
+
+#: src/plugins/gnome/preferences-window-extension.vala:70
+msgid "Display As"
+msgstr ""
+
+#: src/plugins/gnome/preferences-window-extension.vala:81
+#: src/plugins/sni/indicator-provider.vala:297
+#: src/ui/preferences/notifications/preferences-panel-notifications.ui:28
+#: src/ui/preferences/notifications/preferences-panel-notifications.ui:32
+msgid "Screen Overlay"
+msgstr "Ekrano užsklanda"
+
+#: src/plugins/gnome/preferences-window-extension.vala:85
+msgid "Blur Effect"
+msgstr ""
+
+#: src/plugins/gnome/preferences-window-extension.vala:93
+msgid "Dismiss Gesture"
+msgstr ""
+
+#: src/plugins/gnome/preferences-window-extension.vala:125
+msgid "Desktop"
+msgstr "Darbalaukis"
+
+#: src/plugins/gnome/preferences-window-extension.vala:128
+msgid "Install"
+msgstr ""
+
+#. translators: verb
+#: src/plugins/gnome/preferences-window-extension.vala:133
+msgid "Update"
+msgstr ""
+
+#: src/plugins/gnome/preferences-window-extension.vala:136
+msgid "Log out to finish the update"
+msgstr ""
+
+#: src/plugins/gnome/preferences-window-extension.vala:154
+msgid "Outdated"
+msgstr ""
+
+#: src/plugins/gnome/preferences-window-extension.vala:173
+msgid "Manage Notifications"
+msgstr ""
+
+#: src/plugins/gnome/preferences-window-extension.vala:174
+msgid "Toggle Do Not Disturb mode during Pomodoro."
+msgstr ""
+
+#: src/plugins/gnome/window-extension.vala:32
+msgid "GNOME Shell extension available"
+msgstr "Yra GNOME Shell plėtinys"
+
+#: src/plugins/gnome/window-extension.vala:33
+msgid "Learn More"
+msgstr "Sužinoti daugiau"
+
+#. translators: abbreviate it to just "Settings" if it gets too long
+#: src/plugins/kde/preferences-window-extension.vala:26
+msgid "Open Settings"
+msgstr ""
+
+#: src/plugins/kde/preferences-window-extension.vala:51
+msgid ""
+"For reliable break reminders, allow this app's notifications during Do Not "
+"Disturb and disable its notification history."
+msgstr ""
+
+#: src/plugins/portal/global-shortcuts-provider.vala:298
+msgid "Unused"
+msgstr "Nenaudojama"
+
+#: src/plugins/sni/indicator-provider.vala:35
+#: src/ui/main/timer/compact-timer-view.vala:73
+#: src/ui/main/timer/timer-view.vala:141
+msgid "Finished!"
+msgstr "Baigta!"
+
+#: src/plugins/sni/indicator-provider.vala:42
+#, c-format
+msgid "%u of %u"
+msgstr ""
+
+#: src/plugins/sni/indicator-provider.vala:301
+#: src/plugins/sni/indicator-provider.vala:305 src/ui/main/window.ui:92
+msgid "Stats"
+msgstr "Statistika"
+
+#: src/plugins/sni/indicator-provider.vala:310 src/ui/main/window.vala:284
+msgid "Quit"
+msgstr "Išeiti"
+
+#: src/plugins/sni/indicator-provider.vala:403
+msgid "Take Break"
+msgstr ""
+
+#: src/plugins/sni/preferences-window-extension.vala:43
+msgid "System Tray Icon"
+msgstr ""
+
+#: src/plugins/sni/preferences-window-extension.vala:47
+msgid "Show Tray Icon"
+msgstr ""
+
+#: src/plugins/sni/preferences-window-extension.vala:48
+msgid "Closing the window keeps the app running in the background."
+msgstr ""
+
+#: src/ui/log/log-window.ui:6
+msgid "Log"
+msgstr "Žurnalas"
+
+#: src/ui/log/log-window.ui:37
+msgid "Empty Log"
+msgstr "Žurnalas tuščias"
+
+#: src/ui/log/log-window.ui:38
+msgid "Entries will show up here once you start the timer."
+msgstr "Įrašai atsiras čia, kai paleisite laikmatį."
+
+#: src/ui/log/log-window.ui:164
+msgid "Context"
+msgstr "Kontekstas"
+
+#: src/ui/log/log-window.ui:189
+#: src/ui/preferences/automation/action/action-edit-window.ui:186
+msgid "Command"
+msgstr "Komanda"
+
+#: src/ui/log/log-window.ui:213
+msgid "Output"
+msgstr "Išvestis"
+
+#: src/ui/log/log-window.ui:237
+msgid "Error"
+msgstr "Klaida"
+
+#: src/ui/log/log-window.ui:266
+msgid "Exit Code:"
+msgstr "Išėjimo kodas:"
+
+#: src/ui/log/log-window.ui:277
+msgid "Execution Time:"
+msgstr "Vykdymo laikas:"
+
+#. translators: Replace this string with your names, one name per line.
+#: src/ui/main/dialogs/about-dialog.vala:30
+msgid "translator-credits"
+msgstr "Paulius Šukys <paul.sukys@gmail.com>"
+
+#: src/ui/main/dialogs/about-dialog.vala:36
+msgid "Donate"
+msgstr "Paremkite"
+
+#: src/ui/main/stats/stats-day-page.ui:105
+#: src/ui/main/stats/stats-day-page.vala:92
+#: src/ui/main/stats/stats-month-page.ui:42
+#: src/ui/main/stats/stats-month-page.vala:48
+#: src/ui/main/stats/stats-week-page.ui:46
+#: src/ui/main/stats/stats-week-page.vala:46
+msgid "Breaks"
+msgstr "Pertraukos"
+
+#: src/ui/main/stats/stats-day-page.ui:112
+#: src/ui/main/stats/stats-month-page.ui:49
+#: src/ui/main/stats/stats-month-page.vala:53
+#: src/ui/main/stats/stats-week-page.ui:53
+#: src/ui/main/stats/stats-week-page.vala:51
+msgid "Interruptions"
+msgstr "Pertraukimai"
+
+#: src/ui/main/stats/stats-day-page.ui:119
+#: src/ui/main/stats/stats-month-page.ui:56
+#: src/ui/main/stats/stats-week-page.ui:60
+msgid "Break Ratio"
+msgstr "Pertraukų santykis"
+
+#: src/ui/main/stats/stats-view.ui:8 src/ui/main/stats/stats-view.vala:59
+#: src/ui/main/stats/widgets/stats-date-popover.ui:22
+msgid "Day"
+msgstr "Diena"
+
+#: src/ui/main/stats/stats-view.ui:13 src/ui/main/stats/stats-view.vala:62
+#: src/ui/main/stats/widgets/stats-date-popover.ui:28
+msgid "Week"
+msgstr "Savaitė"
+
+#: src/ui/main/stats/stats-view.ui:18 src/ui/main/stats/stats-view.vala:65
+#: src/ui/main/stats/widgets/stats-date-popover.ui:34
+msgid "Month"
+msgstr "Mėnuo"
+
+#: src/ui/main/stats/stats-view.ui:39
+msgid "Nothing to see here yet"
+msgstr "Dar nėra ką pamatyti"
+
+#: src/ui/main/stats/stats-view.ui:40
+msgid "Finish a few Pomodoros to fill this up!"
+msgstr "Užbaikite keletą Pomodoro sesijų, kad čia atsirastų duomenų!"
+
+#: src/ui/main/stats/stats-view.vala:831
+#, c-format
+msgid "Skipped %u day"
+msgid_plural "Skipped %u days"
+msgstr[0] "Praleista %u diena"
+msgstr[1] "Praleista %u dienos"
+msgstr[2] "Praleista %u dienų"
+
+#: src/ui/main/stats/stats-view.vala:837
+#, c-format
+msgid "Skipped %u week"
+msgid_plural "Skipped %u weeks"
+msgstr[0] "Praleista %u savaitė"
+msgstr[1] "Praleista %u savaitės"
+msgstr[2] "Praleista %u savaičių"
+
+#: src/ui/main/stats/stats-view.vala:843
+#, c-format
+msgid "Skipped %u month"
+msgid_plural "Skipped %u months"
+msgstr[0] "Praleistas %u mėnuo"
+msgstr[1] "Praleisti %u mėnesiai"
+msgstr[2] "Praleista %u mėnesių"
+
+#: src/ui/main/stats/stats-view.vala:1041
+msgid "Today"
+msgstr "Šiandien"
+
+#: src/ui/main/stats/stats-view.vala:1046
+msgid "Yesterday"
+msgstr "vakar"
+
+#: src/ui/main/stats/stats-view.vala:1067
+msgid "This week"
+msgstr "Šią savaitę"
+
+#: src/ui/main/stats/stats-view.vala:1087
+#, c-format
+msgid "Week %u"
+msgstr "%u savaitė"
+
+#: src/ui/main/stats/stats-view.vala:1088
+#, c-format
+msgid "Week %u of %u"
+msgstr "%u savaitė iš %u"
+
+#: src/ui/main/timer/compact-timer-view.ui:8 src/ui/main/timer/menus.ui:6
+#: src/ui/main/timer/menus.ui:22
+msgid "_Pomodoro"
+msgstr "_Pomodoro"
+
+#: src/ui/main/timer/compact-timer-view.ui:13 src/ui/main/timer/menus.ui:10
+msgid "_Short Break"
+msgstr "_Trumpa pertrauka"
+
+#: src/ui/main/timer/compact-timer-view.ui:18 src/ui/main/timer/menus.ui:14
+msgid "_Long Break"
+msgstr "_Ilga pertrauka"
+
+#: src/ui/main/timer/menus.ui:26
+msgid "_Break"
+msgstr "_Pertrauka"
+
+#: src/ui/main/timer/timer-view.ui:23
+msgid "Open screen overlay"
+msgstr "Atidaryti ekrano užsklandą"
+
+#: src/ui/main/timer/timer-view.vala:257
+msgid "Session has expired"
+msgstr "Sesija nebegalioja"
+
+#: src/ui/main/timer/widgets/session-progress-bar.vala:1477
+#, c-format
+msgid "Long break due in <b>%s</b>"
+msgstr "Ilga pertrauka už <b>%s</b>"
+
+#: src/ui/main/timer/widgets/timer-control-buttons.ui:25
+msgid "Rewind one minute"
+msgstr "Atsukti vieną minutę"
+
+#: src/ui/main/window.ui:8
+msgid "_Compact View"
+msgstr "_Kompaktiškas vaizdas"
+
+#: src/ui/main/window.ui:15
+msgid "_Preferences"
+msgstr "_Nustatymai"
+
+#: src/ui/main/window.ui:19
+msgid "_About"
+msgstr "_Apie"
+
+#: src/ui/main/window.ui:25
+msgid "_Quit"
+msgstr "_Išeiti"
+
+#: src/ui/main/window.ui:62
+msgid "Primary Menu"
+msgstr "Pagrindinis meniu"
+
+#: src/ui/main/window.vala:279
+msgid "Keep timer running?"
+msgstr "Palikti laikmatį veikiantį?"
+
+#: src/ui/main/window.vala:280
+msgid ""
+"You can keep it running in the background — notifications and keyboard "
+"shortcuts will still work."
+msgstr ""
+"Galite palikti jį veikti fone — pranešimai ir spartieji klavišai vis tiek "
+"veiks."
+
+#: src/ui/main/window.vala:287
+msgid "Run in background"
+msgstr "Veikti fone"
+
+#: src/ui/overlays/screen-overlay.ui:64
+msgid "It's time to take a break"
+msgstr "Laikas padaryti pertrauką"
+
+#: src/ui/preferences/appearance/preferences-panel-appearance.ui:17
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:123
+msgid "Main Window"
+msgstr "Pagrindinis langas"
+
+#: src/ui/preferences/appearance/preferences-panel-appearance.ui:20
+msgid "Prefer Dark Theme"
+msgstr "Naudoti tamsią temą"
+
+#: src/ui/preferences/appearance/preferences-panel-appearance.ui:25
+msgid "Prefer Compact View"
+msgstr "Naudoti kompaktišką vaizdą"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:12
+#: src/ui/preferences/automation/action/condition-widget.vala:117
+msgid "Started"
+msgstr "Pradėta"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:16
+#: src/ui/preferences/automation/action/condition-widget.vala:118
+msgid "Paused"
+msgstr "Pristabdyta"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:26
+msgid "Edit Custom Action"
+msgstr "Redaguoti pasirinktinį veiksmą"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:39
+#: src/ui/preferences/keyboard-shortcuts/accelerator-chooser-window.ui:21
+msgid "_Cancel"
+msgstr "_Atsisakyti"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:46
+msgid "_Save"
+msgstr "Iš_saugoti"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:62
+msgid "Name"
+msgstr "Vardas"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:76
+msgid "Trigger"
+msgstr "Trigeris"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:80
+msgid "Event"
+msgstr "Įvykis"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:81
+msgid "Execute command after an event."
+msgstr "Vykdyti komandą po įvykio."
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:96
+#: src/ui/preferences/automation/action/action-edit-window.ui:174
+msgid "Condition"
+msgstr "Sąlyga"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:97
+msgid "Ensure execution of a second command once condition is no longer met."
+msgstr "Užtikrinti antros komandos vykdymą, kai sąlyga nebetenkinama."
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:114
+msgid "Events"
+msgstr "Įvykiai"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:125
+msgid "Add _Event"
+msgstr "Pridėti į_vykį"
+
+#. translators: Filter (verb)
+#: src/ui/preferences/automation/action/action-edit-window.ui:140
+msgid "_Filter"
+msgstr "_Filtras"
+
+#. translators: Filter (noun)
+#: src/ui/preferences/automation/action/action-edit-window.ui:160
+msgid "Filter"
+msgstr "Filtras"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:191
+msgid "Shell Command"
+msgstr "Shell komanda"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:199
+msgid "Commands"
+msgstr "Komandos"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:204
+msgid "Condition Met Command"
+msgstr "Komanda, kai sąlyga tenkinama"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:210
+msgid "Condition Not Met Command"
+msgstr "Komanda, kai sąlyga netenkinama"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:221
+msgid "Working Directory"
+msgstr "Darbinis katalogas"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:236
+msgid "Use Subshell"
+msgstr "Naudoti Subshell"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:237
+msgid "Run the program from a subshell such as sh -c ''"
+msgstr "Vykdyti programą iš subshell, pvz., sh -c ''"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:242
+msgid "Pass Input Data"
+msgstr "Perduoti įvesties duomenis"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:243
+msgid "Instead of passing variables you can process a JSON object."
+msgstr "Vietoj kintamųjų perdavimo galite apdoroti JSON objektą."
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:248
+msgid "Wait For Completion"
+msgstr "Laukti pabaigos"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:249
+msgid "Block execution of other commands until the command completes."
+msgstr "Blokuoti kitų komandų vykdymą, kol ši komanda bus baigta."
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:259
+msgid "_Delete Action"
+msgstr "Iš_trinti veiksmą"
+
+#: src/ui/preferences/automation/action/action-edit-window.vala:230
+msgid "No events specified yet."
+msgstr "Įvykių dar nenurodyta."
+
+#: src/ui/preferences/automation/action/action-edit-window.vala:248
+msgid "Add Custom Action"
+msgstr "Pridėti pasirinktinį veiksmą"
+
+#: src/ui/preferences/automation/action/action-edit-window.vala:249
+msgid "_Add"
+msgstr "_Pridėti"
+
+#: src/ui/preferences/automation/action/action-edit-window.vala:438
+msgid "Select Working Directory"
+msgstr "Pasirinkti darbinį katalogą"
+
+#: src/ui/preferences/automation/action/action-edit-window.vala:440
+#: src/ui/preferences/sounds/sound-chooser-window.vala:251
+msgid "_Select"
+msgstr "_Pasirinkti"
+
+#: src/ui/preferences/automation/action/action-listboxrow.vala:67
+msgid "Untitled action"
+msgstr "Bevardis veiksmas"
+
+#: src/ui/preferences/automation/action/condition-group-widget.ui:28
+msgid "Add Condition"
+msgstr "Pridėti sąlygą"
+
+#: src/ui/preferences/automation/action/condition-group-widget.ui:45
+msgid "Add Group"
+msgstr "Pridėti grupę"
+
+#: src/ui/preferences/automation/action/condition-group-widget.vala:344
+msgid "AND"
+msgstr "IR"
+
+#: src/ui/preferences/automation/action/condition-group-widget.vala:345
+msgid "OR"
+msgstr "ARBA"
+
+#: src/ui/preferences/automation/action/condition-widget.ui:26
+msgid "Is"
+msgstr "Yra"
+
+#: src/ui/preferences/automation/action/condition-widget.ui:27
+msgid "Is Not"
+msgstr "Nėra"
+
+#: src/ui/preferences/automation/action/condition-widget.ui:39
+msgid "Equals"
+msgstr "Lygu"
+
+#: src/ui/preferences/automation/action/condition-widget.ui:40
+msgid "Greater Than"
+msgstr "Daugiau nei"
+
+#: src/ui/preferences/automation/action/condition-widget.ui:41
+msgid "Less Than"
+msgstr "Mažiau nei"
+
+#: src/ui/preferences/automation/action/condition-widget.ui:67
+msgid "Yes"
+msgstr "Taip"
+
+#: src/ui/preferences/automation/action/condition-widget.ui:68
+msgid "No"
+msgstr "Ne"
+
+#: src/ui/preferences/automation/action/condition-widget.ui:95
+msgid "Minutes"
+msgstr "Minutės"
+
+#: src/ui/preferences/automation/action/condition-widget.ui:96
+msgid "Seconds"
+msgstr "Sekundės"
+
+#: src/ui/preferences/automation/action/condition-widget.ui:97
+msgid "Hours"
+msgstr "Valandos"
+
+#. translators: No field selected when defining a condition.
+#: src/ui/preferences/automation/action/condition-widget.vala:115
+msgid "Select Field…"
+msgstr "Pasirinkite lauką…"
+
+#: src/ui/preferences/automation/action/condition-widget.vala:116
+msgid "State"
+msgstr "Būsena"
+
+#: src/ui/preferences/automation/action/condition-widget.vala:119
+msgid "Running"
+msgstr "Vykdoma"
+
+#: src/ui/preferences/automation/action/condition-widget.vala:121
+msgid "Duration"
+msgstr "Trukmė"
+
+#: src/ui/preferences/automation/action/variable-popover.ui:19
+#: src/ui/preferences/automation/action/variable-popover.ui:161
+msgid "Insert Variable"
+msgstr "Įterpti kintamąjį"
+
+#: src/ui/preferences/automation/action/variable-popover.ui:132
+msgid "Format"
+msgstr "Formatas"
+
+#: src/ui/preferences/automation/preferences-panel-automation.ui:13
+msgid "_Log"
+msgstr "Ž_urnalas"
+
+#: src/ui/preferences/automation/preferences-panel-automation.ui:15
+msgid "Show execution log"
+msgstr "Rodyti vykdymo žurnalą"
+
+#: src/ui/preferences/automation/preferences-panel-automation.ui:24
+msgid ""
+"Run shell commands automatically on timer events or conditions. <a "
+"href=\"\">Learn more.</a>"
+msgstr ""
+"Vykdykite shell komandas automatiškai pagal laikmačio įvykius ar sąlygas. <a "
+"href=\"\">Sužinokite daugiau.</a>"
+
+#: src/ui/preferences/integrations/preferences-panel-integrations.ui:19
+msgid "Autostart"
+msgstr ""
+
+#: src/ui/preferences/integrations/preferences-panel-integrations.ui:20
+msgid "Automatically launch the app when you log in."
+msgstr ""
+
+#: src/ui/preferences/integrations/preferences-panel-integrations.ui:25
+msgid ""
+"The app will start in the background. You'll be able to use the indicator "
+"and keyboard shortcuts."
+msgstr ""
+
+#: src/ui/preferences/keyboard-shortcuts/accelerator-chooser-window.ui:14
+msgid "Set Shortcut"
+msgstr "Nustatyti spartųjį klavišą"
+
+#: src/ui/preferences/keyboard-shortcuts/accelerator-chooser-window.ui:28
+msgid "_Set"
+msgstr "Nu_statyti"
+
+#: src/ui/preferences/keyboard-shortcuts/accelerator-chooser-window.ui:63
+#: src/ui/preferences/keyboard-shortcuts/accelerator-row.vala:50
+msgid "Disabled"
+msgstr "Išjungti"
+
+#: src/ui/preferences/keyboard-shortcuts/accelerator-chooser-window.ui:77
+msgid ""
+"Press <b>Esc</b> to cancel or <b>Backspace</b> to disable the keyboard "
+"shortcut"
+msgstr ""
+"Spauskite <b>Esc</b> atšaukimui arba <b>Backspace</b>, jei norite išjungti "
+"spartųjį klavišą"
+
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:21
+msgid ""
+"Global shortcuts let you control the app even when it’s not on screen. They "
+"work as long as the app is running in the background."
+msgstr ""
+"Visuotiniai spartieji klavišai leidžia valdyti programą net kai ji nėra "
+"ekrane. Jie veikia tol, kol programa veikia fone."
+
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:24
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:40
+msgid "Open app settings for editing global shortcuts"
+msgstr "Atidaryti nustatymus visuotinių sparčiųjų klavišų redagavimui"
+
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:29
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:45
+msgid "_Edit"
+msgstr "R_edaguoti"
+
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:61
+msgid "Enter new shortcut for starting or stopping the timer"
+msgstr "Įveskite naują spartųjį klavišą laikmačio paleidimui arba sustabdymui"
+
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:68
+msgid "Enter new shortcut to start/pause/resume the timer"
+msgstr "Įveskite naują spartųjį klavišą laikmačio paleidimui/pauzei/tęsimui"
+
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:78
+msgid "Enter new shortcut for starting the timer"
+msgstr "Įveskite naują spartųjį klavišą laikmačio paleidimui"
+
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:85
+msgid "Enter new shortcut for stopping the timer"
+msgstr "Įveskite naują spartųjį klavišą laikmačio sustabdymui"
+
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:92
+msgid "Enter new shortcut for pausing the timer"
+msgstr "Įveskite naują spartųjį klavišą laikmačio pristabdymui"
+
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:99
+msgid "Enter new shortcut for resuming the timer"
+msgstr "Įveskite naują spartųjį klavišą laikmačio pratęsimui"
+
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:106
+msgid "Enter new shortcut for skipping"
+msgstr "Įveskite naują spartųjį klavišą praleidimui"
+
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:112
+msgid "Rewind One Minute"
+msgstr "Atsukti vieną minutę"
+
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:113
+msgid "Enter new shortcut for rewinding"
+msgstr "Įveskite naują spartųjį klavišą atsukimui"
+
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:127
+msgid "Enter new shortcut for bringing window to focus"
+msgstr "Įveskite naują spartųjį klavišą lango iškėlimui"
+
+#: src/ui/preferences/notifications/preferences-panel-notifications.ui:17
+msgid "Announcements"
+msgstr "Pranešimai"
+
+#: src/ui/preferences/notifications/preferences-panel-notifications.ui:20
+msgid "Time Running Out"
+msgstr "Laikas baigiasi"
+
+#: src/ui/preferences/notifications/preferences-panel-notifications.ui:21
+msgid "Notify when Pomodoro or break is about to end."
+msgstr "Pranešti, kai Pomodoro arba pertrauka tuoj baigsis."
+
+#: src/ui/preferences/notifications/preferences-panel-notifications.ui:29
+msgid "A full-screen notification intended to enforce taking a break."
+msgstr "Viso ekrano pranešimas, skirtas priversti padaryti pertrauką."
+
+#: src/ui/preferences/notifications/preferences-panel-notifications.ui:37
+msgid "Lock Delay"
+msgstr "Užrakinimo delsa"
+
+#: src/ui/preferences/notifications/preferences-panel-notifications.ui:38
+msgid "Period of inactivity to lock the screen."
+msgstr "Neaktyvumo laikotarpis, po kurio užrakinamas ekranas."
+
+#: src/ui/preferences/notifications/preferences-panel-notifications.ui:43
+msgid "Reopen Delay"
+msgstr "Pakartotinio atidarymo delsa"
+
+#: src/ui/preferences/notifications/preferences-panel-notifications.ui:44
+msgid "Period of inactivity to reopen the overlay after it gets dismissed."
+msgstr "Neaktyvumo laikotarpis, po kurio vėl rodoma užsklanda ją išjungus."
+
+#: src/ui/preferences/notifications/preferences-panel-notifications.vala:97
+msgid "Never"
+msgstr "Niekada"
+
+#: src/ui/preferences/preferences-window.vala:37
+msgid "Notifications"
+msgstr "Pranešimai"
+
+#: src/ui/preferences/preferences-window.vala:44
+msgid "Sounds"
+msgstr "Garsai"
+
+#: src/ui/preferences/preferences-window.vala:51
+msgid "Appearance"
+msgstr "Išvaizda"
+
+#: src/ui/preferences/preferences-window.vala:58
+msgid "Keyboard Shortcuts"
+msgstr "Spartieji klaviatūros klavišai"
+
+#: src/ui/preferences/preferences-window.vala:71
+msgid "Integrations"
+msgstr ""
+
+#: src/ui/preferences/preferences-window.vala:79
+msgid "Automation"
+msgstr "Automatizavimas"
+
+#: src/ui/preferences/sounds/preferences-panel-sounds.ui:24
+msgid "Sounds Are Disabled"
+msgstr "Garsai išjungti"
+
+#: src/ui/preferences/sounds/preferences-panel-sounds.ui:36
+msgid "Alert Sounds"
+msgstr "Įspėjimų garsai"
+
+#: src/ui/preferences/sounds/preferences-panel-sounds.ui:39
+msgid "Pomodoro Finished Sound"
+msgstr "Pomodoro pabaigos garsas"
+
+#: src/ui/preferences/sounds/preferences-panel-sounds.ui:64
+msgid "Break Finished Sound"
+msgstr "Pertraukos pabaigos garsas"
+
+#: src/ui/preferences/sounds/preferences-panel-sounds.ui:91
+#: src/ui/preferences/sounds/preferences-panel-sounds.ui:94
+msgid "Background Sound"
+msgstr "Fono garsas"
+
+#: src/ui/preferences/sounds/preferences-panel-sounds.vala:20
+msgid "Bell"
+msgstr "Varpelis"
+
+#: src/ui/preferences/sounds/preferences-panel-sounds.vala:21
+msgid "Loud Bell"
+msgstr "Garsus varpas"
+
+#: src/ui/preferences/sounds/preferences-panel-sounds.vala:24
+msgid "Clock Ticking"
+msgstr "Laikrodžio tiksėjimas"
+
+#: src/ui/preferences/sounds/preferences-panel-sounds.vala:25
+msgid "Metronome"
+msgstr ""
+
+#: src/ui/preferences/sounds/preferences-panel-sounds.vala:26
+msgid "Brown Noise"
+msgstr ""
+
+#: src/ui/preferences/sounds/preferences-panel-sounds.vala:88
+#: src/ui/preferences/sounds/sound-chooser-window.ui:25
+msgid "None"
+msgstr "Nėra"
+
+#: src/ui/preferences/sounds/sound-chooser-window.ui:63
+msgid "Volume:"
+msgstr "Garsumas:"
+
+#: src/ui/preferences/sounds/sound-chooser-window.vala:249
+msgid "Select Custom Sound"
+msgstr "Pasirinkti kitą garsą"
+
+#: src/ui/preferences/timer/preferences-panel-timer.ui:20
+msgid "Pomodoro Duration"
+msgstr "Pomodoro trukmė"
+
+#: src/ui/preferences/timer/preferences-panel-timer.ui:31
+msgid "Short Break Duration"
+msgstr "Trumpos pertraukos trukmė"
+
+#: src/ui/preferences/timer/preferences-panel-timer.ui:42
+msgid "Long Break Duration"
+msgstr "Ilgosios pertraukos trukmė"
+
+#: src/ui/preferences/timer/preferences-panel-timer.ui:53
+msgid "Number of Cycles"
+msgstr "Ciklų skaičius"
+
+#: src/ui/preferences/timer/preferences-panel-timer.ui:93
+msgid "Behavior"
+msgstr "Elgsena"
+
+#: src/ui/preferences/timer/preferences-panel-timer.ui:96
+msgid "Pause By Locking The Screen"
+msgstr "Pristabdyti užrakinant ekraną"
+
+#: src/ui/preferences/timer/preferences-panel-timer.ui:101
+msgid "Confirm Starting a Break"
+msgstr "Patvirtinti pertraukos pradžią"
+
+#: src/ui/preferences/timer/preferences-panel-timer.ui:106
+msgid "Confirm Starting a Pomodoro"
+msgstr "Patvirtinti Pomodoro pradžią"
+
+#. translators: time formatted as text: "5 minutes 30 seconds"
+#: src/ui/preferences/timer/preferences-panel-timer.vala:96
+#, c-format
+msgid "A single session will take <b>%s</b>."
+msgstr "Vienos sesijos trukmė: <b>%s</b>."
+
+#: src/ui/preferences/timer/preferences-panel-timer.vala:97
+#, c-format
+msgid "<b>%u%%</b> of the time will be allocated for breaks."
+msgstr "<b>%u%%</b> laiko bus skirta pertraukoms."
+
+#: src/ui/preferences/timer/preferences-panel-timer.vala:144
+msgid "Apply changes to ongoing Pomodoro?"
+msgstr "Pritaikyti pakeitimus vykstančiam Pomodoro?"
+
+#: src/ui/preferences/timer/preferences-panel-timer.vala:145
+msgid "Apply changes to ongoing break?"
+msgstr "Pritaikyti pakeitimus vykstančiai pertraukai?"
+
+#: src/ui/preferences/timer/preferences-panel-timer.vala:147
+msgid "Apply"
+msgstr "Pritaikyti"
+
+#: src/ui/preferences/widgets/preferences-sidebar.vala:73
+msgctxt "accessibility"
+msgid "Sidebar"
+msgstr "Šoninė juosta"
+
+#~ msgid "Time management utility"
+#~ msgstr "Laiko valdymo įrankis"
+
+#~ msgid "Maintain focus by taking frequent breaks"
+#~ msgstr "Išlaikykite susikaupimą darydami dažnas pertraukas"
+
+#~ msgid "Visual and audio notifications"
+#~ msgstr "Vaizdiniai ir garsiniai pranešimai"
+
+#~ msgid "Time tracking and statistics"
+#~ msgstr "Laiko sekimas ir statistika"
+
+#~ msgid "GNOME desktop integration"
+#~ msgstr "Integracija su GNOME aplinka"
+
+#~ msgid "Run custom commands after Pomodoro or break"
+#~ msgstr "Vykdykite pasirinktines komandas po Pomodoro sesijos ar pertraukos"
+
+#~ msgid "15 seconds"
+#~ msgstr "15 sekundžių"
+
+#~ msgid "30 seconds"
+#~ msgstr "30 sekundžių"
+
+#~ msgid "1 minute"
+#~ msgstr "1 minutė"
+
+#~ msgid "2 minutes"
+#~ msgstr "2 minutės"
+
+#~ msgid "3 minutes"
+#~ msgstr "3 minutės"
+
+#~ msgid "5 minutes"
+#~ msgstr "5 minutės"
+
+#~ msgid "Compact timer"
+#~ msgstr "Kompaktiškas laikmatis"
+
+#~ msgid "Overview of changes in gnome-pomodoro 0.28.1"
+#~ msgstr "Pakeitimų apžvalga gnome-pomodoro 0.28.1"
+
+#~ msgid "Added Tamil translation (thanks @omeritzics)"
+#~ msgstr "Pridėtas tamilų kalbos vertimas (ačiū @omeritzics)"
+
+#~ msgid "Added Hebrew translation (thanks @Killersparrow1)"
+#~ msgstr "Pridėtas hebrajų kalbos vertimas (ačiū @Killersparrow1)"
+
+#~ msgid "Overview of changes in gnome-pomodoro 0.28.0"
+#~ msgstr "Pakeitimų apžvalga gnome-pomodoro 0.28.0"
+
+#~ msgid "Support for GNOME Shell 49 (thanks @aleasto)"
+#~ msgstr "Palaikymas GNOME Shell 49 (ačiū @aleasto)"
+
+#~ msgid "Updated German translation (thanks @daPhipz)"
+#~ msgstr "Atnaujintas vokiečių kalbos vertimas (ačiū @daPhipz)"
+
+#~ msgid "Overview of changes in gnome-pomodoro 0.27.0"
+#~ msgstr "Pakeitimų apžvalga gnome-pomodoro 0.27.0"
+
+#~ msgid "Support for GNOME Shell 48"
+#~ msgstr "Palaikymas GNOME Shell 48"
+
+#~ msgid "Split time spent across midnight"
+#~ msgstr "Padalinti laiką einantį per vidurnaktį"
+
+#~ msgid "Added Telugu translation (thanks @SpaciousCoder78)"
+#~ msgstr "Pridėtas telugų kalbos vertimas (ačiū @SpaciousCoder78)"
+
+#~ msgid "Overview of changes in gnome-pomodoro 0.26.0"
+#~ msgstr "Pakeitimų apžvalga gnome-pomodoro 0.26.0"
+
+#~ msgid "Support for GNOME Shell 47"
+#~ msgstr "Palaikymas GNOME Shell 47"
+
+#~ msgid "Allow to dismiss screen overlay by gesture when a video is playing"
+#~ msgstr "Leisti išjungti ekrano užsklandą gestu, kai rodomas vaizdo įrašas"
+
+#~ msgid "Added Georgian translation (thanks @NorwayFun)"
+#~ msgstr "Pridėtas gruzinų kalbos vertimas (ačiū @NorwayFun)"
+
+#~ msgid "Adjusted translations in appdata (thanks @yakushabb)"
+#~ msgstr "Pakoreguoti vertimai appdata faile (ačiū @yakushabb)"
+
+#~ msgid "Overview of changes in gnome-pomodoro 0.25.2"
+#~ msgstr "Pakeitimų apžvalga gnome-pomodoro 0.25.2"
+
+#~ msgid "Fix keeping notification after extending Pomodoro"
+#~ msgstr "Ištaisyta klaida, kai pranešimas lieka pratęsus Pomodoro"
+
+#~ msgid "Overview of changes in gnome-pomodoro 0.25.1"
+#~ msgstr "Pakeitimų apžvalga gnome-pomodoro 0.25.1"
+
+#~ msgid "Fixes for GNOME Shell 46"
+#~ msgstr "Pataisymai GNOME Shell 46 versijai"
+
+#~ msgid "Drop support for GNOME Shell 45"
+#~ msgstr "Nebepalaikoma GNOME Shell 45"
+
+#~ msgid "Overview of changes in gnome-pomodoro 0.25.0"
+#~ msgstr "Pakeitimų apžvalga gnome-pomodoro 0.25.0"
+
+#~ msgid "Support for GNOME Shell 46"
+#~ msgstr "Palaikymas GNOME Shell 46"
+
+#~ msgid "Adjust build script to meson 0.59.0 (thanks @mattst88)"
+#~ msgstr "Sukūrimo skriptas pritaikytas meson 0.59.0 (ačiū @mattst88)"
+
+#~ msgid ""
+#~ "Let <b>Pomodoro</b> manage system notifications while the timer is running"
+#~ msgstr ""
+#~ "Leiskite <b>Pomodoro</b> valdyti sistemos pranešimus, kol veikia laikmatis"
+
+#~ msgid "Timer Ticking"
+#~ msgstr "Laikmačio tiksėjimas"
+
+#~ msgid "Birds"
+#~ msgstr "Paukščiai"
+
+#~ msgid "@APPLICATION_NAME@"
+#~ msgstr "@APPLICATION_NAME@"
+
+#~ msgid "timer;"
+#~ msgstr "laikmatis;laikrodis;pomodoro;"
+
+#~ msgid "Start/Stop"
+#~ msgstr "Pradėti/Stabdyti"
+
+#~ msgid "Pause/Resume"
+#~ msgstr "Pauzė/Tęsti"
+
+#~ msgid "Skip to a pomodoro or to a break"
+#~ msgstr "Pereikite prie pomodoro arba į pertrauką"
+
+#~ msgid "Reset current session"
+#~ msgstr "Iš naujo nustatyti dabartinę sesiją"
+
+#~ msgid "Run as background service"
+#~ msgstr "Leisti kaip sistemos servisą"
+
+#~ msgid "About Pomodoro"
+#~ msgstr "Apie Pomodoro"
+
+#~ msgid "A simple time management utility"
+#~ msgstr "Paprastas laiko valdymo įrankis"
+
+#~ msgid "_Stopped"
+#~ msgstr "Stabdyti"
+
+#~ msgid "Extension for GNOME Shell is available"
+#~ msgstr "Indikatorius GNOME aplinkai"
+
+#~ msgid "Failed to install extension"
+#~ msgstr "Nepavyko įjungti įskiepio"
+
+#~ msgid "Long break due in %s"
+#~ msgstr "Ilgosios pertraukos trukmė"
+
+#~ msgid "A time management utility for GNOME"
+#~ msgstr "Laiko valdymo įrankis GNOME aplinkai"
+
+#~ msgid ""
+#~ "A GNOME utility that helps managing time according to Pomodoro Technique. "
+#~ "It intends to improve productivity and focus by taking short breaks after "
+#~ "every 25 minutes of work."
+#~ msgstr ""
+#~ "GNOME aplinkos įrankis, kuris padeda valdyti laiką pagal Pomodoro "
+#~ "metodiką. Jos paskirtis - patobulinti produktyvumą ir susikaupimą, darant "
+#~ "trumpas pertraukas tarp 25 koncentruoto darbo minučių."
+
+#~ msgid "Timer window"
+#~ msgstr "Laikmačio langas"
+
+#~ msgid "Indicator for GNOME Shell"
+#~ msgstr "Indikatorius GNOME aplinkai"
+
+#~ msgid "Support for GNOME Shell 42 (@milotype and @kappa)"
+#~ msgstr "Indikatorius GNOME aplinkai"
+
+#~ msgid "Support for GNOME Shell 41 (@mbooth101)"
+#~ msgstr "Indikatorius GNOME aplinkai"
+
+#~ msgid "Support GNOME Shell 40.0, not 4.0"
+#~ msgstr "Indikatorius GNOME aplinkai"
+
+#~ msgid "Support for GNOME Shell 4.0"
+#~ msgstr "Indikatorius GNOME aplinkai"
+
+#~ msgid "Support for GNOME Shell 3.38 (@ignapk and @szpak)"
+#~ msgstr "Indikatorius GNOME aplinkai"
+
+#~ msgid "Support for GNOME Shell 3.36"
+#~ msgstr "Indikatorius GNOME aplinkai"
+
+#~ msgid "Support for GNOME Shell 3.34 only"
+#~ msgstr "Indikatorius GNOME aplinkai"
+
+#~ msgid "Support for GNOME Shell 3.32 (@demokritos)"
+#~ msgstr "Indikatorius GNOME aplinkai"
+
+#~ msgid "Support for GNOME Shell 3.28 and 3.30 (@aerostitch)"
+#~ msgstr "Indikatorius GNOME aplinkai"
+
+#~ msgid "_Timer"
+#~ msgstr "_Laikmatis"
+
+#~ msgid "Keyboard shortcut to toggle the timer. Enter new shortcut to change."
+#~ msgstr ""
+#~ "Spartieji klaviatūros klavišai, skirti įjungti laikmačiui. Įveskite naują "
+#~ "sparčiųjų klavišų kombinaciją, kad pakeistumėte."
+
+#~ msgid "Pomodoros before a long break"
+#~ msgstr "Pomodoro kiekis prieš ilgąją pertrauką"
+
+#~ msgid "Keyboard shortcut"
+#~ msgstr "Spartieji klaviatūros klavišai"
+
+#~ msgid "Screen notifications"
+#~ msgstr "Ekrano pranešimai"
+
+#~ msgid "Wait for activity after a break"
+#~ msgstr "Laukti aktyvumo po pertraukos"
+
+#~ msgid "Plugins…"
+#~ msgstr "Įskiepiai…"
+
+#~ msgid "Plugins"
+#~ msgstr "Įskiepiai"
+
+#~ msgid "Back"
+#~ msgstr "Grįžti"
+
+#~ msgid "Complete a few sessions"
+#~ msgstr "Užbaikite keletą seansų"
+
+#~ msgid "Previous (Alt+Left)"
+#~ msgstr "Ankstesnis (Alt + kairėn)"
+
+#~ msgid "Next (Alt+Right)"
+#~ msgstr "Kitas (Alt + dešinėn)"
+
+#~ msgid "Complete"
+#~ msgstr "Užbaigta"
+
+#~ msgid "Enable"
+#~ msgstr "Įjungti"
+
+#~ msgid "Add"
+#~ msgstr "Pridėti"
+
+#~ msgid "Remove"
+#~ msgstr "Pašalinti"
+
+#~ msgid "Elapsed Time"
+#~ msgstr "Praėjęs laikas"
+
+#~ msgid "Pause Timer"
+#~ msgstr "Pristabdyti laikmatį"
+
+#~ msgid "Pause break"
+#~ msgstr "Pauzė"
+
+#~ msgid "Pause Pomodoro"
+#~ msgstr "Pauzė"
+
+#~ msgid "Resume break"
+#~ msgstr "Tęsti"
+
+#~ msgid "Resume Pomodoro"
+#~ msgstr "Tęsti"
+
+#, javascript-format
+#~ msgid "%d minute remaining"
+#~ msgid_plural "%d minutes remaining"
+#~ msgstr[0] "Liko %d minutė"
+#~ msgstr[1] "Liko %d minutės"
+#~ msgstr[2] "Liko %d minučių"
+
+#~ msgid "Report issue"
+#~ msgstr "Pranešti problemą"
+
+#, javascript-format
+#~ msgid "Failed to run <i>%s</i> service"
+#~ msgstr "Nepavyko paleisti <i>%s</i> serviso"
+
+#~ msgid "Woodland Birds"
+#~ msgstr "Miško paukščiai"
+
+#~ msgid "End of Break Sound"
+#~ msgstr "Pertraukos pabaigos garsas"
+
+#~ msgid "Start of Break Sound"
+#~ msgstr "Pertraukos pradžios garsas"
+
+#~ msgid "Off"
+#~ msgstr "Išjungta"
+
+#~ msgid "Ticking sound"
+#~ msgstr "Tiksėjimo garsas"
+
+#~ msgid "Start of break sound"
+#~ msgstr "Pertraukos pradžios garsas"
+
+#~ msgid "End of break sound"
+#~ msgstr "Petraukos pabaigos garsas"
+
+#~ msgid "Focus on your task."
+#~ msgstr "Susikaupkite ties savo užduotimi."
+
+#, c-format
+#~ msgid "You have %d minute"
+#~ msgid_plural "You have %d minutes"
+#~ msgstr[0] "Jūs turite %d minutę"
+#~ msgstr[1] "Jūs turite %d minutes"
+#~ msgstr[2] "Jūs turite %d minučių"
+
+#, c-format
+#~ msgid "You have %d second"
+#~ msgid_plural "You have %d seconds"
+#~ msgstr[0] "Jūs turite %d sekundę"
+#~ msgstr[1] "Jūs turite %d sekundes"
+#~ msgstr[2] "Jūs turite %d sekundžių"
+
+#~ msgid "Take a longer break"
+#~ msgstr "Daryti ilgesnę pertrauką"
+
+#~ msgid "Lengthen it"
+#~ msgstr "Prailginti"
+
+#~ msgid "Shorten it"
+#~ msgstr "Sutrumpinti"
+
+#~ msgid "Start pomodoro"
+#~ msgstr "Pradėti pomodoro"
+
+#, c-format
+#~ msgid ""
+#~ "Using \"%s\" as shortcut will interfere with typing. Try adding another "
+#~ "key, such as Control, Alt or Shift."
+#~ msgstr ""
+#~ "\"%s\" sparčiosios klaviatūros klavišų kombinacijos naudojimas gali "
+#~ "kirstis su rašymu. Pabandykite panaudoti kitą klavišą, pavyzdžiui: "
+#~ "Control, Alt arba Shift."
+
+#~ msgid "Available"
+#~ msgstr "Pasiekiama"
+
+#~ msgid "Busy"
+#~ msgstr "Užimta"
+
+#~ msgid "Idle"
+#~ msgstr "Laisva"
+
+#~ msgid "Invisible"
+#~ msgstr "Nematoma"
+
+#, c-format
+#~ msgid "%d m"
+#~ msgstr "%d m"
+
+#, c-format
+#~ msgid "%.0f h"
+#~ msgstr "%.0f v"
+
+#, c-format
+#~ msgid "%.1f h"
+#~ msgstr "%.1f v"
+
+#~ msgid "gnome-pomodoro"
+#~ msgstr "gnome-pomodoro"
+
+#~ msgid "Remind to take a break"
+#~ msgstr "Priminti apie pertrauką"
+
+#, javascript-format
+#~ msgid "%d new message"
+#~ msgid_plural "%d new messages"
+#~ msgstr[0] "%d nauja žinutė"
+#~ msgstr[1] "%d naujos žinutės"
+#~ msgstr[2] "%d naujų žinučių"
+
+#~ msgid "Take a break!"
+#~ msgstr "Laikas pertraukai!"
+
+#, javascript-format
+#~ msgid "You have %d minute until next pomodoro."
+#~ msgid_plural "You have %d minutes until next pomodoro."
+#~ msgstr[0] "Jums liko %d minutė iki sekančio pomodoro."
+#~ msgstr[1] "Jums liko %d minutės iki sekančio pomodoro."
+#~ msgstr[2] "Jums liko %d minučių iki sekančio pomodoro."
+
+#, javascript-format
+#~ msgid "You have %d second until next pomodoro."
+#~ msgid_plural "You have %d seconds until next pomodoro."
+#~ msgstr[0] "Jums liko %d sekundė iki sekančio pomodoro."
+#~ msgstr[1] "Jums liko %d sekundės iki sekančio pomodoro."
+#~ msgstr[2] "Jums liko %d sekundžių iki sekančio pomodoro."
+
+#~ msgid "Hey!"
+#~ msgstr "Labas!"
+
+#~ msgid "You're missing out on a break"
+#~ msgstr "Jūs praleidžiate pertrauką"
+
+#~ msgid "It seems to be uninstalled"
+#~ msgstr "Panašu, kad tai ištrinta"
+
+#~ msgid "Extension is out of date"
+#~ msgstr "Pasenęs įskiepis"
+
+#~ msgid "Upgrade"
+#~ msgstr "Atnaujinti"
+
+#~ msgid "Remove Sound"
+#~ msgstr "Pašalinti garsą:"

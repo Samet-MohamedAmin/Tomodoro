@@ -1,0 +1,1986 @@
+# Indonesian translation for focus-timer
+# Copyright (c) 2017 Free Software Foundation, Inc.
+# This file is distributed under the same license as the focus-timer package.
+#
+# Authors:
+# Ali <admin@situsali.com>, 2017.
+# Andika Triwidada <andika@gmail.com>, 2020, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: focus-timer 1.0-alpha\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-29 09:26+0200\n"
+"PO-Revision-Date: 2025-12-23 20:58+0700\n"
+"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
+"Language-Team: Indonesian\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.8\n"
+
+#. translators: Consider "Concentration Timer" as an alternative.
+#: data/io.github.focustimerhq.FocusTimer.desktop.in.in:2
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:7 src/main.vala:36
+msgid "Focus Timer"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.desktop.in.in:3
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:8
+msgid "Work with regular breaks"
+msgstr ""
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/io.github.focustimerhq.FocusTimer.desktop.in.in:12
+msgid "pomodoro;timer;productivity;time tracker;time management;"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:10
+msgid ""
+"A productivity timer that helps you work more effectively by breaking your "
+"time into focused work sessions followed by short breaks. Work for 25 "
+"minutes, then take a 5-minute break to maintain concentration and prevent "
+"burnout."
+msgstr ""
+"Timer produktivitas yang membantu Anda bekerja lebih efektif dengan membagi "
+"waktu Anda menjadi sesi kerja terfokus yang diikuti oleh rehat pendek. "
+"Bekerja selama 25 menit, lalu ambil rehat 5 menit untuk menjaga konsentrasi "
+"dan mencegah kelelahan kerja (burnout)."
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:14
+msgid "Key features:"
+msgstr "Fitur utama:"
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:18
+msgid "Customizable work session and break lengths"
+msgstr "Durasi sesi kerja dan rehat yang dapat disesuaikan"
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:19
+msgid "Screen overlay during breaks"
+msgstr "Hamparan layar selama rehat"
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:20
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:95
+msgid "System tray icon"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:21
+msgid "Hotkeys (global shortcuts)"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:22
+msgid "Daily, weekly, and monthly statistics"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:23
+msgid "Extensible via custom shell commands, D-Bus, and CLI"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:24
+msgid "GNOME Shell extension for deeper desktop integration"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:45
+msgid "Kamil Prusko"
+msgstr "Kamil Prusko"
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:69
+#: src/plugins/sni/indicator-provider.vala:304 src/ui/main/window.ui:76
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:57
+#: src/ui/preferences/preferences-window.vala:30
+msgid "Timer"
+msgstr "Timer"
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:73
+msgid "Daily stats"
+msgstr "Statistik harian"
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:77
+msgid "Monthly stats"
+msgstr "Statistik bulanan"
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:81
+#: src/plugins/sni/indicator-provider.vala:300
+#: src/plugins/sni/indicator-provider.vala:306
+#: src/ui/preferences/preferences-window.ui:6
+msgid "Preferences"
+msgstr "Preferensi"
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:85
+msgid "Screen overlay"
+msgstr "Hamparan layar"
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:93
+msgid "Overview of changes in focus-timer 1.1.1:"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:96
+msgid "Smoother sound transitions"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:97
+msgid "Fix break overlay scaling on HiDPI displays"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:98
+msgid "Fix missing sounds after switching soundcards"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:104
+msgid "Overview of changes in focus-timer 1.1.0:"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:106
+msgid "Support for GNOME Shell extension"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:107
+msgid "Option to autostart on login"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:108
+msgid "Reviewed sound files"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:109
+msgid "Fix build with vala 0.56.19"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:115
+msgid "Overview of changes in focus-timer 1.0:"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:117
+msgid "Fix break overlay scaling on HiDPI displays (thanks @scholzri)"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:118
+msgid "Automatic daily backup"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:119
+msgid "Removed libcanberra backend for playing notification sounds"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:120
+msgid "Updated Lithuanian translation (thanks @psukys)"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:121
+msgid "Updated Russian translation (thanks @ViktorOn)"
+msgstr ""
+
+#: src/application.vala:155 src/application.vala:609
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:60
+msgid "Start or Stop"
+msgstr "Mulai atau Berhenti"
+
+#: src/application.vala:158 src/application.vala:612
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:67
+msgid "Start, Pause or Resume"
+msgstr "Mulai, Jeda, atau Lanjut"
+
+#: src/application.vala:161 src/core/notification-manager.vala:426
+#: src/core/notification-manager.vala:519
+#: src/plugins/sni/indicator-provider.vala:403
+#: src/ui/main/timer/widgets/timer-control-buttons.ui:69
+#: src/ui/main/timer/widgets/timer-control-buttons.vala:308
+#: src/ui/main/timer/widgets/timer-control-buttons.vala:324
+msgid "Start Pomodoro"
+msgstr "Mulai Pomodoro"
+
+#: src/application.vala:164
+msgid "Start break"
+msgstr ""
+
+#: src/application.vala:167
+msgid "Start short break"
+msgstr ""
+
+#: src/application.vala:170
+msgid "Start long break"
+msgstr ""
+
+#. Actions
+#: src/application.vala:173 src/application.vala:614 src/core/event.vala:268
+#: src/plugins/sni/indicator-provider.vala:250
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:77
+msgid "Start"
+msgstr "Mulai"
+
+#: src/application.vala:176 src/application.vala:616 src/core/event.vala:276
+#: src/plugins/sni/indicator-provider.vala:262
+#: src/ui/main/timer/widgets/timer-control-buttons.ui:139
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:84
+msgid "Stop"
+msgstr "Berhenti"
+
+#: src/application.vala:179 src/application.vala:618 src/core/event.vala:284
+#: src/plugins/sni/indicator-provider.vala:253
+#: src/ui/main/timer/widgets/timer-control-buttons.ui:83
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:91
+msgid "Pause"
+msgstr "Jeda"
+
+#: src/application.vala:182 src/application.vala:620 src/core/event.vala:292
+#: src/plugins/sni/indicator-provider.vala:256
+#: src/ui/main/timer/widgets/timer-control-buttons.ui:97
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:98
+msgid "Resume"
+msgstr "Lanjut"
+
+#: src/application.vala:185 src/application.vala:622 src/core/event.vala:300
+#: src/plugins/sni/indicator-provider.vala:265
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:105
+msgid "Skip"
+msgstr "Lewati"
+
+#: src/application.vala:188 src/application.vala:624 src/core/event.vala:308
+msgid "Rewind"
+msgstr "Putar balik"
+
+#: src/application.vala:189 src/application.vala:192
+msgid "SECONDS"
+msgstr ""
+
+#: src/application.vala:191
+msgid "Extend current pomodoro or break"
+msgstr "Perpanjang pomodoro saat ini atau rehat"
+
+#: src/application.vala:194 src/core/event.vala:316
+#: src/plugins/sni/indicator-provider.vala:268
+#: src/ui/main/timer/widgets/timer-control-buttons.ui:39
+msgid "Reset"
+msgstr "Setel ulang"
+
+#: src/application.vala:197
+msgid "Print timer status"
+msgstr ""
+
+#: src/application.vala:200
+msgid "Show preferences"
+msgstr "Tampilkan preferensi"
+
+#: src/application.vala:203
+msgid "Quit application"
+msgstr "Keluar aplikasi"
+
+#: src/application.vala:206
+msgid "Print version information and exit"
+msgstr "Cetak informasi versi dan keluar"
+
+#: src/application.vala:240
+msgid "Timer Options:"
+msgstr ""
+
+#: src/application.vala:241
+msgid "Show options for controlling the timer"
+msgstr ""
+
+#: src/application.vala:248
+#, c-format
+msgid "Bugs may be reported at: %s"
+msgstr ""
+
+#: src/application.vala:626
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:126
+msgid "Bring to Focus"
+msgstr "Bawa ke Fokus"
+
+#. translators: time remaining eg. "3 minutes 50 seconds remaining"
+#: src/application.vala:817 src/core/notification-manager.vala:138
+#: src/plugins/sni/indicator-provider.vala:25
+#, c-format
+msgid "%s remaining"
+msgstr "tersisa %s"
+
+#: src/application.vala:860
+msgid "Invalid use. Pass one flag for controlling the timer at a time."
+msgstr ""
+
+#: src/core/action-manager.vala:113
+#, c-format
+msgid "Custom action \"%s\" has failed"
+msgstr "Aksi ubahan \"%s\" gagal"
+
+#: src/core/command.vala:379
+msgid "Reached timeout"
+msgstr "Batas waktu tercapai"
+
+#: src/core/command.vala:408
+msgid "Failed to execute command"
+msgstr "Gagal menjalankan perintah"
+
+#: src/core/command.vala:491 src/core/command.vala:506
+msgid "Command is empty"
+msgstr "Perintah kosong"
+
+#: src/core/command.vala:510
+msgid "Unclosed quotation mark"
+msgstr "Tanda kutip belum ditutup"
+
+#: src/core/command.vala:515
+msgid "Invalid command"
+msgstr "Perintah tidak valid"
+
+#: src/core/command.vala:540 src/core/expression.vala:859
+#, c-format
+msgid "Unknown variable \"%s\""
+msgstr "Variabel \"%s\" tidak dikenal"
+
+#: src/core/command.vala:546 src/core/expression.vala:236
+#, c-format
+msgid "Unknown format \"%s\""
+msgstr "Format \"%s\" tidak dikenal"
+
+#: src/core/command.vala:619
+#, c-format
+msgid "Program \"%s\" not found"
+msgstr "Program \"%s\" tidak ditemukan"
+
+#: src/core/event.vala:180
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:74
+msgid "Actions"
+msgstr "Aksi"
+
+#: src/core/event.vala:183
+msgid "Countdown"
+msgstr "Hitung mundur"
+
+#: src/core/event.vala:186
+#: src/ui/preferences/timer/preferences-panel-timer.ui:17
+msgid "Session"
+msgstr "Sesi"
+
+#: src/core/event.vala:189
+msgid "Other"
+msgstr "Lainnya"
+
+#: src/core/event.vala:269
+msgid "Started the timer."
+msgstr "Memulai timer."
+
+#: src/core/event.vala:277
+msgid "Stopped the timer manually."
+msgstr "Menghentikan timer secara manual."
+
+#: src/core/event.vala:285
+msgid ""
+"The countdown has been manually paused. Not triggered when locking the "
+"screen or when suspending the system."
+msgstr ""
+"Hitung mundur telah dijeda secara manual. Tidak dipicu saat mengunci layar "
+"atau saat sistem disuspensi."
+
+#: src/core/event.vala:293
+msgid "The countdown has been manually resumed."
+msgstr "Hitung mundur telah dilanjutkan secara manual."
+
+#: src/core/event.vala:301
+msgid "Jumped to a next time-block before the countdown has finished."
+msgstr "Melompat ke blok waktu berikutnya sebelum hitung mundur selesai."
+
+#: src/core/event.vala:309
+msgid "Rewind action has been used. It adds a pause in the past."
+msgstr ""
+"Aksi putar balik telah digunakan. Ini menambahkan jeda pada waktu lampau."
+
+#: src/core/event.vala:317
+msgid "Manually cleared the session."
+msgstr "Membersihkan sesi secara manual."
+
+#. Countdown
+#: src/core/event.vala:325
+#: src/ui/preferences/automation/action/action-edit-window.ui:20
+#: src/ui/preferences/automation/action/condition-widget.vala:120
+msgid "Finished"
+msgstr "Selesai"
+
+#: src/core/event.vala:326
+msgid ""
+"The countdown has finished. If waiting for confirmation, the duration of the "
+"time-block still may be altered."
+msgstr ""
+"Hitung mundur telah selesai. Jika menunggu konfirmasi, durasi blok waktu "
+"masih dapat diubah."
+
+#: src/core/event.vala:333
+msgid "Changed"
+msgstr "Berubah"
+
+#: src/core/event.vala:334
+msgid "Triggered on any change related to the countdown."
+msgstr "Dipicu pada setiap perubahan yang terkait dengan hitung mundur."
+
+#. Session
+#: src/core/event.vala:342
+msgid "Confirm Advancement"
+msgstr "Konfirmasi Kemajuan"
+
+#: src/core/event.vala:343
+msgid "A manual confirmation is required to start next time-block."
+msgstr "Konfirmasi manual diperlukan untuk memulai blok waktu berikutnya."
+
+#: src/core/event.vala:350
+msgid "Advanced"
+msgstr "Tingkat Lanjut"
+
+#: src/core/event.vala:351
+msgid "Transitioned or skipped to a next time-block."
+msgstr "Beralih atau dilewati ke blok waktu berikutnya."
+
+#: src/core/event.vala:358
+msgid "State Changed"
+msgstr "Keadaan Berubah"
+
+#: src/core/event.vala:359
+msgid "Transitioned to a next time-block or when a break gets relabelled."
+msgstr "Beralih ke blok waktu berikutnya atau ketika rehat diberi label ulang."
+
+#: src/core/event.vala:366
+msgid "Rescheduled"
+msgstr "Dijadwalkan ulang"
+
+#. translators: Change of plan
+#: src/core/event.vala:367
+msgid "Triggered when scheduled time-blocks have changed."
+msgstr "Dipicu ketika blok waktu yang dijadwalkan telah berubah."
+
+#: src/core/event.vala:374
+msgid "Expired"
+msgstr "Kedaluwarsa"
+
+#: src/core/event.vala:375
+msgid "Triggered when session is about to be reset due to inactivity."
+msgstr "Dipicu ketika sesi akan disetel ulang karena tidak ada aktivitas."
+
+#: src/core/notification-manager.vala:347 src/core/state.vala:78
+#: src/plugins/sni/indicator-provider.vala:271
+#: src/ui/main/stats/stats-day-page.ui:98
+#: src/ui/main/stats/stats-day-page.vala:87
+#: src/ui/main/stats/stats-month-page.ui:35
+#: src/ui/main/stats/stats-month-page.vala:43
+#: src/ui/main/stats/stats-week-page.ui:39
+#: src/ui/main/stats/stats-week-page.vala:41 src/ui/main/window.vala:186
+#: src/ui/preferences/automation/action/condition-widget.ui:53
+msgid "Pomodoro"
+msgstr "Pomodoro"
+
+#: src/core/notification-manager.vala:351
+#: src/ui/main/timer/widgets/timer-control-buttons.vala:308
+#: src/ui/main/timer/widgets/timer-control-buttons.vala:324
+msgid "Take a break"
+msgstr "Waktunya rehat"
+
+#: src/core/notification-manager.vala:355
+msgid "Take a short break"
+msgstr "Rehat sejenak"
+
+#: src/core/notification-manager.vala:359
+msgid "Take a long break"
+msgstr "Rehat panjang"
+
+#: src/core/notification-manager.vala:418
+msgid "Pomodoro is about to end"
+msgstr "Pomodoro akan berakhir"
+
+#: src/core/notification-manager.vala:419
+#: src/core/notification-manager.vala:524
+#: src/core/notification-manager.vala:529
+#: src/core/notification-manager.vala:534 src/ui/overlays/screen-overlay.ui:5
+msgid "Take a Break"
+msgstr "Waktunya Rehat"
+
+#: src/core/notification-manager.vala:425
+msgid "Break is about to end"
+msgstr "Rehat akan berakhir"
+
+#: src/core/notification-manager.vala:436
+msgid "+1 minute"
+msgstr "+1 menit"
+
+#: src/core/notification-manager.vala:458
+msgid "Get ready…"
+msgstr "Siap-siap…"
+
+#: src/core/notification-manager.vala:463
+#: src/core/notification-manager.vala:502
+msgid "Pomodoro is over!"
+msgstr "Pomodoro telah usai!"
+
+#: src/core/notification-manager.vala:469
+#: src/core/notification-manager.vala:508
+msgid "Break is over!"
+msgstr "Rehat telah usai!"
+
+#: src/core/notification-manager.vala:518
+msgid "Confirm the start of a Pomodoro…"
+msgstr "Konfirmasi awal Pomodoro…"
+
+#: src/core/notification-manager.vala:523
+msgid "Confirm the start of a break…"
+msgstr "Konfirmasi awal rehat…"
+
+#: src/core/notification-manager.vala:528
+msgid "Confirm the start of a short break…"
+msgstr "Konfirmasi awal rehat pendek…"
+
+#: src/core/notification-manager.vala:533
+msgid "Confirm the start of a long break…"
+msgstr "Konfirmasi awal rehat panjang…"
+
+#: src/core/notification-manager.vala:546
+msgid "Skip Break"
+msgstr "Lewati Rehat"
+
+#: src/core/sound-player.vala:101
+msgid "Failed to initialize playback"
+msgstr "Gagal menginisialisasi pemutaran"
+
+#: src/core/sounds.vala:112
+msgid "File not found"
+msgstr "Berkas tidak ditemukan"
+
+#: src/core/sounds.vala:116
+msgid "File type not supported"
+msgstr "Tipe berkas tidak didukung"
+
+#: src/core/state.vala:75
+#: src/ui/preferences/automation/action/condition-widget.ui:55
+msgid "Stopped"
+msgstr "Dihentikan"
+
+#: src/core/state.vala:81 src/plugins/sni/indicator-provider.vala:274
+#: src/ui/preferences/automation/action/condition-widget.ui:54
+msgid "Break"
+msgstr "Rehat"
+
+#: src/core/state.vala:84 src/plugins/sni/indicator-provider.vala:272
+msgid "Short Break"
+msgstr "Rehat Pendek"
+
+#: src/core/state.vala:87 src/plugins/sni/indicator-provider.vala:273
+msgid "Long Break"
+msgstr "Rehat Panjang"
+
+#. translators: Short form for number of hours
+#: src/core/timestamp.vala:117
+#, c-format
+msgid "%uh"
+msgstr "%uj"
+
+#. translators: Short form for number of minutes
+#: src/core/timestamp.vala:126
+#, c-format
+msgid "%um"
+msgstr "%um"
+
+#: src/core/utils.vala:72
+#, c-format
+msgid "%u hour"
+msgid_plural "%u hours"
+msgstr[0] "%u jam"
+
+#: src/core/utils.vala:81
+#, c-format
+msgid "%u minute"
+msgid_plural "%u minutes"
+msgstr[0] "%u menit"
+
+#: src/core/utils.vala:90
+#, c-format
+msgid "%u second"
+msgid_plural "%u seconds"
+msgstr[0] "%u detik"
+
+#: src/core/variables.vala:116
+msgid "The exact time of the current event."
+msgstr "Waktu tepat dari acara saat ini."
+
+#: src/core/variables.vala:121
+msgid ""
+"The current phase of the Pomodoro cycle. Possible values: <tt>stopped</tt>, "
+"<tt>pomodoro</tt>, <tt>break</tt>, <tt>short-break</tt>, <tt>long-break</tt>."
+msgstr ""
+"Fase siklus Pomodoro saat ini. Nilai yang mungkin: <tt>stopped</tt>, "
+"<tt>pomodoro</tt>, <tt>break</tt>, <tt>short-break</tt>, <tt>long-break</tt>."
+
+#: src/core/variables.vala:126
+msgid ""
+"Status of the current time-block. Possible values: <tt>scheduled</tt>, "
+"<tt>in-progress</tt>, <tt>completed</tt>, <tt>uncompleted</tt>."
+msgstr ""
+"Status blok waktu saat ini. Nilai yang mungkin: <tt>scheduled</tt>, <tt>in-"
+"progress</tt>, <tt>completed</tt>, <tt>uncompleted</tt>."
+
+#: src/core/variables.vala:131
+msgid "A flag indicating whether countdown has begun."
+msgstr "Tanda yang menunjukkan apakah hitung mundur telah dimulai."
+
+#: src/core/variables.vala:136
+msgid "A flag indicating whether countdown is paused."
+msgstr "Tanda yang menunjukkan apakah hitung mundur dijeda."
+
+#: src/core/variables.vala:141
+msgid "A flag indicating whether countdown has finished."
+msgstr "Tanda yang menunjukkan apakah hitung mundur telah selesai."
+
+#: src/core/variables.vala:146
+msgid "A flag indicating whether the timer is actively counting down."
+msgstr "Tanda yang menunjukkan apakah timer sedang aktif menghitung mundur."
+
+#: src/core/variables.vala:151
+msgid "Duration of the current countdown."
+msgstr "Durasi hitung mundur saat ini."
+
+#. translators: Time difference between displayed value on the timer and real time. Think of it as a lost time.
+#: src/core/variables.vala:157
+msgid "Discrepancy between elapsed time and the time passed."
+msgstr "Perbedaan antara waktu yang telah berlalu dan waktu sebenarnya."
+
+#. translators: Time since the start of countdown
+#: src/core/variables.vala:163
+msgid "The amount of time spent on the countdown."
+msgstr "Banyaknya waktu yang dihabiskan pada hitung mundur."
+
+#. translators: Displayed timer value.
+#: src/core/variables.vala:169
+msgid "The amount of time left before the countdown ends."
+msgstr "Banyaknya waktu yang tersisa sebelum hitung mundur berakhir."
+
+#: src/core/variables.vala:174
+msgid "Time when the countdown has started."
+msgstr "Waktu saat hitung mundur dimulai."
+
+#: src/plugins/gnome/install-extension-dialog.ui:6
+#: src/plugins/gnome/preferences-window-extension.vala:167
+msgid "GNOME Shell Extension"
+msgstr "Ekstensi GNOME Shell"
+
+#: src/plugins/gnome/install-extension-dialog.ui:57
+msgid "Get the best experience!"
+msgstr "Dapatkan pengalaman terbaik!"
+
+#: src/plugins/gnome/install-extension-dialog.ui:68
+msgid "Enable <b>GNOME Shell extension</b> for seamless desktop integration"
+msgstr ""
+"Aktifkan <b>ekstensi GNOME Shell</b> untuk integrasi desktop yang mulus"
+
+#: src/plugins/gnome/install-extension-dialog.ui:95
+msgid "Always within reach"
+msgstr "Selalu dalam jangkauan"
+
+#: src/plugins/gnome/install-extension-dialog.ui:106
+msgid "Control timer directly from the top bar without opening the app"
+msgstr "Kontrol timer langsung dari bilah atas tanpa membuka aplikasi"
+
+#: src/plugins/gnome/install-extension-dialog.ui:132
+msgid "Less distractions"
+msgstr "Kurangi gangguan"
+
+#: src/plugins/gnome/install-extension-dialog.ui:143
+msgid ""
+"Let <b>Focus Timer</b> manage system notifications while the timer is running"
+msgstr ""
+
+#: src/plugins/gnome/install-extension-dialog.ui:170
+msgid "Refined break reminders"
+msgstr "Pengingat rehat yang lebih baik"
+
+#: src/plugins/gnome/install-extension-dialog.ui:181
+msgid ""
+"Elegant full-screen overlay that make taking breaks a more pleasant "
+"experience"
+msgstr ""
+"Hamparan layar penuh yang elegan, yang membuat istirahat menjadi pengalaman "
+"yang lebih menyenangkan"
+
+#. translators: "It" refers to installing GNOME Shell extension
+#: src/plugins/gnome/install-extension-dialog.ui:195
+msgid "Ready to try it?"
+msgstr "Siap mencobanya?"
+
+#: src/plugins/gnome/install-extension-dialog.ui:219
+#: src/plugins/gnome/install-extension-dialog.ui:252
+msgid "_Install Extension"
+msgstr "Pasang Ekstens_i"
+
+#: src/plugins/gnome/install-extension-dialog.ui:229
+#: src/plugins/gnome/install-extension-dialog.ui:245
+msgid "_Not Now"
+msgstr "_Nanti Saja"
+
+#: src/plugins/gnome/install-extension-dialog.ui:317
+#: src/plugins/gnome/preferences-window-extension.vala:400
+msgid "Something went wrong"
+msgstr "Terjadi kesalahan"
+
+#: src/plugins/gnome/install-extension-dialog.ui:364
+msgid "Copy to clipboard"
+msgstr "Salin ke papan klip"
+
+#: src/plugins/gnome/install-extension-dialog.ui:383
+#: src/plugins/gnome/install-extension-dialog.ui:416
+msgid "_Try Again"
+msgstr "_Coba Lagi"
+
+#: src/plugins/gnome/install-extension-dialog.ui:393
+#: src/plugins/gnome/install-extension-dialog.ui:409
+msgid "_Abort"
+msgstr "Gugurk_an"
+
+#: src/plugins/gnome/install-extension-dialog.vala:85
+#: src/plugins/gnome/preferences-window-extension.vala:388
+msgid "Time-out reached"
+msgstr "Batas waktu tercapai"
+
+#: src/plugins/gnome/install-extension-dialog.vala:90
+#: src/plugins/gnome/preferences-window-extension.vala:392
+msgid "Installing extensions is not allowed"
+msgstr "Pemasangan ekstensi tidak diizinkan"
+
+#: src/plugins/gnome/install-extension-dialog.vala:95
+#: src/plugins/gnome/preferences-window-extension.vala:396
+msgid "Failed to download the extension"
+msgstr "Gagal mengunduh ekstensi"
+
+#: src/plugins/gnome/preferences-window-extension.vala:55
+msgid "Indicator"
+msgstr ""
+
+#: src/plugins/gnome/preferences-window-extension.vala:62
+msgid "Icon"
+msgstr ""
+
+#: src/plugins/gnome/preferences-window-extension.vala:63
+msgid "Text"
+msgstr ""
+
+#: src/plugins/gnome/preferences-window-extension.vala:70
+msgid "Display As"
+msgstr ""
+
+#: src/plugins/gnome/preferences-window-extension.vala:81
+#: src/plugins/sni/indicator-provider.vala:297
+#: src/ui/preferences/notifications/preferences-panel-notifications.ui:28
+#: src/ui/preferences/notifications/preferences-panel-notifications.ui:32
+msgid "Screen Overlay"
+msgstr "Hamparan Layar"
+
+#: src/plugins/gnome/preferences-window-extension.vala:85
+msgid "Blur Effect"
+msgstr ""
+
+#: src/plugins/gnome/preferences-window-extension.vala:93
+msgid "Dismiss Gesture"
+msgstr ""
+
+#: src/plugins/gnome/preferences-window-extension.vala:125
+msgid "Desktop"
+msgstr "Desktop"
+
+#: src/plugins/gnome/preferences-window-extension.vala:128
+msgid "Install"
+msgstr ""
+
+#. translators: verb
+#: src/plugins/gnome/preferences-window-extension.vala:133
+msgid "Update"
+msgstr ""
+
+#: src/plugins/gnome/preferences-window-extension.vala:136
+msgid "Log out to finish the update"
+msgstr ""
+
+#: src/plugins/gnome/preferences-window-extension.vala:154
+msgid "Outdated"
+msgstr ""
+
+#: src/plugins/gnome/preferences-window-extension.vala:173
+msgid "Manage Notifications"
+msgstr ""
+
+#: src/plugins/gnome/preferences-window-extension.vala:174
+msgid "Toggle Do Not Disturb mode during Pomodoro."
+msgstr ""
+
+#: src/plugins/gnome/window-extension.vala:32
+msgid "GNOME Shell extension available"
+msgstr "Ekstensi GNOME Shell tersedia"
+
+#: src/plugins/gnome/window-extension.vala:33
+msgid "Learn More"
+msgstr "Pelajari Selengkapnya"
+
+#. translators: abbreviate it to just "Settings" if it gets too long
+#: src/plugins/kde/preferences-window-extension.vala:26
+msgid "Open Settings"
+msgstr ""
+
+#: src/plugins/kde/preferences-window-extension.vala:51
+msgid ""
+"For reliable break reminders, allow this app's notifications during Do Not "
+"Disturb and disable its notification history."
+msgstr ""
+
+#: src/plugins/portal/global-shortcuts-provider.vala:298
+msgid "Unused"
+msgstr "Tidak digunakan"
+
+#: src/plugins/sni/indicator-provider.vala:35
+#: src/ui/main/timer/compact-timer-view.vala:73
+#: src/ui/main/timer/timer-view.vala:141
+msgid "Finished!"
+msgstr "Selesai!"
+
+#: src/plugins/sni/indicator-provider.vala:42
+#, c-format
+msgid "%u of %u"
+msgstr ""
+
+#: src/plugins/sni/indicator-provider.vala:301
+#: src/plugins/sni/indicator-provider.vala:305 src/ui/main/window.ui:92
+msgid "Stats"
+msgstr "Statistik"
+
+#: src/plugins/sni/indicator-provider.vala:310 src/ui/main/window.vala:284
+msgid "Quit"
+msgstr "Keluar"
+
+#: src/plugins/sni/indicator-provider.vala:403
+msgid "Take Break"
+msgstr ""
+
+#: src/plugins/sni/preferences-window-extension.vala:43
+msgid "System Tray Icon"
+msgstr ""
+
+#: src/plugins/sni/preferences-window-extension.vala:47
+msgid "Show Tray Icon"
+msgstr ""
+
+#: src/plugins/sni/preferences-window-extension.vala:48
+msgid "Closing the window keeps the app running in the background."
+msgstr ""
+
+#: src/ui/log/log-window.ui:6
+msgid "Log"
+msgstr "Log"
+
+#: src/ui/log/log-window.ui:37
+msgid "Empty Log"
+msgstr "Log Kosong"
+
+#: src/ui/log/log-window.ui:38
+msgid "Entries will show up here once you start the timer."
+msgstr "Entri akan muncul di sini setelah Anda memulai timer."
+
+#: src/ui/log/log-window.ui:164
+msgid "Context"
+msgstr "Konteks"
+
+#: src/ui/log/log-window.ui:189
+#: src/ui/preferences/automation/action/action-edit-window.ui:186
+msgid "Command"
+msgstr "Perintah"
+
+#: src/ui/log/log-window.ui:213
+msgid "Output"
+msgstr "Keluaran"
+
+#: src/ui/log/log-window.ui:237
+msgid "Error"
+msgstr "Galat"
+
+#: src/ui/log/log-window.ui:266
+msgid "Exit Code:"
+msgstr "Kode Keluar:"
+
+#: src/ui/log/log-window.ui:277
+msgid "Execution Time:"
+msgstr "Waktu Eksekusi:"
+
+#. translators: Replace this string with your names, one name per line.
+#: src/ui/main/dialogs/about-dialog.vala:30
+msgid "translator-credits"
+msgstr ""
+"Ali <admin@situsali.com>, 2017\n"
+"Andika Triwidada <andika@gmail.com>, 2020, 2025"
+
+#: src/ui/main/dialogs/about-dialog.vala:36
+msgid "Donate"
+msgstr "Donasi"
+
+#: src/ui/main/stats/stats-day-page.ui:105
+#: src/ui/main/stats/stats-day-page.vala:92
+#: src/ui/main/stats/stats-month-page.ui:42
+#: src/ui/main/stats/stats-month-page.vala:48
+#: src/ui/main/stats/stats-week-page.ui:46
+#: src/ui/main/stats/stats-week-page.vala:46
+msgid "Breaks"
+msgstr "Rehat"
+
+#: src/ui/main/stats/stats-day-page.ui:112
+#: src/ui/main/stats/stats-month-page.ui:49
+#: src/ui/main/stats/stats-month-page.vala:53
+#: src/ui/main/stats/stats-week-page.ui:53
+#: src/ui/main/stats/stats-week-page.vala:51
+msgid "Interruptions"
+msgstr "Gangguan"
+
+#: src/ui/main/stats/stats-day-page.ui:119
+#: src/ui/main/stats/stats-month-page.ui:56
+#: src/ui/main/stats/stats-week-page.ui:60
+msgid "Break Ratio"
+msgstr "Rasio Rehat"
+
+#: src/ui/main/stats/stats-view.ui:8 src/ui/main/stats/stats-view.vala:59
+#: src/ui/main/stats/widgets/stats-date-popover.ui:22
+msgid "Day"
+msgstr "Hari"
+
+#: src/ui/main/stats/stats-view.ui:13 src/ui/main/stats/stats-view.vala:62
+#: src/ui/main/stats/widgets/stats-date-popover.ui:28
+msgid "Week"
+msgstr "Minggu"
+
+#: src/ui/main/stats/stats-view.ui:18 src/ui/main/stats/stats-view.vala:65
+#: src/ui/main/stats/widgets/stats-date-popover.ui:34
+msgid "Month"
+msgstr "Bulan"
+
+#: src/ui/main/stats/stats-view.ui:39
+msgid "Nothing to see here yet"
+msgstr "Belum ada yang dapat dilihat di sini"
+
+#: src/ui/main/stats/stats-view.ui:40
+msgid "Finish a few Pomodoros to fill this up!"
+msgstr "Selesaikan beberapa Pomodoro untuk mengisi bagian ini!"
+
+#: src/ui/main/stats/stats-view.vala:831
+#, c-format
+msgid "Skipped %u day"
+msgid_plural "Skipped %u days"
+msgstr[0] "Melewati %u hari"
+
+#: src/ui/main/stats/stats-view.vala:837
+#, c-format
+msgid "Skipped %u week"
+msgid_plural "Skipped %u weeks"
+msgstr[0] "Melewati %u minggu"
+
+#: src/ui/main/stats/stats-view.vala:843
+#, c-format
+msgid "Skipped %u month"
+msgid_plural "Skipped %u months"
+msgstr[0] "Melewati %u bulan"
+
+#: src/ui/main/stats/stats-view.vala:1041
+msgid "Today"
+msgstr "Hari ini"
+
+#: src/ui/main/stats/stats-view.vala:1046
+msgid "Yesterday"
+msgstr "Kemarin"
+
+#: src/ui/main/stats/stats-view.vala:1067
+msgid "This week"
+msgstr "Minggu Ini"
+
+#: src/ui/main/stats/stats-view.vala:1087
+#, c-format
+msgid "Week %u"
+msgstr "Minggu %u"
+
+#: src/ui/main/stats/stats-view.vala:1088
+#, c-format
+msgid "Week %u of %u"
+msgstr "Minggu %u dari %u"
+
+#: src/ui/main/timer/compact-timer-view.ui:8 src/ui/main/timer/menus.ui:6
+#: src/ui/main/timer/menus.ui:22
+msgid "_Pomodoro"
+msgstr "_Pomodoro"
+
+#: src/ui/main/timer/compact-timer-view.ui:13 src/ui/main/timer/menus.ui:10
+msgid "_Short Break"
+msgstr "Rehat Pende_k"
+
+#: src/ui/main/timer/compact-timer-view.ui:18 src/ui/main/timer/menus.ui:14
+msgid "_Long Break"
+msgstr "Rehat Panjan_g"
+
+#: src/ui/main/timer/menus.ui:26
+msgid "_Break"
+msgstr "_Rehat"
+
+#: src/ui/main/timer/timer-view.ui:23
+msgid "Open screen overlay"
+msgstr "Buka hamparan layar"
+
+#: src/ui/main/timer/timer-view.vala:257
+msgid "Session has expired"
+msgstr "Sesi telah kedaluwarsa"
+
+#: src/ui/main/timer/widgets/session-progress-bar.vala:1477
+#, c-format
+msgid "Long break due in <b>%s</b>"
+msgstr "Rehat panjang dalam <b>%s</b>"
+
+#: src/ui/main/timer/widgets/timer-control-buttons.ui:25
+msgid "Rewind one minute"
+msgstr "Putar balik satu menit"
+
+#: src/ui/main/window.ui:8
+msgid "_Compact View"
+msgstr "Tampilan _Ringkas"
+
+#: src/ui/main/window.ui:15
+msgid "_Preferences"
+msgstr "_Preferensi"
+
+#: src/ui/main/window.ui:19
+msgid "_About"
+msgstr "Tent_ang"
+
+#: src/ui/main/window.ui:25
+msgid "_Quit"
+msgstr "_Keluar"
+
+#: src/ui/main/window.ui:62
+msgid "Primary Menu"
+msgstr "Menu Utama"
+
+#: src/ui/main/window.vala:279
+msgid "Keep timer running?"
+msgstr "Biarkan timer berjalan?"
+
+#: src/ui/main/window.vala:280
+msgid ""
+"You can keep it running in the background — notifications and keyboard "
+"shortcuts will still work."
+msgstr ""
+"Anda dapat membiarkannya berjalan di latar belakang — notifikasi dan "
+"pintasan papan ketik akan tetap berfungsi."
+
+#: src/ui/main/window.vala:287
+msgid "Run in background"
+msgstr "Jalankan di latar belakang"
+
+#: src/ui/overlays/screen-overlay.ui:64
+msgid "It's time to take a break"
+msgstr "Waktunya rehat"
+
+#: src/ui/preferences/appearance/preferences-panel-appearance.ui:17
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:123
+msgid "Main Window"
+msgstr "Jendela Utama"
+
+#: src/ui/preferences/appearance/preferences-panel-appearance.ui:20
+msgid "Prefer Dark Theme"
+msgstr "Lebih Suka Tema Gelap"
+
+#: src/ui/preferences/appearance/preferences-panel-appearance.ui:25
+msgid "Prefer Compact View"
+msgstr "Lebih Suka Tampilan Ringkas"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:12
+#: src/ui/preferences/automation/action/condition-widget.vala:117
+msgid "Started"
+msgstr "Dimulai"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:16
+#: src/ui/preferences/automation/action/condition-widget.vala:118
+msgid "Paused"
+msgstr "Dijeda"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:26
+msgid "Edit Custom Action"
+msgstr "Sunting Aksi Ubahan"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:39
+#: src/ui/preferences/keyboard-shortcuts/accelerator-chooser-window.ui:21
+msgid "_Cancel"
+msgstr "_Batal"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:46
+msgid "_Save"
+msgstr "_Simpan"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:62
+msgid "Name"
+msgstr "Nama"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:76
+msgid "Trigger"
+msgstr "Pemicu"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:80
+msgid "Event"
+msgstr "Acara"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:81
+msgid "Execute command after an event."
+msgstr "Jalankan perintah setelah suatu acara."
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:96
+#: src/ui/preferences/automation/action/action-edit-window.ui:174
+msgid "Condition"
+msgstr "Kondisi"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:97
+msgid "Ensure execution of a second command once condition is no longer met."
+msgstr "Pastikan eksekusi perintah kedua setelah kondisi tidak lagi terpenuhi."
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:114
+msgid "Events"
+msgstr "Acara"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:125
+msgid "Add _Event"
+msgstr "Tambah _Acara"
+
+#. translators: Filter (verb)
+#: src/ui/preferences/automation/action/action-edit-window.ui:140
+msgid "_Filter"
+msgstr "_Filter"
+
+#. translators: Filter (noun)
+#: src/ui/preferences/automation/action/action-edit-window.ui:160
+msgid "Filter"
+msgstr "Filter"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:191
+msgid "Shell Command"
+msgstr "Perintah Shell"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:199
+msgid "Commands"
+msgstr "Perintah"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:204
+msgid "Condition Met Command"
+msgstr "Perintah Saat Kondisi Terpenuhi"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:210
+msgid "Condition Not Met Command"
+msgstr "Perintah Saat Kondisi Tidak Terpenuhi"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:221
+msgid "Working Directory"
+msgstr "Direktori Kerja"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:236
+msgid "Use Subshell"
+msgstr "Gunakan Subshell"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:237
+msgid "Run the program from a subshell such as sh -c ''"
+msgstr "Jalankan program dari subshell seperti sh -c ''"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:242
+msgid "Pass Input Data"
+msgstr "Kirim Data Masukan"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:243
+msgid "Instead of passing variables you can process a JSON object."
+msgstr "Sebagai ganti mengirim variabel, Anda dapat memroses objek JSON."
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:248
+msgid "Wait For Completion"
+msgstr "Tunggu Selesai"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:249
+msgid "Block execution of other commands until the command completes."
+msgstr "Blokir eksekusi perintah lain sampai perintah ini selesai."
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:259
+msgid "_Delete Action"
+msgstr "_Hapus Aksi"
+
+#: src/ui/preferences/automation/action/action-edit-window.vala:230
+msgid "No events specified yet."
+msgstr "Belum ada acara yang ditentukan."
+
+#: src/ui/preferences/automation/action/action-edit-window.vala:248
+msgid "Add Custom Action"
+msgstr "Tambah Aksi Ubahan"
+
+#: src/ui/preferences/automation/action/action-edit-window.vala:249
+msgid "_Add"
+msgstr "T_ambah"
+
+#: src/ui/preferences/automation/action/action-edit-window.vala:438
+msgid "Select Working Directory"
+msgstr "Pilih Direktori Kerja"
+
+#: src/ui/preferences/automation/action/action-edit-window.vala:440
+#: src/ui/preferences/sounds/sound-chooser-window.vala:251
+msgid "_Select"
+msgstr "_Pilih"
+
+#: src/ui/preferences/automation/action/action-listboxrow.vala:67
+msgid "Untitled action"
+msgstr "Aksi tanpa judul"
+
+#: src/ui/preferences/automation/action/condition-group-widget.ui:28
+msgid "Add Condition"
+msgstr "Tambah Kondisi"
+
+#: src/ui/preferences/automation/action/condition-group-widget.ui:45
+msgid "Add Group"
+msgstr "Tambah Grup"
+
+#: src/ui/preferences/automation/action/condition-group-widget.vala:344
+msgid "AND"
+msgstr "DAN"
+
+#: src/ui/preferences/automation/action/condition-group-widget.vala:345
+msgid "OR"
+msgstr "ATAU"
+
+#: src/ui/preferences/automation/action/condition-widget.ui:26
+msgid "Is"
+msgstr "Adalah"
+
+#: src/ui/preferences/automation/action/condition-widget.ui:27
+msgid "Is Not"
+msgstr "Bukan"
+
+#: src/ui/preferences/automation/action/condition-widget.ui:39
+msgid "Equals"
+msgstr "Sama Dengan"
+
+#: src/ui/preferences/automation/action/condition-widget.ui:40
+msgid "Greater Than"
+msgstr "Lebih Dari"
+
+#: src/ui/preferences/automation/action/condition-widget.ui:41
+msgid "Less Than"
+msgstr "Kurang Dari"
+
+#: src/ui/preferences/automation/action/condition-widget.ui:67
+msgid "Yes"
+msgstr "Ya"
+
+#: src/ui/preferences/automation/action/condition-widget.ui:68
+msgid "No"
+msgstr "Tidak"
+
+#: src/ui/preferences/automation/action/condition-widget.ui:95
+msgid "Minutes"
+msgstr "Menit"
+
+#: src/ui/preferences/automation/action/condition-widget.ui:96
+msgid "Seconds"
+msgstr "Detik"
+
+#: src/ui/preferences/automation/action/condition-widget.ui:97
+msgid "Hours"
+msgstr "Jam"
+
+#. translators: No field selected when defining a condition.
+#: src/ui/preferences/automation/action/condition-widget.vala:115
+msgid "Select Field…"
+msgstr "Pilih Bidang…"
+
+#: src/ui/preferences/automation/action/condition-widget.vala:116
+msgid "State"
+msgstr "Keadaan"
+
+#: src/ui/preferences/automation/action/condition-widget.vala:119
+msgid "Running"
+msgstr "Berjalan"
+
+#: src/ui/preferences/automation/action/condition-widget.vala:121
+msgid "Duration"
+msgstr "Durasi"
+
+#: src/ui/preferences/automation/action/variable-popover.ui:19
+#: src/ui/preferences/automation/action/variable-popover.ui:161
+msgid "Insert Variable"
+msgstr "Sisipkan Variabel"
+
+#: src/ui/preferences/automation/action/variable-popover.ui:132
+msgid "Format"
+msgstr "Format"
+
+#: src/ui/preferences/automation/preferences-panel-automation.ui:13
+msgid "_Log"
+msgstr "_Log"
+
+#: src/ui/preferences/automation/preferences-panel-automation.ui:15
+msgid "Show execution log"
+msgstr "Tampilkan log eksekusi"
+
+#: src/ui/preferences/automation/preferences-panel-automation.ui:24
+msgid ""
+"Run shell commands automatically on timer events or conditions. <a "
+"href=\"\">Learn more.</a>"
+msgstr ""
+"Jalankan perintah shell secara otomatis pada acara timer atau kondisi "
+"tertentu. <a href=\"\">Pelajari selengkapnya.</a>"
+
+#: src/ui/preferences/integrations/preferences-panel-integrations.ui:19
+msgid "Autostart"
+msgstr ""
+
+#: src/ui/preferences/integrations/preferences-panel-integrations.ui:20
+msgid "Automatically launch the app when you log in."
+msgstr ""
+
+#: src/ui/preferences/integrations/preferences-panel-integrations.ui:25
+msgid ""
+"The app will start in the background. You'll be able to use the indicator "
+"and keyboard shortcuts."
+msgstr ""
+
+#: src/ui/preferences/keyboard-shortcuts/accelerator-chooser-window.ui:14
+msgid "Set Shortcut"
+msgstr "Atur Pintasan"
+
+#: src/ui/preferences/keyboard-shortcuts/accelerator-chooser-window.ui:28
+msgid "_Set"
+msgstr "_Atur"
+
+#: src/ui/preferences/keyboard-shortcuts/accelerator-chooser-window.ui:63
+#: src/ui/preferences/keyboard-shortcuts/accelerator-row.vala:50
+msgid "Disabled"
+msgstr "Dinonaktifkan"
+
+#: src/ui/preferences/keyboard-shortcuts/accelerator-chooser-window.ui:77
+msgid ""
+"Press <b>Esc</b> to cancel or <b>Backspace</b> to disable the keyboard "
+"shortcut"
+msgstr ""
+"Tekan <b>Esc</b> untuk membatalkan atau <b>Backspace</b> untuk menonaktifkan "
+"pintasan papan ketik"
+
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:21
+msgid ""
+"Global shortcuts let you control the app even when it’s not on screen. They "
+"work as long as the app is running in the background."
+msgstr ""
+"Pintasan global memungkinkan Anda mengontrol aplikasi bahkan saat tidak ada "
+"di layar. Pintasan ini berfungsi selama aplikasi berjalan di latar belakang."
+
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:24
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:40
+msgid "Open app settings for editing global shortcuts"
+msgstr "Buka pengaturan aplikasi untuk menyunting pintasan global"
+
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:29
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:45
+msgid "_Edit"
+msgstr "_Sunting"
+
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:61
+msgid "Enter new shortcut for starting or stopping the timer"
+msgstr "Masukkan pintasan baru untuk memulai atau menghentikan timer"
+
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:68
+msgid "Enter new shortcut to start/pause/resume the timer"
+msgstr "Masukkan pintasan baru untuk memulai/menjeda/melanjutkan timer"
+
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:78
+msgid "Enter new shortcut for starting the timer"
+msgstr "Masukkan pintasan baru untuk memulai timer"
+
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:85
+msgid "Enter new shortcut for stopping the timer"
+msgstr "Masukkan pintasan baru untuk menghentikan timer"
+
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:92
+msgid "Enter new shortcut for pausing the timer"
+msgstr "Masukkan pintasan baru untuk menjeda timer"
+
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:99
+msgid "Enter new shortcut for resuming the timer"
+msgstr "Masukkan pintasan baru untuk melanjutkan timer"
+
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:106
+msgid "Enter new shortcut for skipping"
+msgstr "Masukkan pintasan baru untuk melewati"
+
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:112
+msgid "Rewind One Minute"
+msgstr "Putar Balik Satu Menit"
+
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:113
+msgid "Enter new shortcut for rewinding"
+msgstr "Masukkan pintasan baru untuk memutar balik"
+
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:127
+msgid "Enter new shortcut for bringing window to focus"
+msgstr "Masukkan pintasan baru untuk membawa jendela ke fokus"
+
+#: src/ui/preferences/notifications/preferences-panel-notifications.ui:17
+msgid "Announcements"
+msgstr "Pengumuman"
+
+#: src/ui/preferences/notifications/preferences-panel-notifications.ui:20
+msgid "Time Running Out"
+msgstr "Waktu Hampir Habis"
+
+#: src/ui/preferences/notifications/preferences-panel-notifications.ui:21
+msgid "Notify when Pomodoro or break is about to end."
+msgstr "Beri tahu saat Pomodoro atau rehat akan berakhir."
+
+#: src/ui/preferences/notifications/preferences-panel-notifications.ui:29
+msgid "A full-screen notification intended to enforce taking a break."
+msgstr "Notifikasi layar penuh yang ditujukan untuk memaksa pengambilan rehat."
+
+#: src/ui/preferences/notifications/preferences-panel-notifications.ui:37
+msgid "Lock Delay"
+msgstr "Tunda Kunci"
+
+#: src/ui/preferences/notifications/preferences-panel-notifications.ui:38
+msgid "Period of inactivity to lock the screen."
+msgstr "Periode tanpa aktivitas sebelum mengunci layar."
+
+#: src/ui/preferences/notifications/preferences-panel-notifications.ui:43
+msgid "Reopen Delay"
+msgstr "Tunda Buka Kembali"
+
+#: src/ui/preferences/notifications/preferences-panel-notifications.ui:44
+msgid "Period of inactivity to reopen the overlay after it gets dismissed."
+msgstr ""
+"Periode tanpa aktivitas untuk membuka kembali hamparan setelah ditutup."
+
+#: src/ui/preferences/notifications/preferences-panel-notifications.vala:97
+msgid "Never"
+msgstr "Tidak Pernah"
+
+#: src/ui/preferences/preferences-window.vala:37
+msgid "Notifications"
+msgstr "Notifikasi"
+
+#: src/ui/preferences/preferences-window.vala:44
+msgid "Sounds"
+msgstr "Suara"
+
+#: src/ui/preferences/preferences-window.vala:51
+msgid "Appearance"
+msgstr "Penampilan"
+
+#: src/ui/preferences/preferences-window.vala:58
+msgid "Keyboard Shortcuts"
+msgstr "Pintasan Papan Ketik"
+
+#: src/ui/preferences/preferences-window.vala:71
+msgid "Integrations"
+msgstr ""
+
+#: src/ui/preferences/preferences-window.vala:79
+msgid "Automation"
+msgstr "Otomatisasi"
+
+#: src/ui/preferences/sounds/preferences-panel-sounds.ui:24
+msgid "Sounds Are Disabled"
+msgstr "Suara Dinonaktifkan"
+
+#: src/ui/preferences/sounds/preferences-panel-sounds.ui:36
+msgid "Alert Sounds"
+msgstr "Suara Peringatan"
+
+#: src/ui/preferences/sounds/preferences-panel-sounds.ui:39
+msgid "Pomodoro Finished Sound"
+msgstr "Suara Pomodoro Selesai"
+
+#: src/ui/preferences/sounds/preferences-panel-sounds.ui:64
+msgid "Break Finished Sound"
+msgstr "Suara Rehat Selesai"
+
+#: src/ui/preferences/sounds/preferences-panel-sounds.ui:91
+#: src/ui/preferences/sounds/preferences-panel-sounds.ui:94
+msgid "Background Sound"
+msgstr "Suara Latar Belakang"
+
+#: src/ui/preferences/sounds/preferences-panel-sounds.vala:20
+msgid "Bell"
+msgstr "Bel"
+
+#: src/ui/preferences/sounds/preferences-panel-sounds.vala:21
+msgid "Loud Bell"
+msgstr "Bel Kencang"
+
+#: src/ui/preferences/sounds/preferences-panel-sounds.vala:24
+msgid "Clock Ticking"
+msgstr "Detak Jam"
+
+#: src/ui/preferences/sounds/preferences-panel-sounds.vala:25
+msgid "Metronome"
+msgstr ""
+
+#: src/ui/preferences/sounds/preferences-panel-sounds.vala:26
+msgid "Brown Noise"
+msgstr ""
+
+#: src/ui/preferences/sounds/preferences-panel-sounds.vala:88
+#: src/ui/preferences/sounds/sound-chooser-window.ui:25
+msgid "None"
+msgstr "Nihil"
+
+#: src/ui/preferences/sounds/sound-chooser-window.ui:63
+msgid "Volume:"
+msgstr "Volume:"
+
+#: src/ui/preferences/sounds/sound-chooser-window.vala:249
+msgid "Select Custom Sound"
+msgstr "Pilih Suara Ubahan"
+
+#: src/ui/preferences/timer/preferences-panel-timer.ui:20
+msgid "Pomodoro Duration"
+msgstr "Durasi Pomodoro"
+
+#: src/ui/preferences/timer/preferences-panel-timer.ui:31
+msgid "Short Break Duration"
+msgstr "Durasi Rehat Pendek"
+
+#: src/ui/preferences/timer/preferences-panel-timer.ui:42
+msgid "Long Break Duration"
+msgstr "Durasi Rehat Panjang"
+
+#: src/ui/preferences/timer/preferences-panel-timer.ui:53
+msgid "Number of Cycles"
+msgstr "Jumlah Siklus"
+
+#: src/ui/preferences/timer/preferences-panel-timer.ui:93
+msgid "Behavior"
+msgstr "Perilaku"
+
+#: src/ui/preferences/timer/preferences-panel-timer.ui:96
+msgid "Pause By Locking The Screen"
+msgstr "Jeda Dengan Mengunci Layar"
+
+#: src/ui/preferences/timer/preferences-panel-timer.ui:101
+msgid "Confirm Starting a Break"
+msgstr "Konfirmasi Memulai Rehat"
+
+#: src/ui/preferences/timer/preferences-panel-timer.ui:106
+msgid "Confirm Starting a Pomodoro"
+msgstr "Konfirmasi Memulai Pomodoro"
+
+#. translators: time formatted as text: "5 minutes 30 seconds"
+#: src/ui/preferences/timer/preferences-panel-timer.vala:96
+#, c-format
+msgid "A single session will take <b>%s</b>."
+msgstr "Satu sesi tunggal akan memakan waktu <b>%s</b>."
+
+#: src/ui/preferences/timer/preferences-panel-timer.vala:97
+#, c-format
+msgid "<b>%u%%</b> of the time will be allocated for breaks."
+msgstr "<b>%u%%</b> waktu akan dialokasikan untuk rehat."
+
+#: src/ui/preferences/timer/preferences-panel-timer.vala:144
+msgid "Apply changes to ongoing Pomodoro?"
+msgstr "Terapkan perubahan pada Pomodoro yang sedang berjalan?"
+
+#: src/ui/preferences/timer/preferences-panel-timer.vala:145
+msgid "Apply changes to ongoing break?"
+msgstr "Terapkan perubahan pada rehat yang sedang berjalan?"
+
+#: src/ui/preferences/timer/preferences-panel-timer.vala:147
+msgid "Apply"
+msgstr "Terapkan"
+
+#: src/ui/preferences/widgets/preferences-sidebar.vala:73
+msgctxt "accessibility"
+msgid "Sidebar"
+msgstr "Bilah Sisi"
+
+#~ msgid "Time management utility"
+#~ msgstr "Utilitas manajemen waktu"
+
+#~ msgid "Maintain focus by taking frequent breaks"
+#~ msgstr "Menjaga fokus dengan mengambil rehat secara berkala"
+
+#~ msgid "Visual and audio notifications"
+#~ msgstr "Notifikasi visual dan audio"
+
+#~ msgid "Time tracking and statistics"
+#~ msgstr "Pelacakan waktu dan statistik"
+
+#~ msgid "GNOME desktop integration"
+#~ msgstr "Integrasi desktop GNOME"
+
+#~ msgid "Run custom commands after Pomodoro or break"
+#~ msgstr "Jalankan perintah ubahan setelah Pomodoro atau rehat"
+
+#~ msgid "15 seconds"
+#~ msgstr "15 detik"
+
+#~ msgid "30 seconds"
+#~ msgstr "30 detik"
+
+#~ msgid "1 minute"
+#~ msgstr "1 menit"
+
+#~ msgid "2 minutes"
+#~ msgstr "2 menit"
+
+#~ msgid "3 minutes"
+#~ msgstr "3 menit"
+
+#~ msgid "5 minutes"
+#~ msgstr "5 menit"
+
+#~ msgid "Compact timer"
+#~ msgstr "Timer ringkas"
+
+#~ msgid "Overview of changes in gnome-pomodoro 0.28.1"
+#~ msgstr "Ringkasan perubahan di gnome-pomodoro 0.28.1"
+
+#~ msgid "Added Tamil translation (thanks @omeritzics)"
+#~ msgstr "Menambahkan terjemahan Tamil (terima kasih @omeritzics)"
+
+#~ msgid "Added Hebrew translation (thanks @Killersparrow1)"
+#~ msgstr "Menambahkan terjemahan Ibrani (terima kasih @Killersparrow1)"
+
+#~ msgid "Overview of changes in gnome-pomodoro 0.28.0"
+#~ msgstr "Ringkasan perubahan di gnome-pomodoro 0.28.0"
+
+#~ msgid "Support for GNOME Shell 49 (thanks @aleasto)"
+#~ msgstr "Dukungan untuk GNOME Shell 49 (terima kasih @aleasto)"
+
+#~ msgid "Updated German translation (thanks @daPhipz)"
+#~ msgstr "Pembaruan terjemahan Jerman (terima kasih @daPhipz)"
+
+#~ msgid "Overview of changes in gnome-pomodoro 0.27.0"
+#~ msgstr "Ringkasan perubahan di gnome-pomodoro 0.27.0"
+
+#~ msgid "Support for GNOME Shell 48"
+#~ msgstr "Dukungan untuk GNOME Shell 48"
+
+#~ msgid "Split time spent across midnight"
+#~ msgstr "Pisahkan waktu yang dihabiskan melewati tengah malam"
+
+#~ msgid "Added Telugu translation (thanks @SpaciousCoder78)"
+#~ msgstr "Menambahkan terjemahan Telugu (terima kasih @SpaciousCoder78)"
+
+#~ msgid "Overview of changes in gnome-pomodoro 0.26.0"
+#~ msgstr "Ringkasan perubahan di gnome-pomodoro 0.26.0"
+
+#~ msgid "Support for GNOME Shell 47"
+#~ msgstr "Dukungan untuk GNOME Shell 47"
+
+#~ msgid "Allow to dismiss screen overlay by gesture when a video is playing"
+#~ msgstr ""
+#~ "Izinkan untuk menutup hamparan layar dengan gestur saat video diputar"
+
+#~ msgid "Added Georgian translation (thanks @NorwayFun)"
+#~ msgstr "Menambahkan terjemahan Georgia (terima kasih @NorwayFun)"
+
+#~ msgid "Adjusted translations in appdata (thanks @yakushabb)"
+#~ msgstr "Penyesuaian terjemahan dalam appdata (terima kasih @yakushabb)"
+
+#~ msgid "Overview of changes in gnome-pomodoro 0.25.2"
+#~ msgstr "Ringkasan perubahan di gnome-pomodoro 0.25.2"
+
+#~ msgid "Fix keeping notification after extending Pomodoro"
+#~ msgstr "Perbaikan notifikasi yang menetap setelah memperpanjang Pomodoro"
+
+#~ msgid "Overview of changes in gnome-pomodoro 0.25.1"
+#~ msgstr "Ringkasan perubahan di gnome-pomodoro 0.25.1"
+
+#~ msgid "Fixes for GNOME Shell 46"
+#~ msgstr "Perbaikan untuk GNOME Shell 46"
+
+#~ msgid "Drop support for GNOME Shell 45"
+#~ msgstr "Hentikan dukungan untuk GNOME Shell 45"
+
+#~ msgid "Overview of changes in gnome-pomodoro 0.25.0"
+#~ msgstr "Ringkasan perubahan di gnome-pomodoro 0.25.0"
+
+#~ msgid "Support for GNOME Shell 46"
+#~ msgstr "Dukungan untuk GNOME Shell 46"
+
+#~ msgid "Adjust build script to meson 0.59.0 (thanks @mattst88)"
+#~ msgstr "Sesuaikan skrip build ke meson 0.59.0 (terima kasih @mattst88)"
+
+#~ msgid ""
+#~ "Let <b>Pomodoro</b> manage system notifications while the timer is running"
+#~ msgstr ""
+#~ "Biarkan <b>Pomodoro</b> mengelola notifikasi sistem saat timer berjalan"
+
+#~ msgid "Timer Ticking"
+#~ msgstr "Detak Timer"
+
+#~ msgid "Birds"
+#~ msgstr "Burung"
+
+#~ msgid "@APPLICATION_NAME@"
+#~ msgstr "@APPLICATION_NAME@"
+
+#~ msgid "timer;"
+#~ msgstr "timer;pewaktu;pengatur waktu;"
+
+#~ msgid "Start/Stop"
+#~ msgstr "Mulai/Berhenti"
+
+#~ msgid "Pause/Resume"
+#~ msgstr "Jeda/Lanjut"
+
+#~ msgid "Skip to a pomodoro or to a break"
+#~ msgstr "Lewati ke pomodoro atau rehat"
+
+#~ msgid "Reset current session"
+#~ msgstr "Setel ulang sesi saat ini"
+
+#~ msgid "Run as background service"
+#~ msgstr "Jalankan sebagai layanan latar belakang"
+
+#~ msgid "About Pomodoro"
+#~ msgstr "Tentang Pomodoro"
+
+#~ msgid "A simple time management utility"
+#~ msgstr "Suatu utilitas simpel manajemen waktu"
+
+#, fuzzy
+#~ msgid "_Stopped"
+#~ msgstr "Berhenti"
+
+#, fuzzy
+#~ msgid "Extension for GNOME Shell is available"
+#~ msgstr "Indikator untuk GNOME Shell"
+
+#, fuzzy
+#~ msgid "Failed to install extension"
+#~ msgstr "Gagal mengaktifkan extension"
+
+#, fuzzy, c-format
+#~ msgid "Long break due in %s"
+#~ msgstr "Durasi rehat lama"
+
+#~ msgid "A time management utility for GNOME"
+#~ msgstr "Suatu utilitas manajemen waktu untuk GNOME"
+
+#~ msgid ""
+#~ "A GNOME utility that helps managing time according to Pomodoro Technique. "
+#~ "It intends to improve productivity and focus by taking short breaks after "
+#~ "every 25 minutes of work."
+#~ msgstr ""
+#~ "Seuatu utilitas GNOME yang mana membantu mengatur waktu menurut Teknik "
+#~ "Pomodoro. Hal ini bermaksud untuk menambah fokus beserta produktifitas "
+#~ "melalui mengambilan jeda istirahat sejenak setiap 25 menit dari pekerjaan."
+
+#~ msgid "Timer window"
+#~ msgstr "Jendela pengatur waktu"
+
+#~ msgid "Indicator for GNOME Shell"
+#~ msgstr "Indikator untuk GNOME Shell"
+
+#, fuzzy
+#~ msgid "Support for GNOME Shell 42 (@milotype and @kappa)"
+#~ msgstr "Indikator untuk GNOME Shell"
+
+#, fuzzy
+#~ msgid "Support for GNOME Shell 41 (@mbooth101)"
+#~ msgstr "Indikator untuk GNOME Shell"
+
+#, fuzzy
+#~ msgid "Support GNOME Shell 40.0, not 4.0"
+#~ msgstr "Indikator untuk GNOME Shell"
+
+#, fuzzy
+#~ msgid "Support for GNOME Shell 4.0"
+#~ msgstr "Indikator untuk GNOME Shell"
+
+#, fuzzy
+#~ msgid "Support for GNOME Shell 3.38 (@ignapk and @szpak)"
+#~ msgstr "Indikator untuk GNOME Shell"
+
+#, fuzzy
+#~ msgid "Support for GNOME Shell 3.36"
+#~ msgstr "Indikator untuk GNOME Shell"
+
+#, fuzzy
+#~ msgid "Support for GNOME Shell 3.34 only"
+#~ msgstr "Indikator untuk GNOME Shell"
+
+#, fuzzy
+#~ msgid "Support for GNOME Shell 3.32 (@demokritos)"
+#~ msgstr "Indikator untuk GNOME Shell"
+
+#, fuzzy
+#~ msgid "Support for GNOME Shell 3.28 and 3.30 (@aerostitch)"
+#~ msgstr "Indikator untuk GNOME Shell"
+
+#~ msgid "_Timer"
+#~ msgstr "_Timer"
+
+#~ msgid "Keyboard shortcut to toggle the timer. Enter new shortcut to change."
+#~ msgstr ""
+#~ "Pintasan papan ketik untuk menjungkit timer. Untuk mengubah, masukan "
+#~ "pintasan baru."
+
+#~ msgid "Pomodoros before a long break"
+#~ msgstr "Pomodoro sebelum rehat lama"
+
+#~ msgid "Keyboard shortcut"
+#~ msgstr "Pintasan papan ketik"
+
+#~ msgid "Screen notifications"
+#~ msgstr "Notifikasi layar"
+
+#~ msgid "Wait for activity after a break"
+#~ msgstr "Tunggu aktifitas setelah rehat"
+
+#~ msgid "Plugins…"
+#~ msgstr "Pengaya…"
+
+#~ msgid "Plugins"
+#~ msgstr "Plugins"
+
+#~ msgid "Back"
+#~ msgstr "Kembali"
+
+#~ msgid "Complete a few sessions"
+#~ msgstr "Selesaikan beberapa sesi"
+
+#~ msgid "Previous (Alt+Left)"
+#~ msgstr "Sebelumnya (Alt+Kiri)"
+
+#~ msgid "Next (Alt+Right)"
+#~ msgstr "Berikutnya (Alt+Kanan)"
+
+#~ msgid "Complete"
+#~ msgstr "Komplit"
+
+#~ msgid "Enable"
+#~ msgstr "Aktifkan"
+
+#~ msgid "Add"
+#~ msgstr "Tambahkan"
+
+#~ msgid "Remove"
+#~ msgstr "Hapus"
+
+#~ msgid "Elapsed Time"
+#~ msgstr "Waktu Berlalu"
+
+#~ msgid "Pause Timer"
+#~ msgstr "Timer Jeda"
+
+#~ msgid "Pause break"
+#~ msgstr "Jeda"
+
+#~ msgid "Pause Pomodoro"
+#~ msgstr "Jeda"
+
+#~ msgid "Resume break"
+#~ msgstr "Lanjut"
+
+#~ msgid "Resume Pomodoro"
+#~ msgstr "Lanjut"
+
+#, javascript-format
+#~ msgid "%d minute remaining"
+#~ msgid_plural "%d minutes remaining"
+#~ msgstr[0] "%d menit tersisa"
+#~ msgstr[1] "%d menit tersisa"
+
+#~ msgid "Report issue"
+#~ msgstr "Laporkan isu"
+
+#, javascript-format
+#~ msgid "Failed to run <i>%s</i> service"
+#~ msgstr "Gagal menjalankan layanan <i>%s</i>"
+
+#~ msgid "Woodland Birds"
+#~ msgstr "Burung Woodland"
+
+#~ msgid "End of Break Sound"
+#~ msgstr "Suara Akhir Rehat"
+
+#~ msgid "Start of Break Sound"
+#~ msgstr "Suara Awal Rehat"
+
+#~ msgid "Off"
+#~ msgstr "Mati"
+
+#~ msgid "Ticking sound"
+#~ msgstr "Suara Detak"
+
+#~ msgid "Start of break sound"
+#~ msgstr "Suara awal rehat"
+
+#~ msgid "End of break sound"
+#~ msgstr "Suara akhir rehat"
+
+#~ msgid "Focus on your task."
+#~ msgstr "Fokus pada tugas Anda."
+
+#, c-format
+#~ msgid "You have %d minute"
+#~ msgid_plural "You have %d minutes"
+#~ msgstr[0] "Kamu memiliki %d menit"
+#~ msgstr[1] "Kamu memiliki %d menit"
+
+#, c-format
+#~ msgid "You have %d second"
+#~ msgid_plural "You have %d seconds"
+#~ msgstr[0] "Kamu memiliki %d detik"
+#~ msgstr[1] "Kamu memiliki %d detik"
+
+#~ msgid "Take a longer break"
+#~ msgstr "Ambil rehat yang lebih lama"
+
+#~ msgid "Lengthen it"
+#~ msgstr "Perpanjang"
+
+#~ msgid "Shorten it"
+#~ msgstr "Perpendek"
+
+#~ msgid "Start pomodoro"
+#~ msgstr "Mulai pomodoro"
+
+#, c-format
+#~ msgid ""
+#~ "Using \"%s\" as shortcut will interfere with typing. Try adding another "
+#~ "key, such as Control, Alt or Shift."
+#~ msgstr ""
+#~ "Menggunakan \"%s\" sebagai pintasan yang akan mengganggu pengetikan. Coba "
+#~ "tambahkan tombol lainnya seperti Control, Alt, atau Shift."
+
+#~ msgid "Available"
+#~ msgstr "Ada"
+
+#~ msgid "Busy"
+#~ msgstr "Sibuk"
+
+#~ msgid "Idle"
+#~ msgstr "Mengganggur"
+
+#~ msgid "Invisible"
+#~ msgstr "Tak tampak"
+
+#, c-format
+#~ msgid "%d m"
+#~ msgstr "%d m"
+
+#, c-format
+#~ msgid "%.0f h"
+#~ msgstr "%.0f j"
+
+#, c-format
+#~ msgid "%.1f h"
+#~ msgstr "%.1f j"
+
+#~ msgid "gnome-pomodoro"
+#~ msgstr "gnome-pomodoro"
+
+#~| msgid "State"
+#~ msgid "_Stats"
+#~ msgstr "_Statistik"
+
+#~ msgid "It seems to be uninstalled"
+#~ msgstr "Nampaknya tidak dipasang"
+
+#~ msgid "Extension is out of date"
+#~ msgstr "Extension sudah kedaluwarsa"
+
+#~ msgid "Upgrade"
+#~ msgstr "Tingkatkan"

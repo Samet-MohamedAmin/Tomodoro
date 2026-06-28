@@ -1,0 +1,93 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+SCRIPT_PATH="$(readlink -f "${BASH_SOURCE[0]}")"
+REPO_DIR="$(cd "$(dirname "$SCRIPT_PATH")/.." && pwd)"
+BUILD_DIR="$REPO_DIR/build-todo"
+APP_ID="io.github.samet_mohamedamin.Tomodoro"
+APP_NAME="Tomodoro"
+TOOLBOX_CONTAINER="${TODO_POMODORO_TOOLBOX:-nix-toolbox-44}"
+
+in_toolbox() {
+  [[ -f /run/.containerenv || "${HOSTNAME:-}" == "toolbx" || -n "${NIX_TOOLBOX_SOURCED:-}" ]]
+}
+
+if [[ "${1:-}" == "--inside" ]]; then
+  shift
+elif ! in_toolbox; then
+  exec toolbox run --container "$TOOLBOX_CONTAINER" "$SCRIPT_PATH" --inside "$@"
+fi
+
+run_tests=false
+for arg in "$@"; do
+  case "$arg" in
+    --test)
+      run_tests=true
+      ;;
+    *)
+      printf 'Unknown argument: %s\n' "$arg" >&2
+      exit 2
+      ;;
+  esac
+done
+
+cd "$REPO_DIR"
+
+if [[ -d "$BUILD_DIR/meson-info" ]]; then
+  meson setup "$BUILD_DIR" --prefix="$HOME/.local" --reconfigure
+else
+  meson setup "$BUILD_DIR" --prefix="$HOME/.local"
+fi
+
+meson compile -C "$BUILD_DIR"
+
+if [[ "$run_tests" == true ]]; then
+  meson test -C "$BUILD_DIR" --print-errorlogs
+fi
+
+install -d \
+  "$HOME/.local/bin" \
+  "$HOME/.local/share/applications" \
+  "$HOME/.local/share/glib-2.0/schemas" \
+  "$HOME/.local/share/icons/hicolor/scalable/apps" \
+  "$HOME/.local/share/metainfo"
+
+ln -sfn "$REPO_DIR/scripts/todo-pomodoro-launch" "$HOME/.local/bin/todo-pomodoro"
+ln -sfn "$REPO_DIR/scripts/todo-pomodoro-launch" "$HOME/.local/bin/tomodoro"
+ln -sfn "$REPO_DIR/scripts/todo-pomodoro-update" "$HOME/.local/bin/todo-pomodoro-update"
+ln -sfn "$REPO_DIR/scripts/todo-pomodoro-update" "$HOME/.local/bin/tomodoro-update"
+
+install -m 0644 "$REPO_DIR/data/io.github.samet_mohamedamin.Tomodoro.gschema.xml" \
+  "$HOME/.local/share/glib-2.0/schemas/$APP_ID.gschema.xml"
+glib-compile-schemas "$HOME/.local/share/glib-2.0/schemas"
+
+install -m 0644 "$REPO_DIR/src/ui/icons/tomato.svg" \
+  "$HOME/.local/share/icons/hicolor/scalable/apps/$APP_ID.svg"
+
+if [[ -f "$BUILD_DIR/data/$APP_ID.metainfo.xml" ]]; then
+  install -m 0644 "$BUILD_DIR/data/$APP_ID.metainfo.xml" \
+    "$HOME/.local/share/metainfo/$APP_ID.metainfo.xml"
+fi
+
+cat > "$HOME/.local/share/applications/$APP_ID.desktop" <<DESKTOP
+[Desktop Entry]
+Name=$APP_NAME
+Comment=Manage todo.txt tasks with context-aware pomodoro focus
+Exec=$HOME/.local/bin/todo-pomodoro
+Icon=$APP_ID
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=Office;ProjectManagement;GNOME;GTK;
+Keywords=todo;task;pomodoro;timer;productivity;todo.txt;
+DBusActivatable=false
+X-GNOME-UsesNotifications=true
+DESKTOP
+
+desktop-file-validate "$HOME/.local/share/applications/$APP_ID.desktop"
+update-desktop-database "$HOME/.local/share/applications" >/dev/null 2>&1 || true
+gtk-update-icon-cache -q "$HOME/.local/share/icons/hicolor" >/dev/null 2>&1 || true
+
+printf '%s installed.\n' "$APP_NAME"
+printf 'Run from GNOME as "%s", or from terminal with: %s\n' "$APP_NAME" "$HOME/.local/bin/todo-pomodoro"
+printf 'Update local build with: %s\n' "$HOME/.local/bin/todo-pomodoro-update"

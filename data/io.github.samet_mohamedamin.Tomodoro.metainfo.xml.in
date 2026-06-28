@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>@APPLICATION_ID@</id>
+  <name>@APPLICATION_NAME@</name>
+  <summary>Plan todo.txt tasks and work through them with Pomodoro sessions</summary>
+  <developer id="io.github.samet_mohamedamin">
+    <name>Mohamed Amin</name>
+  </developer>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <description>
+    <p>
+      Todo + Pomodoro = Tomodoro. Tomodoro combines a todo.txt task list
+      with a Pomodoro timer, so you can plan work and track how much focused
+      effort is still left.
+    </p>
+    <p>
+      Tasks can have contexts, projects, priorities, due dates, dependencies,
+      recurring schedules, and remaining pomodoros. The timer works against
+      the selected task, helping you move from a list of things to do into a
+      focused work session.
+    </p>
+    <p>
+      Tomodoro stores tasks as plain text files and includes GNOME integration
+      such as desktop notifications, an app indicator, and optional calendar
+      events.
+    </p>
+  </description>
+  <launchable type="desktop-id">@APPLICATION_ID@.desktop</launchable>
+  <categories>
+    <category>Office</category>
+    <category>ProjectManagement</category>
+    <category>Utility</category>
+  </categories>
+  <url type="homepage">https://github.com/Samet-MohamedAmin/Tomodoro</url>
+  <url type="bugtracker">https://github.com/Samet-MohamedAmin/Tomodoro/issues</url>
+  <url type="vcs-browser">https://github.com/Samet-MohamedAmin/Tomodoro</url>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/Samet-MohamedAmin/Tomodoro/main/images/screenshot-list.png</image>
+      <caption>Plan tasks with priorities, due dates, projects, and remaining pomodoros</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/Samet-MohamedAmin/Tomodoro/main/images/screenshot-timer.png</image>
+      <caption>Run a Pomodoro session for the selected todo</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/Samet-MohamedAmin/Tomodoro/main/images/screenshot-editor.png</image>
+      <caption>Create todos with priority, due date, and pomodoro estimates</caption>
+    </screenshot>
+  </screenshots>
+  <content_rating type="oars-1.1" />
+  <releases>
+    <release version="0.1.33" date="2026-06-28">
+      <description>
+        <ul>
+          <li>Prepare Flathub packaging with a GitHub-matching application ID and source manifest.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.32" date="2026-06-28">
+      <description>
+        <ul>
+          <li>Refresh README and Flathub metadata with Tomodoro positioning and screenshots.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.31" date="2026-06-27">
+      <description>
+        <ul>
+          <li>Add a Settings toggle for calendar events that removes Tomodoro-created events when disabled.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.30" date="2026-06-26">
+      <description>
+        <ul>
+          <li>Move completed visibility after nested visibility and remove notification controls from Settings.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.29" date="2026-06-24">
+      <description>
+        <ul>
+          <li>Hide the completed-todos visibility toggle while browsing recurring templates.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.28" date="2026-06-24">
+      <description>
+        <ul>
+          <li>Split completed visibility from dependency nested-item and recurring-instance visibility controls.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.27" date="2026-06-24">
+      <description>
+        <ul>
+          <li>Let the list toolbar shrink from wide to narrow layout without a fixed search-field minimum width.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.26" date="2026-06-24">
+      <description>
+        <ul>
+          <li>Move keyboard shortcuts into Settings and keep the main menu focused.</li>
+          <li>Allow editing, completing, and deleting rows from All Contexts while keeping New and Duplicate disabled there.</li>
+          <li>Add nested dependency hiding with child counts and polish recurring/list row metadata.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.25" date="2026-06-24">
+      <description>
+        <ul>
+          <li>Polish recurring rows with colored priority letters, occurrence-date child rows, and consistent indentation.</li>
+          <li>Allow recurring template subprojects to change while keeping the main project fixed.</li>
+          <li>Show only the schedule controls relevant to the selected recurrence type.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.24" date="2026-06-23">
+      <description>
+        <ul>
+          <li>Separate recurring templates from normal todos with Daily, Weekly, and Monthly template controls.</li>
+          <li>Show generated recurring instances as children while keeping template deletion and generated-instance edits safe.</li>
+          <li>Keep recurring calendar events aligned with generated, completed, and deleted instances.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.23" date="2026-06-23">
+      <description>
+        <ul>
+          <li>Add a Recurring order view for recurring todo templates and put Due first in the order menu.</li>
+          <li>Remember folded list sections across normal refreshes and reset them on context, project, or order changes.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.22" date="2026-06-23">
+      <description>
+        <ul>
+          <li>Block New/Edit Todo due dates before today and show near dates as Today/Tomorrow labels after calendar selection.</li>
+          <li>Render dependency graphs in every list grouping mode, with All Projects grouped by main project priority.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.21" date="2026-06-23">
+      <description>
+        <ul>
+          <li>Add Daily, Weekly, and Monthly recurring todos with due-date validation.</li>
+          <li>Roll completed recurring todos forward and project recurring calendar events for the next 40 days.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.20" date="2026-06-23">
+      <description>
+        <ul>
+          <li>Filter child priority choices to the selected parent priority and lower priorities.</li>
+          <li>Refresh available priorities immediately when the selected dependency changes.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.19" date="2026-06-23">
+      <description>
+        <ul>
+          <li>Keep calendar events in sync when due dates change, todos complete, or todos are deleted.</li>
+          <li>Use context-prefixed todo summaries for calendar event titles.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.18" date="2026-06-23">
+      <description>
+        <ul>
+          <li>Show counted parent-overwrite warnings under Priority or Due date.</li>
+          <li>Block child due dates before their parent and keep duplicate todos editable as new templates.</li>
+          <li>Keep dependency graph nesting separate for active and completed todos.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.17" date="2026-06-23">
+      <description>
+        <ul>
+          <li>Make existing todo dependencies read-only in the editor.</li>
+          <li>Simplify parent child-constraint warnings and cascade child updates on save.</li>
+          <li>Keep the priority dropdown model stable while editing parent priorities.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.16" date="2026-06-23">
+      <description>
+        <ul>
+          <li>Keep unavailable dependency priority choices visible while preventing selection.</li>
+          <li>Normalize duplicated due-date text produced by calendar/default prefill paths.</li>
+          <li>Use timer-style summaries in dependency search results.</li>
+          <li>Show inline dependency adjustment and child-constraint warnings in the todo editor.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.15" date="2026-06-23">
+      <description>
+        <ul>
+          <li>Move dependency graph rendering behind a Project order setting.</li>
+          <li>Use a searchable parent selector and constrain child priority/due choices.</li>
+          <li>Warn before parent edits break children, with an option to update children.</li>
+          <li>Fix dependency due-date validation and calendar date selection.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.14" date="2026-06-23">
+      <description>
+        <ul>
+          <li>Add a Depends order mode with collapsible dependency graph rows by subproject.</li>
+          <li>Make dependency selection searchable and clamp priority/due choices inside dependency constraints.</li>
+          <li>Correct dependency priority validation so dependents cannot outrank their dependency.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.13" date="2026-06-23">
+      <description>
+        <ul>
+          <li>Validate dependency priority, due-date order, and circular chains before saving todos.</li>
+          <li>Prefer newly unblocked dependent todos after completing their dependency.</li>
+          <li>Sort tied todos by dependency chain and creation order instead of alphabetically.</li>
+          <li>Remove calendar events when dated todos become completed.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.12" date="2026-06-23">
+      <description>
+        <ul>
+          <li>Add optional todo dependencies stored as hidden dep:id metadata.</li>
+          <li>Remember todo defaults by project, including due-date reuse with past-date clamping.</li>
+          <li>Add a native shortcuts dialog and stricter subproject input rules.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.11" date="2026-06-23">
+      <description>
+        <ul>
+          <li>Keep completed-only project roots selectable in the project selector.</li>
+          <li>Treat the initial Inbox project as a normal deletable project when other roots exist.</li>
+          <li>Compute due-date labels and colors from calendar-day differences.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.10" date="2026-06-22">
+      <description>
+        <ul>
+          <li>Add Evolution Data Server calendar sync for dated todos.</li>
+          <li>Package libical and EDS client libraries in the Flatpak build.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.9" date="2026-06-22">
+      <description>
+        <ul>
+          <li>Make tomorrow due-date markers use a stronger GNOME orange-red.</li>
+          <li>Sort rows inside Due and Project sections by priority.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.8" date="2026-06-22">
+      <description>
+        <ul>
+          <li>Refresh the opencode todo skill for global use and current Tomodoro storage paths.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.7" date="2026-06-22">
+      <description>
+        <ul>
+          <li>Change the app indicator menu to Open, New, Pause/Start, Done, and Quit with separators.</li>
+          <li>Ensure indicator New presents the app window before opening the todo dialog.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.6" date="2026-06-21">
+      <description>
+        <ul>
+          <li>Force Timer/List ViewSwitcher tabs to hide their internal image widgets.</li>
+          <li>Use a monochrome symbolic indicator icon and add an indicator menu.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.5" date="2026-06-21">
+      <description>
+        <ul>
+          <li>Remove Timer/List page icons from the native ViewSwitcher.</li>
+          <li>Add a StatusNotifier app indicator for desktops with an indicator host.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.4" date="2026-06-21">
+      <description>
+        <ul>
+          <li>Rename the installed app ID to io.github.samet_mohamedamin.Tomodoro.</li>
+          <li>Store todo context files directly in ~/contexts while keeping app state in app data.</li>
+          <li>Remove MPRIS music controls and their Flatpak permission.</li>
+          <li>Remove the hidden ViewSwitcher icon placeholder that added tab padding.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.3" date="2026-06-21">
+      <description>
+        <ul>
+          <li>Keep GNOME media controls stable with Start/Stop and Next available while a timer todo is active.</li>
+          <li>Allow long timer todo and project labels to shrink cleanly, especially when Projects is All.</li>
+          <li>Use a cheaper Done-button pulse to avoid sluggish timer animations.</li>
+          <li>Clarify that GNOME Calendar sync is blocked until Evolution Data Server dependencies are added.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.2" date="2026-06-21">
+      <description>
+        <ul>
+          <li>Add MPRIS media controls for GNOME Shell with Play/Pause and Done.</li>
+          <li>Always hide the main project selector while editing todos.</li>
+          <li>Place Mark Complete to the right of Add pomodoros in the last-pomodoro dialog.</li>
+          <li>Remove noisy start/pause notifications and an invalid zero-size view-switcher icon rule.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.1" date="2026-06-21">
+      <description>
+        <ul>
+          <li>Hide the main project selector while editing todos under an active project filter.</li>
+          <li>Add an opencode skill for creating and managing Tomodoro todos.</li>
+          <li>Refresh app identity metadata for the Tomodoro name and homepage.</li>
+          <li>Expose current change notes in the About dialog.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.0" date="2026-06-19"/>
+  </releases>
+</component>

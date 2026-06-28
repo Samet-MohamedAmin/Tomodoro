@@ -1,0 +1,264 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+SCRIPT_PATH="$(readlink -f "${BASH_SOURCE[0]}")"
+REPO_DIR="$(cd "$(dirname "$SCRIPT_PATH")/.." && pwd)"
+APP_ID="io.github.samet_mohamedamin.Tomodoro"
+OLD_APP_IDS=(
+  "io.github.mohamedamin.Tomodoro"
+  "io.github.mohamedamin.TodoPomodoro"
+)
+APP_NAME="Tomodoro"
+RUNTIME="org.gnome.Platform"
+SDK="org.gnome.Sdk"
+BRANCH="50"
+BUILD_ROOT="$REPO_DIR/build-flatpak"
+APP_DIR="$BUILD_ROOT/app"
+LOCAL_REPO="$BUILD_ROOT/repo"
+MESON_BUILD="$BUILD_ROOT/meson"
+BUNDLE="$BUILD_ROOT/$APP_ID.flatpak"
+DOWNLOAD_ROOT="$BUILD_ROOT/downloads"
+DEPS_ROOT="$BUILD_ROOT/deps"
+SOURCE_MOUNT="/run/build/todo-pomodoro"
+BUILD_MOUNT="/run/build/todo-pomodoro-meson"
+DEPS_MOUNT="/run/build/tomodoro-deps"
+CONTEXTS_DIR="${TOMODORO_CONTEXTS_ROOT:-$HOME/contexts}"
+DESKTOP_FILE="$HOME/.local/share/applications/$APP_ID.desktop"
+FLATPAK_CMD=()
+
+LIBICAL_VERSION="3.0.20"
+LIBICAL_ARCHIVE="libical-$LIBICAL_VERSION.tar.gz"
+LIBICAL_URL="https://github.com/libical/libical/releases/download/v$LIBICAL_VERSION/$LIBICAL_ARCHIVE"
+LIBICAL_SHA256="e73de92f5a6ce84c1b00306446b290a2b08cdf0a80988eca0a2c9d5c3510b4c2"
+
+EDS_VERSION="3.60.2"
+EDS_ARCHIVE="evolution-data-server-$EDS_VERSION.tar.xz"
+EDS_URL="https://download.gnome.org/sources/evolution-data-server/3.60/$EDS_ARCHIVE"
+EDS_SHA256="2084dbdac396371b365d504c1ff45866ba8dca2f1252e5da1d3d9c33abdc1286"
+
+require_command() {
+  if ! command -v "$1" >/dev/null 2>&1; then
+    printf 'Missing required command: %s\n' "$1" >&2
+    exit 1
+  fi
+}
+
+resolve_flatpak() {
+  if command -v flatpak >/dev/null 2>&1; then
+    FLATPAK_CMD=(flatpak)
+    return
+  fi
+
+  if command -v flatpak-spawn >/dev/null 2>&1; then
+    FLATPAK_CMD=(flatpak-spawn --host flatpak)
+    return
+  fi
+
+  printf 'Missing required command: flatpak\n' >&2
+  exit 1
+}
+
+runtime_installed() {
+  "${FLATPAK_CMD[@]}" info "$1//$2" >/dev/null 2>&1
+}
+
+ensure_runtime() {
+  local ref="$1"
+  local branch="$2"
+  if runtime_installed "$ref" "$branch"; then
+    return
+  fi
+  "${FLATPAK_CMD[@]}" install --user -y flathub "$ref//$branch"
+}
+
+flatpak_build() {
+  "${FLATPAK_CMD[@]}" build \
+    --bind-mount="$SOURCE_MOUNT=$REPO_DIR" \
+    --bind-mount="$BUILD_MOUNT=$MESON_BUILD" \
+    --bind-mount="$DEPS_MOUNT=$DEPS_ROOT" \
+    "$APP_DIR" \
+    "$@"
+}
+
+verify_archive() {
+  local archive_path="$1"
+  local sha256="$2"
+  printf '%s  %s\n' "$sha256" "$archive_path" | sha256sum -c --status
+}
+
+download_archive() {
+  local url="$1"
+  local archive_path="$2"
+  local sha256="$3"
+
+  if [ -f "$archive_path" ] && verify_archive "$archive_path" "$sha256"; then
+    return
+  fi
+
+  rm -f "$archive_path"
+  if command -v curl >/dev/null 2>&1; then
+    curl --fail --location --output "$archive_path" "$url"
+  elif command -v wget >/dev/null 2>&1; then
+    wget --output-document="$archive_path" "$url"
+  else
+    printf 'Missing required command: curl or wget\n' >&2
+    exit 1
+  fi
+
+  if ! verify_archive "$archive_path" "$sha256"; then
+    printf 'Checksum verification failed: %s\n' "$archive_path" >&2
+    exit 1
+  fi
+}
+
+prepare_dependency_sources() {
+  install -d "$DOWNLOAD_ROOT" "$DEPS_ROOT/src" "$DEPS_ROOT/build"
+
+  download_archive "$LIBICAL_URL" "$DOWNLOAD_ROOT/$LIBICAL_ARCHIVE" "$LIBICAL_SHA256"
+  download_archive "$EDS_URL" "$DOWNLOAD_ROOT/$EDS_ARCHIVE" "$EDS_SHA256"
+
+  rm -rf "$DEPS_ROOT/src/libical-$LIBICAL_VERSION" \
+    "$DEPS_ROOT/src/evolution-data-server-$EDS_VERSION" \
+    "$DEPS_ROOT/build/libical" \
+    "$DEPS_ROOT/build/evolution-data-server"
+
+  tar -xf "$DOWNLOAD_ROOT/$LIBICAL_ARCHIVE" -C "$DEPS_ROOT/src"
+  tar -xf "$DOWNLOAD_ROOT/$EDS_ARCHIVE" -C "$DEPS_ROOT/src"
+  install -d "$DEPS_ROOT/build/libical" "$DEPS_ROOT/build/evolution-data-server"
+}
+
+build_libical() {
+  flatpak_build cmake \
+    -S "$DEPS_MOUNT/src/libical-$LIBICAL_VERSION" \
+    -B "$DEPS_MOUNT/build/libical" \
+    -G Ninja \
+    -DCMAKE_INSTALL_PREFIX=/app \
+    -DCMAKE_INSTALL_LIBDIR=lib \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DSHARED_ONLY=true \
+    -DWITH_CXX_BINDINGS=false \
+    -DICAL_BUILD_DOCS=false \
+    -DICAL_GLIB=true \
+    -DGOBJECT_INTROSPECTION=true \
+    -DICAL_GLIB_VAPI=true \
+    -DLIBICAL_BUILD_TESTING=false \
+    -DLIBICAL_BUILD_EXAMPLES=false \
+    -DENABLE_GTK_DOC=false
+  flatpak_build cmake --build "$DEPS_MOUNT/build/libical"
+  flatpak_build cmake --install "$DEPS_MOUNT/build/libical"
+}
+
+build_evolution_data_server() {
+  flatpak_build cmake \
+    -S "$DEPS_MOUNT/src/evolution-data-server-$EDS_VERSION" \
+    -B "$DEPS_MOUNT/build/evolution-data-server" \
+    -G Ninja \
+    -DCMAKE_INSTALL_PREFIX=/app \
+    -DCMAKE_INSTALL_LIBDIR=lib \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DENABLE_BACKEND_PER_PROCESS=OFF \
+    -DENABLE_GOA=OFF \
+    -DENABLE_GTK=OFF \
+    -DENABLE_GTK4=OFF \
+    -DENABLE_OAUTH2_WEBKITGTK=OFF \
+    -DENABLE_OAUTH2_WEBKITGTK4=OFF \
+    -DENABLE_EXAMPLES=OFF \
+    -DENABLE_TESTS=OFF \
+    -DENABLE_INSTALLED_TESTS=OFF \
+    -DENABLE_GTK_DOC=OFF \
+    -DENABLE_GI_DOCGEN=OFF \
+    -DENABLE_VALA_BINDINGS=ON \
+    -DENABLE_INTROSPECTION=ON \
+    -DENABLE_WEATHER=OFF \
+    -DENABLE_CANBERRA=OFF \
+    -DENABLE_SMIME=ON \
+    -DWITH_PRIVATE_DOCS=OFF \
+    -DWITH_LIBDB=OFF \
+    -DWITH_KRB5=OFF \
+    -DWITH_OPENLDAP=OFF \
+    -DWITH_PHONENUMBER=OFF \
+    -DWITH_SYSTEMDUSERUNITDIR=no
+  flatpak_build cmake --build "$DEPS_MOUNT/build/evolution-data-server"
+  flatpak_build cmake --install "$DEPS_MOUNT/build/evolution-data-server"
+}
+
+resolve_flatpak
+require_command sha256sum
+require_command tar
+
+ensure_runtime "$RUNTIME" "$BRANCH"
+ensure_runtime "$SDK" "$BRANCH"
+
+install -d "$BUILD_ROOT"
+rm -rf "$APP_DIR" "$LOCAL_REPO" "$MESON_BUILD"
+install -d "$MESON_BUILD"
+prepare_dependency_sources
+
+"${FLATPAK_CMD[@]}" build-init "$APP_DIR" "$APP_ID" "$SDK" "$RUNTIME" "$BRANCH"
+build_libical
+build_evolution_data_server
+flatpak_build meson setup "$BUILD_MOUNT" "$SOURCE_MOUNT" --prefix=/app --buildtype=release
+flatpak_build meson compile -C "$BUILD_MOUNT"
+flatpak_build meson install -C "$BUILD_MOUNT"
+
+"${FLATPAK_CMD[@]}" build-finish \
+  --command=tomodoro \
+  --share=ipc \
+  --socket=wayland \
+  --socket=fallback-x11 \
+  --talk-name=org.freedesktop.Notifications \
+  --talk-name=org.kde.StatusNotifierWatcher \
+  --talk-name=org.gnome.evolution.dataserver.Sources5 \
+  --talk-name=org.gnome.evolution.dataserver.Calendar8 \
+  --filesystem="$CONTEXTS_DIR:create" \
+  "$APP_DIR"
+
+"${FLATPAK_CMD[@]}" build-export "$LOCAL_REPO" "$APP_DIR" stable
+"${FLATPAK_CMD[@]}" build-bundle "$LOCAL_REPO" "$BUNDLE" "$APP_ID" stable
+"${FLATPAK_CMD[@]}" install --user --reinstall -y "$LOCAL_REPO" "$APP_ID"
+
+install -d "$CONTEXTS_DIR"
+"${FLATPAK_CMD[@]}" override --user \
+  --filesystem="$CONTEXTS_DIR:create" \
+  --env=TOMODORO_CONTEXTS_ROOT="$CONTEXTS_DIR" \
+  --unset-env=TODO_POMODORO_DATA_ROOT \
+  --unset-env=TODO_POMODORO_CONTEXTS_ROOT \
+  "$APP_ID"
+
+for old_app_id in "${OLD_APP_IDS[@]}"; do
+  if "${FLATPAK_CMD[@]}" info "$old_app_id" >/dev/null 2>&1; then
+    "${FLATPAK_CMD[@]}" kill "$old_app_id" >/dev/null 2>&1 || true
+    "${FLATPAK_CMD[@]}" uninstall --user -y "$old_app_id" >/dev/null 2>&1 || true
+  fi
+  rm -f "$HOME/.local/share/applications/$old_app_id.desktop"
+done
+
+install -d "$HOME/.local/bin" "$HOME/.local/share/applications"
+ln -sfn "$REPO_DIR/scripts/todo-pomodoro-flatpak-launch" "$HOME/.local/bin/todo-pomodoro"
+ln -sfn "$REPO_DIR/scripts/todo-pomodoro-flatpak-launch" "$HOME/.local/bin/tomodoro"
+ln -sfn "$REPO_DIR/scripts/todo-pomodoro-flatpak-install" "$HOME/.local/bin/todo-pomodoro-update"
+ln -sfn "$REPO_DIR/scripts/todo-pomodoro-flatpak-install" "$HOME/.local/bin/tomodoro-update"
+cat > "$DESKTOP_FILE" <<DESKTOP
+[Desktop Entry]
+Name=$APP_NAME
+Comment=Manage todo.txt tasks with context-aware pomodoro focus
+Exec=flatpak run $APP_ID
+Icon=$APP_ID
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=Office;ProjectManagement;GNOME;GTK;
+Keywords=todo;task;pomodoro;timer;productivity;todo.txt;
+DBusActivatable=false
+X-GNOME-UsesNotifications=true
+X-Flatpak=$APP_ID
+DESKTOP
+
+if command -v desktop-file-validate >/dev/null 2>&1; then
+  desktop-file-validate "$DESKTOP_FILE"
+fi
+update-desktop-database "$HOME/.local/share/applications" >/dev/null 2>&1 || true
+
+printf 'Installed %s as a user Flatpak.\n' "$APP_ID"
+printf 'Run with: flatpak run %s\n' "$APP_ID"
+printf 'Bundle: %s\n' "$BUNDLE"

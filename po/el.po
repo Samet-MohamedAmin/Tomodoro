@@ -1,0 +1,2214 @@
+# Greek translation for focus-timer
+# Copyright (c) 2016 focus-timer contributors
+# This file is distributed under the same license as the focus-timer package.
+#
+# Authors:
+# Giannis Katsanos <giannis.katsanos@gmail.com>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: focus-timer 1.0-alpha\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-29 10:23+0200\n"
+"PO-Revision-Date: 2023-03-24 15:40+0100\n"
+"Last-Translator: Giannis Katsanos <giannis.katsanos@gmail.com>\n"
+"Language-Team: Greek\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#. translators: Consider "Concentration Timer" as an alternative.
+#: data/io.github.focustimerhq.FocusTimer.desktop.in.in:2
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:7 src/main.vala:36
+msgid "Focus Timer"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.desktop.in.in:3
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:8
+msgid "Work with regular breaks"
+msgstr ""
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/io.github.focustimerhq.FocusTimer.desktop.in.in:12
+msgid "pomodoro;timer;productivity;time tracker;time management;"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:10
+#, fuzzy
+msgid ""
+"A productivity timer that helps you work more effectively by breaking your "
+"time into focused work sessions followed by short breaks. Work for 25 "
+"minutes, then take a 5-minute break to maintain concentration and prevent "
+"burnout."
+msgstr ""
+"Ένα χρονόμετρο παραγωγικότητας που σας βοηθά να εργάζεστε πιο αποτελεσματικά "
+"χωρίζοντας τον χρόνο σας σε περιόδους συγκεντρωμένης εργασίας που "
+"ακολουθούνται από σύντομα διαλείμματα. Εργαστείτε για 25 λεπτά και μετά "
+"κάντε ένα διάλειμμα 5 λεπτών για να διατηρήσετε τη συγκέντρωσή σας."
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:14
+#, fuzzy
+msgid "Key features:"
+msgstr "Κύρια χαρακτηριστικά:"
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:18
+#, fuzzy
+msgid "Customizable work session and break lengths"
+msgstr "Προσαρμόσιμη διάρκεια εργασίας και διαλειμμάτων"
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:19
+#, fuzzy
+msgid "Screen overlay during breaks"
+msgstr "Επικάλυψη οθόνης κατά τη διάρκεια των διαλειμμάτων"
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:20
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:95
+msgid "System tray icon"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:21
+msgid "Hotkeys (global shortcuts)"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:22
+msgid "Daily, weekly, and monthly statistics"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:23
+msgid "Extensible via custom shell commands, D-Bus, and CLI"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:24
+msgid "GNOME Shell extension for deeper desktop integration"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:45
+msgid "Kamil Prusko"
+msgstr "Kamil Prusko"
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:69
+#: src/plugins/sni/indicator-provider.vala:304 src/ui/main/window.ui:76
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:57
+#: src/ui/preferences/preferences-window.vala:30
+msgid "Timer"
+msgstr "Χρονόμετρο"
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:73
+#, fuzzy
+msgid "Daily stats"
+msgstr "Ημερήσια στατιστικά"
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:77
+#, fuzzy
+msgid "Monthly stats"
+msgstr "Μηνιαία στατιστικά"
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:81
+#: src/plugins/sni/indicator-provider.vala:300
+#: src/plugins/sni/indicator-provider.vala:306
+#: src/ui/preferences/preferences-window.ui:6
+msgid "Preferences"
+msgstr "Προτιμήσεις"
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:85
+#, fuzzy
+msgid "Screen overlay"
+msgstr "Επικάλυψη οθόνης"
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:93
+msgid "Overview of changes in focus-timer 1.1.1:"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:96
+msgid "Smoother sound transitions"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:97
+msgid "Fix break overlay scaling on HiDPI displays"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:98
+msgid "Fix missing sounds after switching soundcards"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:104
+msgid "Overview of changes in focus-timer 1.1.0:"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:106
+msgid "Support for GNOME Shell extension"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:107
+msgid "Option to autostart on login"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:108
+msgid "Reviewed sound files"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:109
+msgid "Fix build with vala 0.56.19"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:115
+msgid "Overview of changes in focus-timer 1.0:"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:117
+msgid "Fix break overlay scaling on HiDPI displays (thanks @scholzri)"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:118
+msgid "Automatic daily backup"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:119
+msgid "Removed libcanberra backend for playing notification sounds"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:120
+msgid "Updated Lithuanian translation (thanks @psukys)"
+msgstr ""
+
+#: data/io.github.focustimerhq.FocusTimer.metainfo.xml.in:121
+msgid "Updated Russian translation (thanks @ViktorOn)"
+msgstr ""
+
+#: src/application.vala:155 src/application.vala:609
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:60
+#, fuzzy
+msgid "Start or Stop"
+msgstr "Έναρξη ή Διακοπή"
+
+#: src/application.vala:158 src/application.vala:612
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:67
+#, fuzzy
+msgid "Start, Pause or Resume"
+msgstr "Έναρξη, Παύση ή Συνέχεια"
+
+#: src/application.vala:161 src/core/notification-manager.vala:426
+#: src/core/notification-manager.vala:519
+#: src/plugins/sni/indicator-provider.vala:403
+#: src/ui/main/timer/widgets/timer-control-buttons.ui:69
+#: src/ui/main/timer/widgets/timer-control-buttons.vala:308
+#: src/ui/main/timer/widgets/timer-control-buttons.vala:324
+msgid "Start Pomodoro"
+msgstr "Έναρξη Pomodoro"
+
+#: src/application.vala:164
+msgid "Start break"
+msgstr ""
+
+#: src/application.vala:167
+msgid "Start short break"
+msgstr ""
+
+#: src/application.vala:170
+msgid "Start long break"
+msgstr ""
+
+#. Actions
+#: src/application.vala:173 src/application.vala:614 src/core/event.vala:268
+#: src/plugins/sni/indicator-provider.vala:250
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:77
+msgid "Start"
+msgstr "Έναρξη"
+
+#: src/application.vala:176 src/application.vala:616 src/core/event.vala:276
+#: src/plugins/sni/indicator-provider.vala:262
+#: src/ui/main/timer/widgets/timer-control-buttons.ui:139
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:84
+msgid "Stop"
+msgstr "Διακοπή"
+
+#: src/application.vala:179 src/application.vala:618 src/core/event.vala:284
+#: src/plugins/sni/indicator-provider.vala:253
+#: src/ui/main/timer/widgets/timer-control-buttons.ui:83
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:91
+msgid "Pause"
+msgstr "Παύση"
+
+#: src/application.vala:182 src/application.vala:620 src/core/event.vala:292
+#: src/plugins/sni/indicator-provider.vala:256
+#: src/ui/main/timer/widgets/timer-control-buttons.ui:97
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:98
+msgid "Resume"
+msgstr "Συνέχεια"
+
+#: src/application.vala:185 src/application.vala:622 src/core/event.vala:300
+#: src/plugins/sni/indicator-provider.vala:265
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:105
+#, fuzzy
+msgid "Skip"
+msgstr "Παράλειψη"
+
+#: src/application.vala:188 src/application.vala:624 src/core/event.vala:308
+#, fuzzy
+msgid "Rewind"
+msgstr "Επανατύλιξη"
+
+#: src/application.vala:189 src/application.vala:192
+msgid "SECONDS"
+msgstr ""
+
+#: src/application.vala:191
+#, fuzzy
+msgid "Extend current pomodoro or break"
+msgstr "Επέκταση τρέχοντος Pomodoro ή διαλείμματος"
+
+#: src/application.vala:194 src/core/event.vala:316
+#: src/plugins/sni/indicator-provider.vala:268
+#: src/ui/main/timer/widgets/timer-control-buttons.ui:39
+#, fuzzy
+msgid "Reset"
+msgstr "Επαναφορά"
+
+#: src/application.vala:197
+msgid "Print timer status"
+msgstr ""
+
+#: src/application.vala:200
+msgid "Show preferences"
+msgstr "Εμφάνιση προτιμήσεων"
+
+#: src/application.vala:203
+msgid "Quit application"
+msgstr "Κλείσιμο εφαρμογής"
+
+#: src/application.vala:206
+#, fuzzy
+msgid "Print version information and exit"
+msgstr "Εμφάνιση έκδοσης και έξοδος"
+
+#: src/application.vala:240
+msgid "Timer Options:"
+msgstr ""
+
+#: src/application.vala:241
+msgid "Show options for controlling the timer"
+msgstr ""
+
+#: src/application.vala:248
+#, c-format
+msgid "Bugs may be reported at: %s"
+msgstr ""
+
+#: src/application.vala:626
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:126
+#, fuzzy
+msgid "Bring to Focus"
+msgstr "Εστίαση παραθύρου"
+
+#. translators: time remaining eg. "3 minutes 50 seconds remaining"
+#: src/application.vala:817 src/core/notification-manager.vala:138
+#: src/plugins/sni/indicator-provider.vala:25
+#, fuzzy, c-format
+msgid "%s remaining"
+msgstr "απομένουν %s"
+
+#: src/application.vala:860
+msgid "Invalid use. Pass one flag for controlling the timer at a time."
+msgstr ""
+
+#: src/core/action-manager.vala:113
+#, fuzzy, c-format
+msgid "Custom action \"%s\" has failed"
+msgstr "Η προσαρμοσμένη ενέργεια \"%s\" απέτυχε"
+
+#: src/core/command.vala:379
+#, fuzzy
+msgid "Reached timeout"
+msgstr "Έληξε το χρονικό όριο"
+
+#: src/core/command.vala:408
+#, fuzzy
+msgid "Failed to execute command"
+msgstr "Αποτυχία εκτέλεσης εντολής"
+
+#: src/core/command.vala:491 src/core/command.vala:506
+#, fuzzy
+msgid "Command is empty"
+msgstr "Η εντολή είναι κενή"
+
+#: src/core/command.vala:510
+#, fuzzy
+msgid "Unclosed quotation mark"
+msgstr "Μη κλεισμένα εισαγωγικά"
+
+#: src/core/command.vala:515
+#, fuzzy
+msgid "Invalid command"
+msgstr "Μη έγκυρη εντολή"
+
+#: src/core/command.vala:540 src/core/expression.vala:859
+#, fuzzy, c-format
+msgid "Unknown variable \"%s\""
+msgstr "Άγνωστη μεταβλητή \"%s\""
+
+#: src/core/command.vala:546 src/core/expression.vala:236
+#, fuzzy, c-format
+msgid "Unknown format \"%s\""
+msgstr "Άγνωστη μορφή \"%s\""
+
+#: src/core/command.vala:619
+#, fuzzy, c-format
+msgid "Program \"%s\" not found"
+msgstr "Το πρόγραμμα \"%s\" δεν βρέθηκε"
+
+#: src/core/event.vala:180
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:74
+msgid "Actions"
+msgstr "Ενέργειες"
+
+#: src/core/event.vala:183
+#, fuzzy
+msgid "Countdown"
+msgstr "Αντίστροφη μέτρηση"
+
+#: src/core/event.vala:186
+#: src/ui/preferences/timer/preferences-panel-timer.ui:17
+#, fuzzy
+msgid "Session"
+msgstr "Συνεδρία"
+
+#: src/core/event.vala:189
+#, fuzzy
+msgid "Other"
+msgstr "Άλλο"
+
+#: src/core/event.vala:269
+#, fuzzy
+msgid "Started the timer."
+msgstr "Το χρονόμετρο ξεκίνησε."
+
+#: src/core/event.vala:277
+#, fuzzy
+msgid "Stopped the timer manually."
+msgstr "Το χρονόμετρο διακόπηκε χειροκίνητα."
+
+#: src/core/event.vala:285
+#, fuzzy
+msgid ""
+"The countdown has been manually paused. Not triggered when locking the "
+"screen or when suspending the system."
+msgstr ""
+"Η αντίστροφη μέτρηση παύθηκε χειροκίνητα. Δεν ενεργοποιείται κατά το "
+"κλείδωμα της οθόνης ή την αναστολή του συστήματος."
+
+#: src/core/event.vala:293
+#, fuzzy
+msgid "The countdown has been manually resumed."
+msgstr "Η αντίστροφη μέτρηση συνεχίστηκε χειροκίνητα."
+
+#: src/core/event.vala:301
+#, fuzzy
+msgid "Jumped to a next time-block before the countdown has finished."
+msgstr ""
+"Μετάβαση στο επόμενο χρονικό μπλοκ πριν τελειώσει η αντίστροφη μέτρηση."
+
+#: src/core/event.vala:309
+#, fuzzy
+msgid "Rewind action has been used. It adds a pause in the past."
+msgstr ""
+"Χρησιμοποιήθηκε η ενέργεια επανατύλιξης. Προσθέτει μια παύση στο παρελθόν."
+
+#: src/core/event.vala:317
+#, fuzzy
+msgid "Manually cleared the session."
+msgstr "Η συνεδρία καθαρίστηκε χειροκίνητα."
+
+#. Countdown
+#: src/core/event.vala:325
+#: src/ui/preferences/automation/action/action-edit-window.ui:20
+#: src/ui/preferences/automation/action/condition-widget.vala:120
+#, fuzzy
+msgid "Finished"
+msgstr "Ολοκληρώθηκε"
+
+#: src/core/event.vala:326
+#, fuzzy
+msgid ""
+"The countdown has finished. If waiting for confirmation, the duration of the "
+"time-block still may be altered."
+msgstr ""
+"Η αντίστροφη μέτρηση τελείωσε. Εάν αναμένεται επιβεβαίωση, η διάρκεια μπορεί "
+"ακόμη να τροποποιηθεί."
+
+#: src/core/event.vala:333
+#, fuzzy
+msgid "Changed"
+msgstr "Άλλαξε"
+
+#: src/core/event.vala:334
+#, fuzzy
+msgid "Triggered on any change related to the countdown."
+msgstr ""
+"Ενεργοποιείται σε οποιαδήποτε αλλαγή σχετική με την αντίστροφη μέτρηση."
+
+#. Session
+#: src/core/event.vala:342
+#, fuzzy
+msgid "Confirm Advancement"
+msgstr "Επιβεβαίωση μετάβασης"
+
+#: src/core/event.vala:343
+#, fuzzy
+msgid "A manual confirmation is required to start next time-block."
+msgstr "Απαιτείται χειροκίνητη επιβεβαίωση για την έναρξη του επόμενου μπλοκ."
+
+#: src/core/event.vala:350
+#, fuzzy
+msgid "Advanced"
+msgstr "Προχώρησε"
+
+#: src/core/event.vala:351
+#, fuzzy
+msgid "Transitioned or skipped to a next time-block."
+msgstr "Μετάβαση ή παράλειψη στο επόμενο χρονικό μπλοκ."
+
+#: src/core/event.vala:358
+#, fuzzy
+msgid "State Changed"
+msgstr "Η κατάσταση άλλαξε"
+
+#: src/core/event.vala:359
+#, fuzzy
+msgid "Transitioned to a next time-block or when a break gets relabelled."
+msgstr "Μετάβαση σε επόμενο μπλοκ ή αλλαγή ετικέτας διαλείμματος."
+
+#: src/core/event.vala:366
+#, fuzzy
+msgid "Rescheduled"
+msgstr "Επαναπρογραμματίστηκε"
+
+#. translators: Change of plan
+#: src/core/event.vala:367
+#, fuzzy
+msgid "Triggered when scheduled time-blocks have changed."
+msgstr "Ενεργοποιείται όταν τα προγραμματισμένα μπλοκ αλλάζουν."
+
+#: src/core/event.vala:374
+#, fuzzy
+msgid "Expired"
+msgstr "Έληξε"
+
+#: src/core/event.vala:375
+#, fuzzy
+msgid "Triggered when session is about to be reset due to inactivity."
+msgstr "Ενεργοποιείται όταν η συνεδρία πρόκειται να μηδενιστεί λόγω αδράνειας."
+
+#: src/core/notification-manager.vala:347 src/core/state.vala:78
+#: src/plugins/sni/indicator-provider.vala:271
+#: src/ui/main/stats/stats-day-page.ui:98
+#: src/ui/main/stats/stats-day-page.vala:87
+#: src/ui/main/stats/stats-month-page.ui:35
+#: src/ui/main/stats/stats-month-page.vala:43
+#: src/ui/main/stats/stats-week-page.ui:39
+#: src/ui/main/stats/stats-week-page.vala:41 src/ui/main/window.vala:186
+#: src/ui/preferences/automation/action/condition-widget.ui:53
+msgid "Pomodoro"
+msgstr "Pomodoro"
+
+#: src/core/notification-manager.vala:351
+#: src/ui/main/timer/widgets/timer-control-buttons.vala:308
+#: src/ui/main/timer/widgets/timer-control-buttons.vala:324
+#, fuzzy
+msgid "Take a break"
+msgstr "Κάντε ένα διάλειμμα"
+
+#: src/core/notification-manager.vala:355
+#, fuzzy
+msgid "Take a short break"
+msgstr "Κάντε ένα σύντομο διάλειμμα"
+
+#: src/core/notification-manager.vala:359
+msgid "Take a long break"
+msgstr "Κάντε ένα μεγάλο διάλειμμα"
+
+#: src/core/notification-manager.vala:418
+msgid "Pomodoro is about to end"
+msgstr "Το Pomodoro τελειώνει"
+
+#: src/core/notification-manager.vala:419
+#: src/core/notification-manager.vala:524
+#: src/core/notification-manager.vala:529
+#: src/core/notification-manager.vala:534 src/ui/overlays/screen-overlay.ui:5
+#, fuzzy
+msgid "Take a Break"
+msgstr "Κάντε ένα Διάλειμμα"
+
+#: src/core/notification-manager.vala:425
+#, fuzzy
+msgid "Break is about to end"
+msgstr "Το διάλειμμα τελειώνει"
+
+#: src/core/notification-manager.vala:436
+#, fuzzy
+msgid "+1 minute"
+msgstr "+1 λεπτό"
+
+#: src/core/notification-manager.vala:458
+#, fuzzy
+msgid "Get ready…"
+msgstr "Ετοιμαστείτε…"
+
+#: src/core/notification-manager.vala:463
+#: src/core/notification-manager.vala:502
+#, fuzzy
+msgid "Pomodoro is over!"
+msgstr "Το Pomodoro τελείωσε!"
+
+#: src/core/notification-manager.vala:469
+#: src/core/notification-manager.vala:508
+#, fuzzy
+msgid "Break is over!"
+msgstr "Το διάλειμμα τελείωσε!"
+
+#: src/core/notification-manager.vala:518
+#, fuzzy
+msgid "Confirm the start of a Pomodoro…"
+msgstr "Επιβεβαιώστε την έναρξη του Pomodoro…"
+
+#: src/core/notification-manager.vala:523
+#, fuzzy
+msgid "Confirm the start of a break…"
+msgstr "Επιβεβαιώστε την έναρξη του διαλείμματος…"
+
+#: src/core/notification-manager.vala:528
+#, fuzzy
+msgid "Confirm the start of a short break…"
+msgstr "Επιβεβαιώστε την έναρξη σύντομου διαλείμματος…"
+
+#: src/core/notification-manager.vala:533
+#, fuzzy
+msgid "Confirm the start of a long break…"
+msgstr "Επιβεβαιώστε την έναρξη μεγάλου διαλείμματος…"
+
+#: src/core/notification-manager.vala:546
+msgid "Skip Break"
+msgstr "Παράλειψη διαλείμματος"
+
+#: src/core/sound-player.vala:101
+#, fuzzy
+msgid "Failed to initialize playback"
+msgstr "Αποτυχία προετοιμασίας αναπαραγωγής"
+
+#: src/core/sounds.vala:112
+#, fuzzy
+msgid "File not found"
+msgstr "Το αρχείο δεν βρέθηκε"
+
+#: src/core/sounds.vala:116
+#, fuzzy
+msgid "File type not supported"
+msgstr "Ο τύπος αρχείου δεν υποστηρίζεται"
+
+#: src/core/state.vala:75
+#: src/ui/preferences/automation/action/condition-widget.ui:55
+#, fuzzy
+msgid "Stopped"
+msgstr "Διακόπηκε"
+
+#: src/core/state.vala:81 src/plugins/sni/indicator-provider.vala:274
+#: src/ui/preferences/automation/action/condition-widget.ui:54
+msgid "Break"
+msgstr "Διάλειμμα"
+
+#: src/core/state.vala:84 src/plugins/sni/indicator-provider.vala:272
+msgid "Short Break"
+msgstr "Σύντομο Διάλειμμα"
+
+#: src/core/state.vala:87 src/plugins/sni/indicator-provider.vala:273
+msgid "Long Break"
+msgstr "Μεγάλο Διάλειμμα"
+
+#. translators: Short form for number of hours
+#: src/core/timestamp.vala:117
+#, fuzzy, c-format
+msgid "%uh"
+msgstr "%uώ"
+
+#. translators: Short form for number of minutes
+#: src/core/timestamp.vala:126
+#, fuzzy, c-format
+msgid "%um"
+msgstr "%uλ"
+
+#: src/core/utils.vala:72
+#, fuzzy, c-format
+msgid "%u hour"
+msgid_plural "%u hours"
+msgstr[0] "%u ώρα"
+msgstr[1] "%u ώρες"
+
+#: src/core/utils.vala:81
+#, fuzzy, c-format
+msgid "%u minute"
+msgid_plural "%u minutes"
+msgstr[0] "%u λεπτό"
+msgstr[1] "%u λεπτά"
+
+#: src/core/utils.vala:90
+#, fuzzy, c-format
+msgid "%u second"
+msgid_plural "%u seconds"
+msgstr[0] "%u δευτερόλεπτο"
+msgstr[1] "%u δευτερόλεπτα"
+
+#: src/core/variables.vala:116
+#, fuzzy
+msgid "The exact time of the current event."
+msgstr "Η ακριβής ώρα του τρέχοντος γεγονότος."
+
+#: src/core/variables.vala:121
+#, fuzzy
+msgid ""
+"The current phase of the Pomodoro cycle. Possible values: <tt>stopped</tt>, "
+"<tt>pomodoro</tt>, <tt>break</tt>, <tt>short-break</tt>, <tt>long-break</tt>."
+msgstr ""
+"Η τρέχουσα φάση του κύκλου. Τιμές: <tt>stopped</tt>, <tt>pomodoro</tt>, "
+"<tt>break</tt>, <tt>short-break</tt>, <tt>long-break</tt>."
+
+#: src/core/variables.vala:126
+#, fuzzy
+msgid ""
+"Status of the current time-block. Possible values: <tt>scheduled</tt>, "
+"<tt>in-progress</tt>, <tt>completed</tt>, <tt>uncompleted</tt>."
+msgstr ""
+"Κατάσταση του χρονικού μπλοκ. Τιμές: <tt>scheduled</tt>, <tt>in-progress</"
+"tt>, <tt>completed</tt>, <tt>uncompleted</tt>."
+
+#: src/core/variables.vala:131
+#, fuzzy
+msgid "A flag indicating whether countdown has begun."
+msgstr "Δείκτης εάν έχει ξεκινήσει η αντίστροφη μέτρηση."
+
+#: src/core/variables.vala:136
+#, fuzzy
+msgid "A flag indicating whether countdown is paused."
+msgstr "Δείκτης εάν η αντίστροφη μέτρηση είναι σε παύση."
+
+#: src/core/variables.vala:141
+#, fuzzy
+msgid "A flag indicating whether countdown has finished."
+msgstr "Δείκτης εάν η αντίστροφη μέτρηση έχει τελειώσει."
+
+#: src/core/variables.vala:146
+#, fuzzy
+msgid "A flag indicating whether the timer is actively counting down."
+msgstr "Δείκτης εάν το χρονόμετρο μετράει ενεργά."
+
+#: src/core/variables.vala:151
+#, fuzzy
+msgid "Duration of the current countdown."
+msgstr "Διάρκεια της τρέχουσας αντίστροφης μέτρησης."
+
+#. translators: Time difference between displayed value on the timer and real time. Think of it as a lost time.
+#: src/core/variables.vala:157
+#, fuzzy
+msgid "Discrepancy between elapsed time and the time passed."
+msgstr "Απόκλιση μεταξύ του χρόνου που πέρασε και του πραγματικού χρόνου."
+
+#. translators: Time since the start of countdown
+#: src/core/variables.vala:163
+#, fuzzy
+msgid "The amount of time spent on the countdown."
+msgstr "Ο χρόνος που δαπανήθηκε στην αντίστροφη μέτρηση."
+
+#. translators: Displayed timer value.
+#: src/core/variables.vala:169
+#, fuzzy
+msgid "The amount of time left before the countdown ends."
+msgstr "Ο χρόνος που απομένει μέχρι το τέλος."
+
+#: src/core/variables.vala:174
+#, fuzzy
+msgid "Time when the countdown has started."
+msgstr "Η ώρα που ξεκίνησε η αντίστροφη μέτρηση."
+
+#: src/plugins/gnome/install-extension-dialog.ui:6
+#: src/plugins/gnome/preferences-window-extension.vala:167
+#, fuzzy
+msgid "GNOME Shell Extension"
+msgstr "Επέκταση GNOME Shell"
+
+#: src/plugins/gnome/install-extension-dialog.ui:57
+#, fuzzy
+msgid "Get the best experience!"
+msgstr "Αποκτήστε την καλύτερη εμπειρία!"
+
+#: src/plugins/gnome/install-extension-dialog.ui:68
+#, fuzzy
+msgid "Enable <b>GNOME Shell extension</b> for seamless desktop integration"
+msgstr "Ενεργοποιήστε την <b>επέκταση GNOME Shell</b> για πλήρη ενσωμάτωση"
+
+#: src/plugins/gnome/install-extension-dialog.ui:95
+#, fuzzy
+msgid "Always within reach"
+msgstr "Πάντα άμεσα προσβάσιμο"
+
+#: src/plugins/gnome/install-extension-dialog.ui:106
+#, fuzzy
+msgid "Control timer directly from the top bar without opening the app"
+msgstr "Ελέγξτε το χρονόμετρο από την πάνω μπάρα χωρίς άνοιγμα της εφαρμογής"
+
+#: src/plugins/gnome/install-extension-dialog.ui:132
+#, fuzzy
+msgid "Less distractions"
+msgstr "Λιγότεροι περισπασμοί"
+
+#: src/plugins/gnome/install-extension-dialog.ui:143
+msgid ""
+"Let <b>Focus Timer</b> manage system notifications while the timer is running"
+msgstr ""
+
+#: src/plugins/gnome/install-extension-dialog.ui:170
+#, fuzzy
+msgid "Refined break reminders"
+msgstr "Βελτιωμένες υπενθυμίσεις διαλείμματος"
+
+#: src/plugins/gnome/install-extension-dialog.ui:181
+#, fuzzy
+msgid ""
+"Elegant full-screen overlay that make taking breaks a more pleasant "
+"experience"
+msgstr "Κομψή επικάλυψη οθόνης για μια πιο ευχάριστη εμπειρία διαλείμματος"
+
+#. translators: "It" refers to installing GNOME Shell extension
+#: src/plugins/gnome/install-extension-dialog.ui:195
+#, fuzzy
+msgid "Ready to try it?"
+msgstr "Έτοιμοι να το δοκιμάσετε;"
+
+#: src/plugins/gnome/install-extension-dialog.ui:219
+#: src/plugins/gnome/install-extension-dialog.ui:252
+#, fuzzy
+msgid "_Install Extension"
+msgstr "_Εγκατάσταση επέκτασης"
+
+#: src/plugins/gnome/install-extension-dialog.ui:229
+#: src/plugins/gnome/install-extension-dialog.ui:245
+#, fuzzy
+msgid "_Not Now"
+msgstr "_Όχι τώρα"
+
+#: src/plugins/gnome/install-extension-dialog.ui:317
+#: src/plugins/gnome/preferences-window-extension.vala:400
+#, fuzzy
+msgid "Something went wrong"
+msgstr "Κάτι πήγε στραβά"
+
+#: src/plugins/gnome/install-extension-dialog.ui:364
+#, fuzzy
+msgid "Copy to clipboard"
+msgstr "Αντιγραφή στο πρόχειρο"
+
+#: src/plugins/gnome/install-extension-dialog.ui:383
+#: src/plugins/gnome/install-extension-dialog.ui:416
+#, fuzzy
+msgid "_Try Again"
+msgstr "_Δοκιμάστε ξανά"
+
+#: src/plugins/gnome/install-extension-dialog.ui:393
+#: src/plugins/gnome/install-extension-dialog.ui:409
+#, fuzzy
+msgid "_Abort"
+msgstr "_Ματαίωση"
+
+#: src/plugins/gnome/install-extension-dialog.vala:85
+#: src/plugins/gnome/preferences-window-extension.vala:388
+#, fuzzy
+msgid "Time-out reached"
+msgstr "Έληξε το χρονικό όριο"
+
+#: src/plugins/gnome/install-extension-dialog.vala:90
+#: src/plugins/gnome/preferences-window-extension.vala:392
+#, fuzzy
+msgid "Installing extensions is not allowed"
+msgstr "Η εγκατάσταση επεκτάσεων δεν επιτρέπεται"
+
+#: src/plugins/gnome/install-extension-dialog.vala:95
+#: src/plugins/gnome/preferences-window-extension.vala:396
+#, fuzzy
+msgid "Failed to download the extension"
+msgstr "Αποτυχία λήψης της επέκτασης"
+
+#: src/plugins/gnome/preferences-window-extension.vala:55
+msgid "Indicator"
+msgstr ""
+
+#: src/plugins/gnome/preferences-window-extension.vala:62
+msgid "Icon"
+msgstr ""
+
+#: src/plugins/gnome/preferences-window-extension.vala:63
+msgid "Text"
+msgstr ""
+
+#: src/plugins/gnome/preferences-window-extension.vala:70
+msgid "Display As"
+msgstr ""
+
+#: src/plugins/gnome/preferences-window-extension.vala:81
+#: src/plugins/sni/indicator-provider.vala:297
+#: src/ui/preferences/notifications/preferences-panel-notifications.ui:28
+#: src/ui/preferences/notifications/preferences-panel-notifications.ui:32
+msgid "Screen Overlay"
+msgstr "Επικάλυψη οθόνης"
+
+#: src/plugins/gnome/preferences-window-extension.vala:85
+msgid "Blur Effect"
+msgstr ""
+
+#: src/plugins/gnome/preferences-window-extension.vala:93
+msgid "Dismiss Gesture"
+msgstr ""
+
+#: src/plugins/gnome/preferences-window-extension.vala:125
+msgid "Desktop"
+msgstr "Επιφάνεια εργασίας"
+
+#: src/plugins/gnome/preferences-window-extension.vala:128
+msgid "Install"
+msgstr ""
+
+#. translators: verb
+#: src/plugins/gnome/preferences-window-extension.vala:133
+msgid "Update"
+msgstr ""
+
+#: src/plugins/gnome/preferences-window-extension.vala:136
+msgid "Log out to finish the update"
+msgstr ""
+
+#: src/plugins/gnome/preferences-window-extension.vala:154
+msgid "Outdated"
+msgstr ""
+
+#: src/plugins/gnome/preferences-window-extension.vala:173
+msgid "Manage Notifications"
+msgstr ""
+
+#: src/plugins/gnome/preferences-window-extension.vala:174
+msgid "Toggle Do Not Disturb mode during Pomodoro."
+msgstr ""
+
+#: src/plugins/gnome/window-extension.vala:32
+#, fuzzy
+msgid "GNOME Shell extension available"
+msgstr "Διαθέσιμη επέκταση GNOME Shell"
+
+#: src/plugins/gnome/window-extension.vala:33
+#, fuzzy
+msgid "Learn More"
+msgstr "Μάθετε περισσότερα"
+
+#. translators: abbreviate it to just "Settings" if it gets too long
+#: src/plugins/kde/preferences-window-extension.vala:26
+msgid "Open Settings"
+msgstr ""
+
+#: src/plugins/kde/preferences-window-extension.vala:51
+msgid ""
+"For reliable break reminders, allow this app's notifications during Do Not "
+"Disturb and disable its notification history."
+msgstr ""
+
+#: src/plugins/portal/global-shortcuts-provider.vala:298
+#, fuzzy
+msgid "Unused"
+msgstr "Μη χρησιμοποιούμενο"
+
+#: src/plugins/sni/indicator-provider.vala:35
+#: src/ui/main/timer/compact-timer-view.vala:73
+#: src/ui/main/timer/timer-view.vala:141
+#, fuzzy
+msgid "Finished!"
+msgstr "Ολοκληρώθηκε!"
+
+#: src/plugins/sni/indicator-provider.vala:42
+#, c-format
+msgid "%u of %u"
+msgstr ""
+
+#: src/plugins/sni/indicator-provider.vala:301
+#: src/plugins/sni/indicator-provider.vala:305 src/ui/main/window.ui:92
+msgid "Stats"
+msgstr "Στατιστικά"
+
+#: src/plugins/sni/indicator-provider.vala:310 src/ui/main/window.vala:284
+msgid "Quit"
+msgstr "Κλείσιμο"
+
+#: src/plugins/sni/indicator-provider.vala:403
+msgid "Take Break"
+msgstr ""
+
+#: src/plugins/sni/preferences-window-extension.vala:43
+msgid "System Tray Icon"
+msgstr ""
+
+#: src/plugins/sni/preferences-window-extension.vala:47
+msgid "Show Tray Icon"
+msgstr ""
+
+#: src/plugins/sni/preferences-window-extension.vala:48
+msgid "Closing the window keeps the app running in the background."
+msgstr ""
+
+#: src/ui/log/log-window.ui:6
+msgid "Log"
+msgstr "Καταγραφή"
+
+#: src/ui/log/log-window.ui:37
+#, fuzzy
+msgid "Empty Log"
+msgstr "Κενή καταγραφή"
+
+#: src/ui/log/log-window.ui:38
+#, fuzzy
+msgid "Entries will show up here once you start the timer."
+msgstr "Οι καταχωρήσεις θα εμφανιστούν εδώ όταν ξεκινήσετε το χρονόμετρο."
+
+#: src/ui/log/log-window.ui:164
+#, fuzzy
+msgid "Context"
+msgstr "Πλαίσιο"
+
+#: src/ui/log/log-window.ui:189
+#: src/ui/preferences/automation/action/action-edit-window.ui:186
+msgid "Command"
+msgstr "Εντολή"
+
+#: src/ui/log/log-window.ui:213
+#, fuzzy
+msgid "Output"
+msgstr "Έξοδος"
+
+#: src/ui/log/log-window.ui:237
+#, fuzzy
+msgid "Error"
+msgstr "Σφάλμα"
+
+#: src/ui/log/log-window.ui:266
+#, fuzzy
+msgid "Exit Code:"
+msgstr "Κωδικός εξόδου:"
+
+#: src/ui/log/log-window.ui:277
+#, fuzzy
+msgid "Execution Time:"
+msgstr "Χρόνος εκτέλεσης:"
+
+#. translators: Replace this string with your names, one name per line.
+#: src/ui/main/dialogs/about-dialog.vala:30
+msgid "translator-credits"
+msgstr "Γιάννης Κατσάνος"
+
+#: src/ui/main/dialogs/about-dialog.vala:36
+#, fuzzy
+msgid "Donate"
+msgstr "Δωρεά"
+
+#: src/ui/main/stats/stats-day-page.ui:105
+#: src/ui/main/stats/stats-day-page.vala:92
+#: src/ui/main/stats/stats-month-page.ui:42
+#: src/ui/main/stats/stats-month-page.vala:48
+#: src/ui/main/stats/stats-week-page.ui:46
+#: src/ui/main/stats/stats-week-page.vala:46
+#, fuzzy
+msgid "Breaks"
+msgstr "Διαλείμματα"
+
+#: src/ui/main/stats/stats-day-page.ui:112
+#: src/ui/main/stats/stats-month-page.ui:49
+#: src/ui/main/stats/stats-month-page.vala:53
+#: src/ui/main/stats/stats-week-page.ui:53
+#: src/ui/main/stats/stats-week-page.vala:51
+#, fuzzy
+msgid "Interruptions"
+msgstr "Διακοπές"
+
+#: src/ui/main/stats/stats-day-page.ui:119
+#: src/ui/main/stats/stats-month-page.ui:56
+#: src/ui/main/stats/stats-week-page.ui:60
+#, fuzzy
+msgid "Break Ratio"
+msgstr "Αναλογία διαλείμματος"
+
+#: src/ui/main/stats/stats-view.ui:8 src/ui/main/stats/stats-view.vala:59
+#: src/ui/main/stats/widgets/stats-date-popover.ui:22
+msgid "Day"
+msgstr "Ημέρα"
+
+#: src/ui/main/stats/stats-view.ui:13 src/ui/main/stats/stats-view.vala:62
+#: src/ui/main/stats/widgets/stats-date-popover.ui:28
+msgid "Week"
+msgstr "Εβδομάδα"
+
+#: src/ui/main/stats/stats-view.ui:18 src/ui/main/stats/stats-view.vala:65
+#: src/ui/main/stats/widgets/stats-date-popover.ui:34
+msgid "Month"
+msgstr "Μήνας"
+
+#: src/ui/main/stats/stats-view.ui:39
+#, fuzzy
+msgid "Nothing to see here yet"
+msgstr "Δεν υπάρχει κάτι εδώ ακόμα"
+
+#: src/ui/main/stats/stats-view.ui:40
+#, fuzzy
+msgid "Finish a few Pomodoros to fill this up!"
+msgstr "Ολοκληρώστε μερικά Pomodoro για να γεμίσει αυτό!"
+
+#: src/ui/main/stats/stats-view.vala:831
+#, fuzzy, c-format
+msgid "Skipped %u day"
+msgid_plural "Skipped %u days"
+msgstr[0] "Παραλείφθηκε %u ημέρα"
+msgstr[1] "Παραλείφθηκαν %u ημέρες"
+
+#: src/ui/main/stats/stats-view.vala:837
+#, fuzzy, c-format
+msgid "Skipped %u week"
+msgid_plural "Skipped %u weeks"
+msgstr[0] "Παραλείφθηκε %u εβδομάδα"
+msgstr[1] "Παραλείφθηκαν %u εβδομάδες"
+
+#: src/ui/main/stats/stats-view.vala:843
+#, fuzzy, c-format
+msgid "Skipped %u month"
+msgid_plural "Skipped %u months"
+msgstr[0] "Παραλείφθηκε %u μήνας"
+msgstr[1] "Παραλείφθηκαν %u μήνες"
+
+#: src/ui/main/stats/stats-view.vala:1041
+msgid "Today"
+msgstr "Σήμερα"
+
+#: src/ui/main/stats/stats-view.vala:1046
+msgid "Yesterday"
+msgstr "Εχθές"
+
+#: src/ui/main/stats/stats-view.vala:1067
+msgid "This week"
+msgstr "Αυτή την εβδομάδα"
+
+#: src/ui/main/stats/stats-view.vala:1087
+#, fuzzy, c-format
+msgid "Week %u"
+msgstr "Εβδομάδα %u"
+
+#: src/ui/main/stats/stats-view.vala:1088
+#, fuzzy, c-format
+msgid "Week %u of %u"
+msgstr "Εβδομάδα %u από %u"
+
+#: src/ui/main/timer/compact-timer-view.ui:8 src/ui/main/timer/menus.ui:6
+#: src/ui/main/timer/menus.ui:22
+msgid "_Pomodoro"
+msgstr "_Pomodoro"
+
+#: src/ui/main/timer/compact-timer-view.ui:13 src/ui/main/timer/menus.ui:10
+msgid "_Short Break"
+msgstr "_Σύντομο Διάλειμμα"
+
+#: src/ui/main/timer/compact-timer-view.ui:18 src/ui/main/timer/menus.ui:14
+msgid "_Long Break"
+msgstr "_Μεγάλο Διάλειμμα"
+
+#: src/ui/main/timer/menus.ui:26
+#, fuzzy
+msgid "_Break"
+msgstr "_Διάλειμμα"
+
+#: src/ui/main/timer/timer-view.ui:23
+#, fuzzy
+msgid "Open screen overlay"
+msgstr "Άνοιγμα επικάλυψης οθόνης"
+
+#: src/ui/main/timer/timer-view.vala:257
+#, fuzzy
+msgid "Session has expired"
+msgstr "Η συνεδρία έληξε"
+
+#: src/ui/main/timer/widgets/session-progress-bar.vala:1477
+#, fuzzy, c-format
+msgid "Long break due in <b>%s</b>"
+msgstr "Μεγάλο διάλειμμα σε <b>%s</b>"
+
+#: src/ui/main/timer/widgets/timer-control-buttons.ui:25
+#, fuzzy
+msgid "Rewind one minute"
+msgstr "Επανατύλιξη ένα λεπτό"
+
+#: src/ui/main/window.ui:8
+#, fuzzy
+msgid "_Compact View"
+msgstr "_Συμπαγής προβολή"
+
+#: src/ui/main/window.ui:15
+msgid "_Preferences"
+msgstr "_Προτιμήσεις"
+
+#: src/ui/main/window.ui:19
+msgid "_About"
+msgstr "_Σχετικά"
+
+#: src/ui/main/window.ui:25
+msgid "_Quit"
+msgstr "_Κλείσιμο"
+
+#: src/ui/main/window.ui:62
+#, fuzzy
+msgid "Primary Menu"
+msgstr "Κύριο μενού"
+
+#: src/ui/main/window.vala:279
+#, fuzzy
+msgid "Keep timer running?"
+msgstr "Να συνεχίσει το χρονόμετρο;"
+
+#: src/ui/main/window.vala:280
+#, fuzzy
+msgid ""
+"You can keep it running in the background — notifications and keyboard "
+"shortcuts will still work."
+msgstr ""
+"Μπορείτε να το αφήσετε να τρέχει στο παρασκήνιο — οι ειδοποιήσεις και οι "
+"συντομεύσεις θα συνεχίσουν να λειτουργούν."
+
+#: src/ui/main/window.vala:287
+#, fuzzy
+msgid "Run in background"
+msgstr "Εκτέλεση στο παρασκήνιο"
+
+#: src/ui/overlays/screen-overlay.ui:64
+msgid "It's time to take a break"
+msgstr "Ώρα για διάλειμμα"
+
+#: src/ui/preferences/appearance/preferences-panel-appearance.ui:17
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:123
+#, fuzzy
+msgid "Main Window"
+msgstr "Κύριο παράθυρο"
+
+#: src/ui/preferences/appearance/preferences-panel-appearance.ui:20
+#, fuzzy
+msgid "Prefer Dark Theme"
+msgstr "Προτίμηση σκούρου θέματος"
+
+#: src/ui/preferences/appearance/preferences-panel-appearance.ui:25
+#, fuzzy
+msgid "Prefer Compact View"
+msgstr "Προτίμηση συμπαγούς προβολής"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:12
+#: src/ui/preferences/automation/action/condition-widget.vala:117
+#, fuzzy
+msgid "Started"
+msgstr "Ξεκίνησε"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:16
+#: src/ui/preferences/automation/action/condition-widget.vala:118
+#, fuzzy
+msgid "Paused"
+msgstr "Σε παύση"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:26
+#, fuzzy
+msgid "Edit Custom Action"
+msgstr "Επεξεργασία προσαρμοσμένης ενέργειας"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:39
+#: src/ui/preferences/keyboard-shortcuts/accelerator-chooser-window.ui:21
+msgid "_Cancel"
+msgstr "_Ματαίωση"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:46
+#, fuzzy
+msgid "_Save"
+msgstr "_Αποθήκευση"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:62
+msgid "Name"
+msgstr "Όνομα"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:76
+#, fuzzy
+msgid "Trigger"
+msgstr "Έναυσμα"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:80
+#, fuzzy
+msgid "Event"
+msgstr "Συμβάν"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:81
+#, fuzzy
+msgid "Execute command after an event."
+msgstr "Εκτέλεση εντολής μετά από ένα συμβάν."
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:96
+#: src/ui/preferences/automation/action/action-edit-window.ui:174
+#, fuzzy
+msgid "Condition"
+msgstr "Συνθήκη"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:97
+#, fuzzy
+msgid "Ensure execution of a second command once condition is no longer met."
+msgstr "Εκτέλεση δεύτερης εντολής όταν η συνθήκη δεν πληρούται πλέον."
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:114
+#, fuzzy
+msgid "Events"
+msgstr "Συμβάντα"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:125
+#, fuzzy
+msgid "Add _Event"
+msgstr "Προσθήκη _Συμβάντος"
+
+#. translators: Filter (verb)
+#: src/ui/preferences/automation/action/action-edit-window.ui:140
+#, fuzzy
+msgid "_Filter"
+msgstr "_Φιλτράρισμα"
+
+#. translators: Filter (noun)
+#: src/ui/preferences/automation/action/action-edit-window.ui:160
+#, fuzzy
+msgid "Filter"
+msgstr "Φίλτρο"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:191
+#, fuzzy
+msgid "Shell Command"
+msgstr "Εντολή Shell"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:199
+#, fuzzy
+msgid "Commands"
+msgstr "Εντολές"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:204
+#, fuzzy
+msgid "Condition Met Command"
+msgstr "Εντολή πληρούμενης συνθήκης"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:210
+#, fuzzy
+msgid "Condition Not Met Command"
+msgstr "Εντολή μη πληρούμενης συνθήκης"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:221
+#, fuzzy
+msgid "Working Directory"
+msgstr "Φάκελος εργασίας"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:236
+#, fuzzy
+msgid "Use Subshell"
+msgstr "Χρήση Subshell"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:237
+#, fuzzy
+msgid "Run the program from a subshell such as sh -c ''"
+msgstr "Εκτέλεση του προγράμματος μέσω subshell (π.χ. sh -c)"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:242
+#, fuzzy
+msgid "Pass Input Data"
+msgstr "Μεταβίβαση δεδομένων εισόδου"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:243
+#, fuzzy
+msgid "Instead of passing variables you can process a JSON object."
+msgstr "Αντί για μεταβλητές, μπορείτε να επεξεργαστείτε ένα αντικείμενο JSON."
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:248
+#, fuzzy
+msgid "Wait For Completion"
+msgstr "Αναμονή για ολοκλήρωση"
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:249
+#, fuzzy
+msgid "Block execution of other commands until the command completes."
+msgstr "Φραγή εκτέλεσης άλλων εντολών μέχρι την ολοκλήρωση."
+
+#: src/ui/preferences/automation/action/action-edit-window.ui:259
+#, fuzzy
+msgid "_Delete Action"
+msgstr "_Διαγραφή ενέργειας"
+
+#: src/ui/preferences/automation/action/action-edit-window.vala:230
+#, fuzzy
+msgid "No events specified yet."
+msgstr "Δεν έχουν οριστεί συμβάντα ακόμα."
+
+#: src/ui/preferences/automation/action/action-edit-window.vala:248
+#, fuzzy
+msgid "Add Custom Action"
+msgstr "Προσθήκη προσαρμοσμένης ενέργειας"
+
+#: src/ui/preferences/automation/action/action-edit-window.vala:249
+#, fuzzy
+msgid "_Add"
+msgstr "_Προσθήκη"
+
+#: src/ui/preferences/automation/action/action-edit-window.vala:438
+#, fuzzy
+msgid "Select Working Directory"
+msgstr "Επιλογή φακέλου εργασίας"
+
+#: src/ui/preferences/automation/action/action-edit-window.vala:440
+#: src/ui/preferences/sounds/sound-chooser-window.vala:251
+msgid "_Select"
+msgstr "_Επιλογή"
+
+#: src/ui/preferences/automation/action/action-listboxrow.vala:67
+#, fuzzy
+msgid "Untitled action"
+msgstr "Ενέργεια χωρίς τίτλο"
+
+#: src/ui/preferences/automation/action/condition-group-widget.ui:28
+#, fuzzy
+msgid "Add Condition"
+msgstr "Προσθήκη συνθήκης"
+
+#: src/ui/preferences/automation/action/condition-group-widget.ui:45
+#, fuzzy
+msgid "Add Group"
+msgstr "Προσθήκη ομάδας"
+
+#: src/ui/preferences/automation/action/condition-group-widget.vala:344
+msgid "AND"
+msgstr "ΚΑΙ"
+
+#: src/ui/preferences/automation/action/condition-group-widget.vala:345
+msgid "OR"
+msgstr "Ή"
+
+#: src/ui/preferences/automation/action/condition-widget.ui:26
+#, fuzzy
+msgid "Is"
+msgstr "Είναι"
+
+#: src/ui/preferences/automation/action/condition-widget.ui:27
+#, fuzzy
+msgid "Is Not"
+msgstr "Δεν είναι"
+
+#: src/ui/preferences/automation/action/condition-widget.ui:39
+#, fuzzy
+msgid "Equals"
+msgstr "Ισούται με"
+
+#: src/ui/preferences/automation/action/condition-widget.ui:40
+#, fuzzy
+msgid "Greater Than"
+msgstr "Μεγαλύτερο από"
+
+#: src/ui/preferences/automation/action/condition-widget.ui:41
+#, fuzzy
+msgid "Less Than"
+msgstr "Μικρότερο από"
+
+#: src/ui/preferences/automation/action/condition-widget.ui:67
+msgid "Yes"
+msgstr "Ναι"
+
+#: src/ui/preferences/automation/action/condition-widget.ui:68
+msgid "No"
+msgstr "Όχι"
+
+#: src/ui/preferences/automation/action/condition-widget.ui:95
+#, fuzzy
+msgid "Minutes"
+msgstr "Λεπτά"
+
+#: src/ui/preferences/automation/action/condition-widget.ui:96
+#, fuzzy
+msgid "Seconds"
+msgstr "Δευτερόλεπτα"
+
+#: src/ui/preferences/automation/action/condition-widget.ui:97
+#, fuzzy
+msgid "Hours"
+msgstr "Ώρες"
+
+#. translators: No field selected when defining a condition.
+#: src/ui/preferences/automation/action/condition-widget.vala:115
+#, fuzzy
+msgid "Select Field…"
+msgstr "Επιλογή πεδίου…"
+
+#: src/ui/preferences/automation/action/condition-widget.vala:116
+msgid "State"
+msgstr "Κατάσταση"
+
+#: src/ui/preferences/automation/action/condition-widget.vala:119
+#, fuzzy
+msgid "Running"
+msgstr "Σε λειτουργία"
+
+#: src/ui/preferences/automation/action/condition-widget.vala:121
+#, fuzzy
+msgid "Duration"
+msgstr "Διάρκεια"
+
+#: src/ui/preferences/automation/action/variable-popover.ui:19
+#: src/ui/preferences/automation/action/variable-popover.ui:161
+#, fuzzy
+msgid "Insert Variable"
+msgstr "Εισαγωγή μεταβλητής"
+
+#: src/ui/preferences/automation/action/variable-popover.ui:132
+#, fuzzy
+msgid "Format"
+msgstr "Μορφή"
+
+#: src/ui/preferences/automation/preferences-panel-automation.ui:13
+#, fuzzy
+msgid "_Log"
+msgstr "_Καταγραφή"
+
+#: src/ui/preferences/automation/preferences-panel-automation.ui:15
+#, fuzzy
+msgid "Show execution log"
+msgstr "Εμφάνιση καταγραφής εκτέλεσης"
+
+#: src/ui/preferences/automation/preferences-panel-automation.ui:24
+#, fuzzy
+msgid ""
+"Run shell commands automatically on timer events or conditions. <a "
+"href=\"\">Learn more.</a>"
+msgstr ""
+"Αυτόματη εκτέλεση εντολών shell σε συμβάντα ή συνθήκες. <a href=\"\">Μάθετε "
+"περισσότερα.</a>"
+
+#: src/ui/preferences/integrations/preferences-panel-integrations.ui:19
+msgid "Autostart"
+msgstr ""
+
+#: src/ui/preferences/integrations/preferences-panel-integrations.ui:20
+msgid "Automatically launch the app when you log in."
+msgstr ""
+
+#: src/ui/preferences/integrations/preferences-panel-integrations.ui:25
+msgid ""
+"The app will start in the background. You'll be able to use the indicator "
+"and keyboard shortcuts."
+msgstr ""
+
+#: src/ui/preferences/keyboard-shortcuts/accelerator-chooser-window.ui:14
+#, fuzzy
+msgid "Set Shortcut"
+msgstr "Ορισμός συντόμευσης"
+
+#: src/ui/preferences/keyboard-shortcuts/accelerator-chooser-window.ui:28
+#, fuzzy
+msgid "_Set"
+msgstr "_Ορισμός"
+
+#: src/ui/preferences/keyboard-shortcuts/accelerator-chooser-window.ui:63
+#: src/ui/preferences/keyboard-shortcuts/accelerator-row.vala:50
+#, fuzzy
+msgid "Disabled"
+msgstr "Απενεργοποιημένο"
+
+#: src/ui/preferences/keyboard-shortcuts/accelerator-chooser-window.ui:77
+#, fuzzy
+msgid ""
+"Press <b>Esc</b> to cancel or <b>Backspace</b> to disable the keyboard "
+"shortcut"
+msgstr ""
+"Πατήστε <b>Esc</b> για ακύρωση ή <b>Backspace</b> για απενεργοποίηση της "
+"συντόμευσης"
+
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:21
+#, fuzzy
+msgid ""
+"Global shortcuts let you control the app even when it’s not on screen. They "
+"work as long as the app is running in the background."
+msgstr ""
+"Οι παγκόσμιες συντομεύσεις επιτρέπουν τον έλεγχο της εφαρμογής ακόμα και στο "
+"παρασκήνιο."
+
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:24
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:40
+#, fuzzy
+msgid "Open app settings for editing global shortcuts"
+msgstr "Άνοιγμα ρυθμίσεων για επεξεργασία παγκόσμιων συντομεύσεων"
+
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:29
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:45
+#, fuzzy
+msgid "_Edit"
+msgstr "_Επεξεργασία"
+
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:61
+#, fuzzy
+msgid "Enter new shortcut for starting or stopping the timer"
+msgstr "Εισαγωγή νέας συντόμευσης για έναρξη ή διακοπή"
+
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:68
+#, fuzzy
+msgid "Enter new shortcut to start/pause/resume the timer"
+msgstr "Εισαγωγή νέας συντόμευσης για έναρξη/παύση/συνέχεια"
+
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:78
+#, fuzzy
+msgid "Enter new shortcut for starting the timer"
+msgstr "Εισαγωγή νέας συντόμευσης για έναρξη"
+
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:85
+#, fuzzy
+msgid "Enter new shortcut for stopping the timer"
+msgstr "Εισαγωγή νέας συντόμευσης για διακοπή"
+
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:92
+#, fuzzy
+msgid "Enter new shortcut for pausing the timer"
+msgstr "Εισαγωγή νέας συντόμευσης για παύση"
+
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:99
+#, fuzzy
+msgid "Enter new shortcut for resuming the timer"
+msgstr "Εισαγωγή νέας συντόμευσης για συνέχεια"
+
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:106
+#, fuzzy
+msgid "Enter new shortcut for skipping"
+msgstr "Εισαγωγή νέας συντόμευσης για παράλειψη"
+
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:112
+#, fuzzy
+msgid "Rewind One Minute"
+msgstr "Επανατύλιξη ένα λεπτό"
+
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:113
+#, fuzzy
+msgid "Enter new shortcut for rewinding"
+msgstr "Εισαγωγή νέας συντόμευσης για επανατύλιξη"
+
+#: src/ui/preferences/keyboard-shortcuts/preferences-panel-keyboard-shortcuts.ui:127
+#, fuzzy
+msgid "Enter new shortcut for bringing window to focus"
+msgstr "Εισαγωγή νέας συντόμευσης για εστίαση παραθύρου"
+
+#: src/ui/preferences/notifications/preferences-panel-notifications.ui:17
+#, fuzzy
+msgid "Announcements"
+msgstr "Ανακοινώσεις"
+
+#: src/ui/preferences/notifications/preferences-panel-notifications.ui:20
+#, fuzzy
+msgid "Time Running Out"
+msgstr "Ο χρόνος τελειώνει"
+
+#: src/ui/preferences/notifications/preferences-panel-notifications.ui:21
+#, fuzzy
+msgid "Notify when Pomodoro or break is about to end."
+msgstr "Ειδοποίηση όταν το Pomodoro ή το διάλειμμα τελειώνει."
+
+#: src/ui/preferences/notifications/preferences-panel-notifications.ui:29
+#, fuzzy
+msgid "A full-screen notification intended to enforce taking a break."
+msgstr "Μια ειδοποίηση πλήρους οθόνης για την επιβολή διαλείμματος."
+
+#: src/ui/preferences/notifications/preferences-panel-notifications.ui:37
+#, fuzzy
+msgid "Lock Delay"
+msgstr "Καθυστέρηση κλειδώματος"
+
+#: src/ui/preferences/notifications/preferences-panel-notifications.ui:38
+#, fuzzy
+msgid "Period of inactivity to lock the screen."
+msgstr "Περίοδος αδράνειας για το κλείδωμα της οθόνης."
+
+#: src/ui/preferences/notifications/preferences-panel-notifications.ui:43
+#, fuzzy
+msgid "Reopen Delay"
+msgstr "Καθυστέρηση επανανοίγματος"
+
+#: src/ui/preferences/notifications/preferences-panel-notifications.ui:44
+#, fuzzy
+msgid "Period of inactivity to reopen the overlay after it gets dismissed."
+msgstr "Περίοδος αδράνειας για την εκ νέου εμφάνιση της επικάλυψης."
+
+#: src/ui/preferences/notifications/preferences-panel-notifications.vala:97
+#, fuzzy
+msgid "Never"
+msgstr "Ποτέ"
+
+#: src/ui/preferences/preferences-window.vala:37
+msgid "Notifications"
+msgstr "Ειδοποιήσεις"
+
+#: src/ui/preferences/preferences-window.vala:44
+#, fuzzy
+msgid "Sounds"
+msgstr "Ήχοι"
+
+#: src/ui/preferences/preferences-window.vala:51
+#, fuzzy
+msgid "Appearance"
+msgstr "Εμφάνιση"
+
+#: src/ui/preferences/preferences-window.vala:58
+#, fuzzy
+msgid "Keyboard Shortcuts"
+msgstr "Συντομεύσεις πληκτρολογίου"
+
+#: src/ui/preferences/preferences-window.vala:71
+msgid "Integrations"
+msgstr ""
+
+#: src/ui/preferences/preferences-window.vala:79
+#, fuzzy
+msgid "Automation"
+msgstr "Αυτοματοποίηση"
+
+#: src/ui/preferences/sounds/preferences-panel-sounds.ui:24
+#, fuzzy
+msgid "Sounds Are Disabled"
+msgstr "Οι ήχοι είναι απενεργοποιημένοι"
+
+#: src/ui/preferences/sounds/preferences-panel-sounds.ui:36
+#, fuzzy
+msgid "Alert Sounds"
+msgstr "Ήχοι ειδοποίησης"
+
+#: src/ui/preferences/sounds/preferences-panel-sounds.ui:39
+#, fuzzy
+msgid "Pomodoro Finished Sound"
+msgstr "Ήχος ολοκλήρωσης Pomodoro"
+
+#: src/ui/preferences/sounds/preferences-panel-sounds.ui:64
+#, fuzzy
+msgid "Break Finished Sound"
+msgstr "Ήχος ολοκλήρωσης διαλείμματος"
+
+#: src/ui/preferences/sounds/preferences-panel-sounds.ui:91
+#: src/ui/preferences/sounds/preferences-panel-sounds.ui:94
+#, fuzzy
+msgid "Background Sound"
+msgstr "Ήχος παρασκηνίου"
+
+#: src/ui/preferences/sounds/preferences-panel-sounds.vala:20
+msgid "Bell"
+msgstr "Καμπάνα"
+
+#: src/ui/preferences/sounds/preferences-panel-sounds.vala:21
+msgid "Loud Bell"
+msgstr "Δυνατή καμπάνα"
+
+#: src/ui/preferences/sounds/preferences-panel-sounds.vala:24
+msgid "Clock Ticking"
+msgstr "Χτύπος ρολογιού"
+
+#: src/ui/preferences/sounds/preferences-panel-sounds.vala:25
+msgid "Metronome"
+msgstr ""
+
+#: src/ui/preferences/sounds/preferences-panel-sounds.vala:26
+msgid "Brown Noise"
+msgstr ""
+
+#: src/ui/preferences/sounds/preferences-panel-sounds.vala:88
+#: src/ui/preferences/sounds/sound-chooser-window.ui:25
+msgid "None"
+msgstr "Κανένας"
+
+#: src/ui/preferences/sounds/sound-chooser-window.ui:63
+msgid "Volume:"
+msgstr "Ένταση:"
+
+#: src/ui/preferences/sounds/sound-chooser-window.vala:249
+msgid "Select Custom Sound"
+msgstr "Επιλογή εξατομικευμένου ήχου"
+
+#: src/ui/preferences/timer/preferences-panel-timer.ui:20
+#, fuzzy
+msgid "Pomodoro Duration"
+msgstr "Διάρκεια Pomodoro"
+
+#: src/ui/preferences/timer/preferences-panel-timer.ui:31
+#, fuzzy
+msgid "Short Break Duration"
+msgstr "Διάρκεια σύντομου διαλείμματος"
+
+#: src/ui/preferences/timer/preferences-panel-timer.ui:42
+#, fuzzy
+msgid "Long Break Duration"
+msgstr "Διάρκεια μεγάλου διαλείμματος"
+
+#: src/ui/preferences/timer/preferences-panel-timer.ui:53
+#, fuzzy
+msgid "Number of Cycles"
+msgstr "Αριθμός κύκλων"
+
+#: src/ui/preferences/timer/preferences-panel-timer.ui:93
+#, fuzzy
+msgid "Behavior"
+msgstr "Συμπεριφορά"
+
+#: src/ui/preferences/timer/preferences-panel-timer.ui:96
+#, fuzzy
+msgid "Pause By Locking The Screen"
+msgstr "Παύση κατά το κλείδωμα της οθόνης"
+
+#: src/ui/preferences/timer/preferences-panel-timer.ui:101
+#, fuzzy
+msgid "Confirm Starting a Break"
+msgstr "Επιβεβαίωση έναρξης διαλείμματος"
+
+#: src/ui/preferences/timer/preferences-panel-timer.ui:106
+#, fuzzy
+msgid "Confirm Starting a Pomodoro"
+msgstr "Επιβεβαίωση έναρξης Pomodoro"
+
+#. translators: time formatted as text: "5 minutes 30 seconds"
+#: src/ui/preferences/timer/preferences-panel-timer.vala:96
+#, fuzzy, c-format
+msgid "A single session will take <b>%s</b>."
+msgstr "Μια μεμονωμένη συνεδρία θα διαρκέσει <b>%s</b>."
+
+#: src/ui/preferences/timer/preferences-panel-timer.vala:97
+#, fuzzy, c-format
+msgid "<b>%u%%</b> of the time will be allocated for breaks."
+msgstr "Το <b>%u%%</b> του χρόνου θα διατεθεί για διαλείμματα."
+
+#: src/ui/preferences/timer/preferences-panel-timer.vala:144
+#, fuzzy
+msgid "Apply changes to ongoing Pomodoro?"
+msgstr "Εφαρμογή αλλαγών στο τρέχον Pomodoro;"
+
+#: src/ui/preferences/timer/preferences-panel-timer.vala:145
+#, fuzzy
+msgid "Apply changes to ongoing break?"
+msgstr "Εφαρμογή αλλαγών στο τρέχον διάλειμμα;"
+
+#: src/ui/preferences/timer/preferences-panel-timer.vala:147
+#, fuzzy
+msgid "Apply"
+msgstr "Εφαρμογή"
+
+#: src/ui/preferences/widgets/preferences-sidebar.vala:73
+#, fuzzy
+msgctxt "accessibility"
+msgid "Sidebar"
+msgstr "Πλευρική στήλη"
+
+#, fuzzy
+#~ msgid "Time management utility"
+#~ msgstr "Εργαλείο διαχείρισης χρόνου"
+
+#, fuzzy
+#~ msgid "Maintain focus by taking frequent breaks"
+#~ msgstr "Διατηρήστε τη συγκέντρωσή σας κάνοντας συχνά διαλείμματα"
+
+#, fuzzy
+#~ msgid "Visual and audio notifications"
+#~ msgstr "Οπτικές και ηχητικές ειδοποιήσεις"
+
+#, fuzzy
+#~ msgid "Time tracking and statistics"
+#~ msgstr "Καταγραφή χρόνου και στατιστικά"
+
+#, fuzzy
+#~ msgid "GNOME desktop integration"
+#~ msgstr "Ενσωμάτωση στο περιβάλλον GNOME"
+
+#, fuzzy
+#~ msgid "Run custom commands after Pomodoro or break"
+#~ msgstr "Εκτέλεση προσαρμοσμένων εντολών μετά από Pomodoro ή διάλειμμα"
+
+#, fuzzy
+#~ msgid "Compact timer"
+#~ msgstr "Συμπαγές χρονόμετρο"
+
+#, fuzzy
+#~ msgid "Overview of changes in gnome-pomodoro 0.28.1"
+#~ msgstr "Επισκόπηση αλλαγών στο gnome-pomodoro 0.28.1"
+
+#, fuzzy
+#~ msgid "Added Tamil translation (thanks @omeritzics)"
+#~ msgstr "Προσθήκη Ταμίλ μετάφρασης (ευχαριστούμε @omeritzics)"
+
+#, fuzzy
+#~ msgid "Added Hebrew translation (thanks @Killersparrow1)"
+#~ msgstr "Προσθήκη Εβραϊκής μετάφρασης (ευχαριστούμε @Killersparrow1)"
+
+#, fuzzy
+#~ msgid "Overview of changes in gnome-pomodoro 0.28.0"
+#~ msgstr "Επισκόπηση αλλαγών στο gnome-pomodoro 0.28.0"
+
+#, fuzzy
+#~ msgid "Support for GNOME Shell 49 (thanks @aleasto)"
+#~ msgstr "Υποστήριξη για το GNOME Shell 49 (ευχαριστούμε @aleasto)"
+
+#, fuzzy
+#~ msgid "Updated German translation (thanks @daPhipz)"
+#~ msgstr "Ενημερωμένη Γερμανική μετάφραση (ευχαριστούμε @daPhipz)"
+
+#, fuzzy
+#~ msgid "Overview of changes in gnome-pomodoro 0.27.0"
+#~ msgstr "Επισκόπηση αλλαγών στο gnome-pomodoro 0.27.0"
+
+#, fuzzy
+#~ msgid "Support for GNOME Shell 48"
+#~ msgstr "Υποστήριξη για το GNOME Shell 48"
+
+#, fuzzy
+#~ msgid "Split time spent across midnight"
+#~ msgstr "Διαχωρισμός χρόνου που δαπανάται κατά τα μεσάνυχτα"
+
+#, fuzzy
+#~ msgid "Added Telugu translation (thanks @SpaciousCoder78)"
+#~ msgstr "Προσθήκη Τελούγκου μετάφρασης (ευχαριστούμε @SpaciousCoder78)"
+
+#, fuzzy
+#~ msgid "Overview of changes in gnome-pomodoro 0.26.0"
+#~ msgstr "Επισκόπηση αλλαγών στο gnome-pomodoro 0.26.0"
+
+#, fuzzy
+#~ msgid "Support for GNOME Shell 47"
+#~ msgstr "Υποστήριξη για το GNOME Shell 47"
+
+#, fuzzy
+#~ msgid "Allow to dismiss screen overlay by gesture when a video is playing"
+#~ msgstr ""
+#~ "Επιτρέπεται η παράλειψη της επικάλυψης με χειρονομία κατά την αναπαραγωγή "
+#~ "βίντεο"
+
+#, fuzzy
+#~ msgid "Added Georgian translation (thanks @NorwayFun)"
+#~ msgstr "Προσθήκη Γεωργιανής μετάφρασης (ευχαριστούμε @NorwayFun)"
+
+#, fuzzy
+#~ msgid "Adjusted translations in appdata (thanks @yakushabb)"
+#~ msgstr "Προσαρμογή μεταφράσεων στα appdata (ευχαριστούμε @yakushabb)"
+
+#, fuzzy
+#~ msgid "Overview of changes in gnome-pomodoro 0.25.2"
+#~ msgstr "Επισκόπηση αλλαγών στο gnome-pomodoro 0.25.2"
+
+#, fuzzy
+#~ msgid "Fix keeping notification after extending Pomodoro"
+#~ msgstr "Διόρθωση παραμονής ειδοποίησης μετά την επέκταση του Pomodoro"
+
+#, fuzzy
+#~ msgid "Overview of changes in gnome-pomodoro 0.25.1"
+#~ msgstr "Επισκόπηση αλλαγών στο gnome-pomodoro 0.25.1"
+
+#, fuzzy
+#~ msgid "Fixes for GNOME Shell 46"
+#~ msgstr "Διορθώσεις για το GNOME Shell 46"
+
+#, fuzzy
+#~ msgid "Drop support for GNOME Shell 45"
+#~ msgstr "Διακοπή υποστήριξης για το GNOME Shell 45"
+
+#, fuzzy
+#~ msgid "Overview of changes in gnome-pomodoro 0.25.0"
+#~ msgstr "Επισκόπηση αλλαγών στο gnome-pomodoro 0.25.0"
+
+#, fuzzy
+#~ msgid "Support for GNOME Shell 46"
+#~ msgstr "Υποστήριξη για το GNOME Shell 46"
+
+#, fuzzy
+#~ msgid "Adjust build script to meson 0.59.0 (thanks @mattst88)"
+#~ msgstr ""
+#~ "Προσαρμογή σεναρίου δόμησης στο meson 0.59.0 (ευχαριστούμε @mattst88)"
+
+#, fuzzy
+#~ msgid ""
+#~ "Let <b>Pomodoro</b> manage system notifications while the timer is running"
+#~ msgstr ""
+#~ "Αφήστε το <b>Pomodoro</b> να διαχειρίζεται τις ειδοποιήσεις όσο τρέχει"
+
+#, fuzzy
+#~ msgid "15 seconds"
+#~ msgstr "15 δευτερόλεπτα"
+
+#, fuzzy
+#~ msgid "30 seconds"
+#~ msgstr "30 δευτερόλεπτα"
+
+#, fuzzy
+#~ msgid "1 minute"
+#~ msgstr "1 λεπτό"
+
+#, fuzzy
+#~ msgid "2 minutes"
+#~ msgstr "2 λεπτά"
+
+#, fuzzy
+#~ msgid "3 minutes"
+#~ msgstr "3 λεπτά"
+
+#, fuzzy
+#~ msgid "5 minutes"
+#~ msgstr "5 λεπτά"
+
+#~ msgid "Timer Ticking"
+#~ msgstr "Χτύπος χρονομέτρου"
+
+#, fuzzy
+#~ msgid "Birds"
+#~ msgstr "Πουλιά"
+
+#~ msgid "@APPLICATION_NAME@"
+#~ msgstr "@APPLICATION_NAME@"
+
+#~ msgid "timer;"
+#~ msgstr "χρονόμετρο;timer;"
+
+#~ msgid "Start/Stop"
+#~ msgstr "Έναρξη/Διακοπή"
+
+#~ msgid "Pause/Resume"
+#~ msgstr "Παύση/Συνέχεια"
+
+#~ msgid "Skip to a pomodoro or to a break"
+#~ msgstr "Μετάβαση σε ένα Pomodoro ή σε ένα διάλειμμα"
+
+#, fuzzy
+#~ msgid "Reset current session"
+#~ msgstr "Επαναφορά τρέχουσας συνεδρίας"
+
+#~ msgid "Run as background service"
+#~ msgstr "Εκτέλεση στο παρασκήνιο"
+
+#~ msgid "About Pomodoro"
+#~ msgstr "Σχετικά με το Pomodoro"
+
+#~ msgid "A simple time management utility"
+#~ msgstr "Μια απλή εφαρμογή διαχείρισης χρόνου"
+
+#, fuzzy
+#~ msgid "_Stopped"
+#~ msgstr "Διακοπή"
+
+#, fuzzy
+#~ msgid "Extension for GNOME Shell is available"
+#~ msgstr "Ένδειξη για το GNOME Shell"
+
+#, fuzzy
+#~ msgid "Failed to install extension"
+#~ msgstr "Αποτυχία ενεργοποίησης πρόσθετου"
+
+#, fuzzy, c-format
+#~ msgid "Long break due in %s"
+#~ msgstr "Διάρκεια μεγάλου διαλείμματος"
+
+#~ msgid "A time management utility for GNOME"
+#~ msgstr "Μια εφαρμογή διαχείρισης χρόνου για το GNOME"
+
+#~ msgid ""
+#~ "A GNOME utility that helps managing time according to Pomodoro Technique. "
+#~ "It intends to improve productivity and focus by taking short breaks after "
+#~ "every 25 minutes of work."
+#~ msgstr ""
+#~ "Μια εφαρμογή του GNOME για διαχείριση χρόνου σύμφωνα με την τεχνική "
+#~ "Pomodoro. Ο σκοπός της είναι η βελτίωση της παραγωγικότητας και ενίσχυση "
+#~ "της συγκέντρωσης μέσω μικρών διαλειμμάτων μετά από κάθε 25 λεπτά δουλειάς."
+
+#~ msgid "Timer window"
+#~ msgstr "Παράθυρο χρονοδιακόπτη"
+
+#~ msgid "Indicator for GNOME Shell"
+#~ msgstr "Ένδειξη για το GNOME Shell"
+
+#, fuzzy
+#~ msgid "Support for GNOME Shell 4.0"
+#~ msgstr "Ένδειξη για το GNOME Shell"
+
+#, fuzzy
+#~ msgid "Support for GNOME Shell 3.36"
+#~ msgstr "Ένδειξη για το GNOME Shell"
+
+#, fuzzy
+#~ msgid "Support for GNOME Shell 3.34 only"
+#~ msgstr "Ένδειξη για το GNOME Shell"
+
+#~ msgid "_Timer"
+#~ msgstr "_Χρονόμετρο"
+
+#~ msgid "Keyboard shortcut to toggle the timer. Enter new shortcut to change."
+#~ msgstr ""
+#~ "Συντόμευση πληκτρολογίου για την έναρξη/παύση του χρονόμετρου. Εισάγετε "
+#~ "νέο συνδυασμό για αλλαγή."
+
+#~ msgid "Pomodoros before a long break"
+#~ msgstr "Pomodoros πριν από ένα μεγάλο διάλειμμα"
+
+#~ msgid "Keyboard shortcut"
+#~ msgstr "Συντόμευση πληκτρολογίου"
+
+#~ msgid "Screen notifications"
+#~ msgstr "Ειδοποιήσεις οθόνης"
+
+#~ msgid "Wait for activity after a break"
+#~ msgstr "Ανίχνευση κίνησης μετά από διάλειμμα"
+
+#~ msgid "Plugins…"
+#~ msgstr "Πρόσθετα…"
+
+#~ msgid "Plugins"
+#~ msgstr "Πρόσθετα"
+
+#~ msgid "Back"
+#~ msgstr "Πίσω"
+
+#~ msgid "Complete a few sessions"
+#~ msgstr "Ολοκληρώστε μερικές συνεδρίες"
+
+#~ msgid "Previous (Alt+Left)"
+#~ msgstr "Προηγούμενο (Alt+Left)"
+
+#~ msgid "Next (Alt+Right)"
+#~ msgstr "Επόμενο (Alt+Right)"
+
+#~ msgid "Complete"
+#~ msgstr "Πλήρης"
+
+#~ msgid "Enable"
+#~ msgstr "Επιτρέπω"
+
+#~ msgid "Add"
+#~ msgstr "Προσθήκη"
+
+#~ msgid "Remove"
+#~ msgstr "Αφαιρώ"
+
+#~ msgid "Elapsed Time"
+#~ msgstr "Χρόνος που παρήλθε"
+
+#~ msgid "Pause Timer"
+#~ msgstr "Παύση χρονοδιακόπτη"
+
+#~ msgid "Pause break"
+#~ msgstr "Παύση"
+
+#~ msgid "Pause Pomodoro"
+#~ msgstr "Παύση"
+
+#~ msgid "Resume break"
+#~ msgstr "Χρονόμετρο συνέχισης"
+
+#~ msgid "Resume Pomodoro"
+#~ msgstr "Χρονόμετρο συνέχισης"
+
+#, javascript-format
+#~ msgid "%d minute remaining"
+#~ msgid_plural "%d minutes remaining"
+#~ msgstr[0] "Απομένει %d λεπτό"
+#~ msgstr[1] "Απομένουν %d λεπτά"
+
+#~ msgid "Report issue"
+#~ msgstr "Αναφορά προβλήματος"
+
+#, javascript-format
+#~ msgid "Failed to run <i>%s</i> service"
+#~ msgstr "Απέτυχε η εκτέλεση της υπηρεσίας <i>%s</i>"
+
+#~ msgid "Woodland Birds"
+#~ msgstr "Πουλιά"
+
+#~ msgid "End of Break Sound"
+#~ msgstr "Ήχος για το Τέλος Διαλείμματος"
+
+#~ msgid "Start of Break Sound"
+#~ msgstr "Ήχος για την Έναρξη Διαλείμματος"
+
+#~ msgid "Off"
+#~ msgstr "Απενεργοποίηση"
+
+#~ msgid "Ticking sound"
+#~ msgstr "Ήχος Ρολογιού"
+
+#~ msgid "Start of break sound"
+#~ msgstr "Ήχος για την έναρξη διαλείμματος"
+
+#~ msgid "End of break sound"
+#~ msgstr "Ήχος για το τέλος διαλείμματος"
+
+#~ msgid "Focus on your task."
+#~ msgstr "Συγκεντρώσου στη δουλειά σου."
+
+#, c-format
+#~ msgid "You have %d minute"
+#~ msgid_plural "You have %d minutes"
+#~ msgstr[0] "Έχεις %d λεπτό"
+#~ msgstr[1] "Έχεις %d λεπτά"
+
+#, c-format
+#~ msgid "You have %d second"
+#~ msgid_plural "You have %d seconds"
+#~ msgstr[0] "Έχεις %d δευτερόλεπτο"
+#~ msgstr[1] "Έχεις %d δευτερόλεπτα"
+
+#~ msgid "Take a longer break"
+#~ msgstr "Κάνε ένα μεγάλο διάλειμμα"
+
+#~ msgid "Lengthen it"
+#~ msgstr "Επέκταση"
+
+#~ msgid "Shorten it"
+#~ msgstr "Σύμπτυξη"
+
+#~ msgid "Start pomodoro"
+#~ msgstr "Έναρξη pomodoro"
+
+#, c-format
+#~ msgid ""
+#~ "Using \"%s\" as shortcut will interfere with typing. Try adding another "
+#~ "key, such as Control, Alt or Shift."
+#~ msgstr ""
+#~ "Η χρήση του \"%s\" ως συντόμευση θα δημιουργήσει προβλήματα κατά την "
+#~ "πληκτρολόγηση. Δοκιμάστε κάποιο άλλο πλήκτρο όπως Control, Alt ή Shift."
+
+#~ msgid "Available"
+#~ msgstr "Διαθέσιμος"
+
+#~ msgid "Busy"
+#~ msgstr "Απασχολημένος"
+
+#~ msgid "Idle"
+#~ msgstr "Αδρανής"
+
+#~ msgid "Invisible"
+#~ msgstr "Αόρατος"
+
+#~ msgid "gnome-pomodoro"
+#~ msgstr "gnome-pomodoro"
+
+#~ msgid "Remind to take a break"
+#~ msgstr "Υπενθύμιση για διάλειμμα"
+
+#~ msgid "Extras"
+#~ msgstr "Έξτρα"
+
+#~ msgid "00"
+#~ msgstr "00"
+
+#~ msgid ":"
+#~ msgstr ":"
+
+#~ msgid "It seems to be uninstalled"
+#~ msgstr "Φαίνεται να έχει απεγκατασταθεί"
+
+#~ msgid "Extension is out of date"
+#~ msgstr "Το πρόσθετο είναι παλιό"
+
+#~ msgid "Upgrade"
+#~ msgstr "Αναβάθμιση"

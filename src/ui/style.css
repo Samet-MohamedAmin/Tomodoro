@@ -1,0 +1,104 @@
+.timer-label {
+  font-size: 76px;
+  font-weight: 700;
+  font-feature-settings: "tnum";
+}
+
+.timer-session-label {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.timer-center-group {
+  min-width: 1px;
+}
+
+.timer-control-button {
+  min-width: 40px;
+  min-height: 38px;
+  padding: 0 6px;
+}
+
+.timer-done-button {
+  background-color: @window_fg_color;
+  color: @window_bg_color;
+  font-weight: 700;
+}
+
+.timer-finish-due {
+  animation: timer-finish-pulse 1.8s ease-in-out infinite;
+}
+
+@keyframes timer-finish-pulse {
+  0% {
+    opacity: 0.86;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.86;
+  }
+}
+
+.timer-inactive {
+  opacity: 0.45;
+}
+
+.priority-dot {
+  font-size: 18px;
+}
+
+.todo-card {
+  border-radius: 8px;
+}
+
+.todo-inline-action {
+  min-width: 34px;
+  min-height: 34px;
+  padding: 0;
+}
+
+.todo-row-suffix {
+  margin-left: 6px;
+}
+
+.todo-row-pomodoros {
+  margin-left: 4px;
+}
+
+.todo-row-actions {
+  margin-top: 2px;
+}
+
+.todo-jump-highlight {
+  background-color: alpha(@accent_bg_color, 0.16);
+  box-shadow: inset 0 0 0 2px @accent_bg_color;
+  transition: background-color 180ms ease, box-shadow 180ms ease;
+}
+
+.dependency-graph-prefix {
+  margin-right: 4px;
+}
+
+.pomodoro-count {
+  opacity: 0.82;
+}
+
+.pomodoro-count label {
+  font-feature-settings: "tnum";
+}
+
+.error {
+  color: @error_color;
+}
+
+.warning {
+  color: @warning_color;
+}
+
+.dim-label {
+  opacity: 0.62;
+}

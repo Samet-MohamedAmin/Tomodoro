@@ -1,0 +1,422 @@
+2026-05-29  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 1.1.2:
+
+	* Deeper integration with notification servers
+	* Idle detection on Wayland
+	* Improve screensaver detection
+	* Fix autostart
+
+2026-05-07  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 1.1.1:
+
+	* System tray icon
+	* Smoother sound transitions
+	* Fix break overlay scaling on HiDPI displays
+	* Fix missing sounds after switching soundcards
+
+2026-04-16  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 1.1.0:
+
+	* Support for GNOME Shell extension
+	* Option to autostart on login
+	* Reviewed sound files
+	* Fix build with vala 0.56.19
+
+2026-03-01  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 1.0:
+
+	* Fix break overlay scaling on HiDPI displays (thanks @scholzri)
+	* Automatic daily backup
+	* Removed libcanberra backend for playing notification sounds
+	* Updated Lithuanian translation (thanks @psukys)
+	* Updated Russian translation (thanks @ViktorOn)
+
+2026-02-11  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 0.29.0:
+
+	* Support for GNOME Shell 50
+	* Migrated to libpeas-2
+
+2026-01-20  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 1.0-beta:
+
+	* Ported the app to GTK+4 and libadwaita
+	* Updated Swedish translation (thanks @haaninjo)
+	* Updated Georgian translation (thanks @NorwayFun)
+	* Updated Indonesian translation (thanks @atriwidada)
+
+2025-12-18  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 0.28.1:
+
+	* Added Tamil translation (thanks @omeritzics)
+	* Added Hebrew translation (thanks @Killersparrow1)
+
+2025-09-18  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 0.28.0:
+
+	* Support for GNOME Shell 49 (thanks @aleasto)
+	* Updated German translation (thanks @daPhipz)
+
+2025-02-22  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 0.27.0:
+
+	* Support for GNOME Shell 48
+	* Split time spent across midnight
+	* Added Telugu translation (thanks @SpaciousCoder78)
+
+2024-09-10  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 0.26.0:
+
+	* Support for GNOME Shell 47
+	* Allow to dismiss screen overlay by gesture when a video is playing
+	* Added Georgian translation (thanks @NorwayFun)
+	* Adjusted translations in appdata (thanks @yakushabb)
+
+2024-05-31  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 0.25.2:
+
+	* Fix keeping notification after extending Pomodoro
+
+2024-03-28  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 0.25.1:
+
+	* Fixes for GNOME Shell 46
+	* Drop support for GNOME Shell 45
+
+2024-03-05  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 0.25.0:
+
+	* Support for GNOME Shell 46
+	* Adjust build script to meson 0.59.0 (thanks @mattst88)
+
+2023-12-04  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 0.24.1:
+
+	* Fixed timerState tracking and waking up of screen on the screen shield (thanks @real-or-random)
+
+2023-08-27  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 0.24.0:
+
+	* Marked extension as compatible with GNOME Shell 45 with no backwards compatibility
+	* Fixed alignment of the indicator menu
+	* Changed the default view in the app to Timer
+
+2023-03-31  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 0.23.1:
+
+	* Fixed invalid appdata file
+
+2023-03-26  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 0.23.0:
+
+	* Marked extension as compatible with GNOME Shell 44 (thanks @jbicha)
+	* Added skip button
+	* Lock-screen widget
+	* Fixed annoucement notification getting dismissed
+
+2023-02-05  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 0.22.1:
+
+	* Close screen overlay by hitting Esc key - a failsafe method
+	* Don't open screen overlay while a video call app is fullscreen
+	* Fixed screen overlays timer label getting ellipsized
+	* Fixed screen overlay being over screensaver animation
+	* Add --reset commandline option
+
+2022-10-02  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 0.22.0:
+
+	* Marked extension as compatible with GNOME Shell 43 (thanks @jbicha)
+	* Fixed blur effect in GNOME Shell 42 and later
+	* Fixed GNOME detection on Ubuntu (thanks @real-or-random)
+	* Fixed break overlay geting stuck at 0:01 on GNOME 3.38, 40 and 41 (thanks @prahal)
+	* Improved indicator rendering on HiDPI screens
+	* Updated Brazilian translation (thanks @costaronaldo)
+	* Updated Russian translation (thanks @ViktorOn)
+	* Updated Chinese translation (thanks @HaorongX)
+
+2022-04-01  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 0.21.1:
+
+	* Fixed break overlay geting stuck at 0:01 on GNOME 42 (thanks @upsuper)
+
+2022-04-01  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 0.21.0:
+
+	* Support for GNOME Shell 42 (thanks @milotype and @kappa)
+	* Fixed app hanging at startup
+	* Added Croatian translation (thanks @dayeondev)
+	* Added json-glib and cairo as dependencies
+
+2021-09-25  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 0.20.0:
+
+	* Support for GNOME Shell 41 (thanks @mbooth101)
+
+2021-09-19  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 0.19.2:
+
+	* Fixed GNOME Shell freezing the lockscreen
+	* Fixed unresponsive modal dialog
+	* Updated Russian translation (thanks @prokoudine)
+	* Updated Dutch translation (thanks @Vistaus)
+
+2021-04-09  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 0.19.1:
+
+	* Support GNOME Shell 40.0, not 4.0
+
+2021-04-04  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 0.19.0:
+
+	* Support for GNOME Shell 4.0
+	* Added support for meson (thanks @Cogitri)
+	* Changed blur effect during break
+	* Added Korean translation (thanks @dayeondev)
+	* Updated Brazilian translation (thanks @alexandreafa)
+
+2020-10-04  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 0.18.0:
+
+	* Support for GNOME Shell 3.38 (thanks @ignapk and @szpak)
+	* Removed ayatana-appindicator3 support
+	* Added Norwegian translation (thanks @arnotixe)
+	* Added Finnish translation (thanks @iqqmuT)
+	* Updated Indonesian translation (thanks @atriwidada)
+	* Updated Chinese translation (thanks @wffger)
+	* Updated Russian translation (thanks @rkaverin)
+	* Updated French translation (thanks @precondition)
+
+2020-03-22  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 0.17.0:
+
+	* Support for GNOME Shell 3.36
+	* Updated Catalan translation (thanks @antoniofsm)
+
+2019-10-01  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 0.16.0:
+
+	* Support for GNOME Shell 3.34
+	* Added esperanto translation (thanks @SeZuo)
+	* Moved app-menu to main window
+
+2019-04-07  Arun Mahapatra <pratikarun@gmail.com>
+	Release version 0.15.1:
+
+	* Minor code cleanups
+
+2019-04-07  Arun Mahapatra <pratikarun@gmail.com>
+	Release version 0.15.0:
+
+	* Minor code cleanups to support ES6 syntax
+	* Support for GNOME Shell 3.32 (thanks @demokritos)
+	* Fix for build with vala 0.44.1 (thanks @snizovtsev)
+	* Updated German translation (thanks @c7hm4r)
+	* Fix for handle error recreating existing folder (thanks @Rj7)
+
+2018-11-24  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 0.14.0:
+
+	* Support for GNOME Shell 3.28 and 3.30 (@thanks aerostitch)
+	* Stats
+	* Background blur under the dialog during breaks
+	* Updated German translation (thanks @tsabsch)
+	* Updated Russian translation (thanks @tigertv)
+
+2017-11-20  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 0.13.4:
+
+	* Fix for causing gnome-shell segfault (thanks @berenddeschouwer and @3v1n0)
+
+2017-09-06  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 0.13.3:
+
+	* Support for GNOME Shell 3.26
+	* Added Dutch translation (thanks @qtk)
+	* Added Swedish translation (thanks @haaninjo)
+
+2017-05-07  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 0.13.2:
+
+	* Added Italian translation (thanks @Fastbyte01)
+	* Added Indonesian translation (thanks @aliterm)
+	* Added Kazakh translation (thanks @crayxt)
+	* Updated Chinese translation (thanks @soiamsoNG)
+	* Fixed hiding system notifications in GNOME
+	* Fixed changing notification sounds
+
+2017-02-20  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 0.13.1:
+
+	* Support for GNOME Shell 3.24
+	* Bug fixes
+
+2017-01-02  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 0.13.0:
+
+	* Plugin for custom actions
+	* Removed libgnome-desktop-3.0 dependency
+	* Updated translations
+	* Bug fixes
+
+2016-09-19  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 0.12.3:
+
+	* Support for GNOME Shell 3.22
+
+2016-08-07  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 0.12.2:
+
+	* Plugin for appindicator
+	* Fixed issues with fallback mode disabling
+
+2016-06-17  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 0.12.1:
+
+	* Fix for build error
+
+2016-06-11  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 0.12.0:
+
+	* Support for more desktops
+	* Ability to pause the timer
+	* Ability add plugins
+	* Code refactoring
+	* Bug fixes
+	* Dropped Telepathy and Skype integration
+	* Dropped support for GNOME Shell 3.14 and older
+
+2016-05-06  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 0.11.3:
+
+	* Ignore small mouse movements in screen notification
+	* Fixed indicator not updating
+	* Cleaned up some compilation warnings (thanks @aerostitch)
+
+2016-03-24  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 0.11.2:
+
+	* Support for GNOME Shell 3.20
+
+2015-10-24  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 0.11.1:
+
+	* Support for GNOME Shell 3.18
+	* Turkish translation (thanks @ErkanMDR)
+
+2015-06-13  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 0.11.0:
+
+	* Support for GNOME Shell 3.14 and 3.16
+	* Ability to change indicator appearance
+	* Skype and Epiphany integration
+	* Updated French translation (thanks @neitsab)
+	* Code refactoring
+	* Basic unit tests
+	* Bug fixes
+
+2014-10-17  Kamil Prusko  <kamilprusko@gmail.com>
+	Release version 0.10.3:
+
+	* Support for GNOME Shell 3.10, 3.12 and 3.14
+	* Updated Catalan translation (thanks @Ecron)
+	* Code cleanups (thanks @aerostitch)
+	* Bug fixes
+
+2014-06-13  Kamil Prusko  <kamilprusko@gmail.com>
+
+	Release version 0.10.2: 
+
+	* No need to restart gnome-shell to enable extension
+
+2014-05-02  Kamil Prusko  <kamilprusko@gmail.com>
+
+	Release version 0.10.1:
+
+	* Support for GNOME Shell 3.10 and 3.12
+	* Louder sounds
+	* Fixed brining preferences dialog to focus
+	* Fixed change of notications volume
+	* Fixed reminders being showed up during pomodoro
+
+2014-01-11  Kamil Prusko  <kamilprusko@gmail.com>
+
+	Release version 0.10.0:
+
+	* Support for GNOME Shell 3.10
+	* New layout in preferences dialog
+	* Migrate to gsteramer-1.0
+	* Updated translations
+
+2013-12-30  Kamil Prusko  <kamilprusko@gmail.com>
+
+	Release version 0.9.1:
+
+	* Support for GNOME Shell 3.8
+	* Improved long pause scheduling
+	* Deactivate screensaver to notify start of pomodoro
+	* German translation (thanks @linuxrider)
+	* Bug fixes
+
+2013-11-17  Kamil Prusko  <kamilprusko@gmail.com>
+
+	Release version 0.9.0:
+
+	* Support for GNOME Shell 3.8
+	* Added a preferences dialog
+	* Improved timer accuracy
+	* Bug fixes
+
+2013-10-18  Kamil Prusko  <kamilprusko@gmail.com>
+
+	Release version 0.8.1:
+
+	* Support for GNOME Shell 3.10
+
+2013-04-28  Kamil Prusko  <kamilprusko@gmail.com>
+
+	Release version 0.8:
+
+	* Support for GNOME Shell 3.8 (thanks @haaja)
+	* Brazilian Portuguese translation (thanks @aleborba)
+	* Minor bug fixes
+
+2013-01-15  Kamil Prusko  <kamilprusko@gmail.com>
+
+	Release version 0.7:
+
+	* Support for GNOME Shell 3.4 and 3.6
+	* Feature: Full screen notifications
+	* Feature: Reminders
+	* Chinese translation (thanks @mengzhuo)
+	* Czech translation (thanks @veverjak)
+
+2012-04-13  Arun Mahapatra  <pratikarun@gmail.com>
+
+	Release version 0.6:
+
+	* Support for GNOME Shell 3.4
+	* Breaking change: Dropped support for older gnome-shell versions due to
+	incompatible APIs
+	* Feature: Support for "Away from desk" mode
+	* Feature: Ability to change IM presence status based on pomodoro activity
+	* New translation: Persian (thanks @arashm)
+	* Fixed issues #38, #39, #41, #42, #45 and
+	[more](https://github.com/gnome-pomodoro/gnome-shell-pomodoro/issues?sort=created&direction=desc&state=closed&page=1)
+
+2011-12-04  Arun  <pratikarun@gmail.com>
+
+	Release version 0.5:
+
+	* Bunch of cleanups, user interface awesomeness [Issue #37, Patch from @kamilprusko]
+	* Config options are changed to more meaningful names [above patch]
+
+2011-11-20  Arun  <pratikarun@gmail.com>
+
+	Release version 0.4:
+
+	* Sound notification at end of a pomodoro break [Issue #26, Patch from @kamilprusko]
+	* System wide config file support [Patch from @mgrela]
+	* Support to skip breaks in case of persistent message [Patch from @amanbh]
+	* Some minor bug fixes, and keybinder3 requirement is now optional
+

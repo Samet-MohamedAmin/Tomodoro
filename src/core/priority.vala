@@ -1,0 +1,51 @@
+/*
+ * Copyright (c) 2024-2025 focus-timer contributors
+ *
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ */
+
+namespace Ft
+{
+    public enum Priority
+    {
+        LOW = 0,
+        DEFAULT = 1,
+        HIGH = 2;
+
+        public string to_string ()
+        {
+            switch (this)
+            {
+                case LOW:
+                    return "low";
+
+                case DEFAULT:
+                    return "default";
+
+                case HIGH:
+                    return "high";
+
+                default:
+                    assert_not_reached ();
+            }
+        }
+
+        public static Ft.Priority from_string (string? priority)
+        {
+            switch (priority)
+            {
+                case "low":
+                    return LOW;
+
+                case "default":
+                    return DEFAULT;
+
+                case "high":
+                    return HIGH;
+
+                default:
+                    return DEFAULT;
+            }
+        }
+    }
+}
